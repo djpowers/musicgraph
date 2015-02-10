@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Musicgraph::VERSION
   spec.authors       = ["Dave Powers"]
   spec.email         = ["djpowers89@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Web service wrapper for MusicGraph API}
+  spec.description   = %q{Web service wrapper for MusicGraph API}
+  spec.homepage      = "https://github.com/djpowers/musicgraph"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
