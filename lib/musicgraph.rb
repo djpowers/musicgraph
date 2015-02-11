@@ -5,6 +5,6 @@ begin
 rescue LoadError
 end
 
-module Musicgraph
+module MusicGraph
   # Your code goes here...
 end

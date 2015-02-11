@@ -1,4 +1,4 @@
-# Musicgraph
+# MusicGraph
 
 A Ruby gem to access the [MusicGraph API](https://developer.musicgraph.com/).
 

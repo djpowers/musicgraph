@@ -5,7 +5,7 @@ require 'musicgraph/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "musicgraph"
-  spec.version       = Musicgraph::VERSION
+  spec.version       = MusicGraph::VERSION
   spec.authors       = ["Dave Powers"]
   spec.email         = ["djpowers89@gmail.com"]
   spec.summary       = %q{Web service wrapper for MusicGraph API}
