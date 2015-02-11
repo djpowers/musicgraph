@@ -1,4 +1,5 @@
 require "musicgraph/version"
+require "musicgraph/api"
 
 begin
   require "pry"
