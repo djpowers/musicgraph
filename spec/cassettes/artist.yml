@@ -332,4 +332,132 @@ http_interactions:
         "decade": "2000s / 1990s / 2010s", "name": "Juicy J"}]}'
     http_version: 
   recorded_at: Sun, 15 Feb 2015 16:38:16 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&genre=Soul/R%26B
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 16:40:31 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '7403'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"7digital_id": "15239", "main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "254715", "vevo_id": "0f6da068-d175-4dd0-afeb-edcc3c58e720",
+        "sort_name": "Brown, Chris", "gender": "Male", "rhapsody_id": "7499873", "id":
+        "e6b1441e-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "Chris Brown"}, {"7digital_id": "8368", "main_genre": "soul/r&b", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "66858",
+        "vevo_id": "0cba49aa-824e-46b2-8e6b-c2e54d06d708", "sort_name": "Legend, John",
+        "gender": "Male", "rhapsody_id": "6432383", "id": "e5792cc4-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 2010s", "name": "John Legend"}, {"7digital_id": "4342",
+        "main_genre": "soul/r&b", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "27558", "vevo_id": "300D1990-11DC-48D7-B30B-3BF8151C41F4",
+        "sort_name": "Charles, Ray", "gender": "Male", "rhapsody_id": "61768", "id":
+        "dc78ddd1-f2f4-1b29-f7db-7627018688e7", "decade": "1950s / 1960s / 1970s /
+        1980s / 1990s / 2000s / 1940s", "name": "Ray Charles"}, {"7digital_id": "3117",
+        "main_genre": "soul/r&b", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "34925", "vevo_id": "08f4520a-d4ef-499b-bb46-e5dd452ea151",
+        "sort_name": "Usher", "gender": "Male", "rhapsody_id": "1244", "id": "b59a61ed-5be7-5694-bbc4-160523e4abe8",
+        "decade": "1990s / 2000s / 2010s", "name": "Usher"}, {"7digital_id": "606",
+        "main_genre": "soul/r&b", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "27090", "vevo_id": "0366e863-3f7a-4966-a05d-7582c431ff8a",
+        "sort_name": "Kelly, R.", "gender": "Male", "rhapsody_id": "69094", "id":
+        "e5bc4d09-a6b5-11e0-b446-00251188dd67", "decade": "1990s / 2000s / 2010s",
+        "name": "R. Kelly"}, {"7digital_id": "21010", "main_genre": "soul/r&b", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "210049",
+        "vevo_id": "122d281b-e89c-4c69-b4ac-1fad910d89fd", "sort_name": "Ne Yo", "gender":
+        "Male", "rhapsody_id": "7521820", "id": "e700745b-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 2010s", "name": "Ne-Yo"}, {"7digital_id": "187", "main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "15265", "vevo_id": "42ee336b-9835-419a-80f1-2123cd4d3d09",
+        "sort_name": "Brown, James", "gender": "Male", "rhapsody_id": "38470", "id":
+        "ea0f48f5-5945-eb03-6e62-a1e37038ec7c", "decade": "1950s / 1960s / 1970s /
+        1980s / 1990s / 2000s", "name": "James Brown"}, {"7digital_id": "12019", "main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "169446", "vevo_id": "f53b9323-7a94-49d4-924a-51519e0fcefc",
+        "sort_name": "Trey Songz", "gender": "Male", "rhapsody_id": "6805682", "id":
+        "c587b14d-82e7-09fd-a2ba-0b9de41f48ed", "decade": "2000s / 2010s", "name":
+        "Trey Songz"}, {"7digital_id": "66", "main_genre": "soul/r&b", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "31056",
+        "vevo_id": "0fb1f2db-4bde-43f4-80bd-e7ed0f9f70f6", "sort_name": "Wonder, Stevie",
+        "gender": "Male", "rhapsody_id": "1967", "id": "e211bf6b-a6b5-11e0-b446-00251188dd67",
+        "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s", "name": "Stevie
+        Wonder"}, {"7digital_id": "34651", "main_genre": "soul/r&b", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "182849",
+        "vevo_id": "42c215d3-60c5-498e-b3f2-9e313d24fc35", "sort_name": "Thicke",
+        "gender": "Male", "rhapsody_id": "26608424", "id": "e7db3d1f-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s", "name": "Thicke"}, {"7digital_id": "8854", "main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "29349", "gender": "Male", "sort_name": "Cooke,
+        Sam", "rhapsody_id": "40110", "id": "e58df4d5-a6b5-11e0-b446-00251188dd67",
+        "decade": "1950s / 1960s", "name": "Sam Cooke"}, {"7digital_id": "7364", "main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "3272967", "vevo_id": "e06c8b1b-873a-4ab5-9448-a7ca0af9619c",
+        "sort_name": "Boys", "rhapsody_id": "16287", "id": "e547b3ed-a6b5-11e0-b446-00251188dd67",
+        "decade": "1980s", "name": "The Boys"}, {"7digital_id": "1420335", "main_genre":
+        "soul/r&b", "country_of_origin": "Canada", "entity_type": "artist", "artist_ref_id":
+        "1875074", "vevo_id": "8cd3df1b-daf2-4aec-aabd-4f4f2d8d7b0c", "sort_name":
+        "Weeknd", "gender": "Male", "rhapsody_id": "51742775", "id": "3debe30d-e3ed-f3a7-1a35-5ec752e1bd10",
+        "decade": "2010s", "name": "The Weeknd"}, {"7digital_id": "140173", "main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "374552", "vevo_id": "4851631a-dc9c-45c8-ad05-728786e370ca",
+        "sort_name": "Dream", "gender": "Male", "rhapsody_id": "15482038", "id": "e88a8144-4285-edef-db8e-9b7894bb646d",
+        "decade": "1990s / 2000s / 2010s", "name": "The-Dream"}, {"7digital_id": "289472",
+        "main_genre": "soul/r&b", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "195790", "vevo_id": "84719e97-873f-4a9d-b5e6-7cb6700694f5",
+        "sort_name": "Blacc, Aloe", "gender": "Male", "rhapsody_id": "7161712", "id":
+        "f0223c50-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "Aloe Blacc"}, {"7digital_id": "43", "main_genre": "soul/r&b", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "22312",
+        "vevo_id": "01622c18-718d-43e5-a011-d21cce449170", "sort_name": "Blige, Mary
+        J.", "gender": "Female", "rhapsody_id": "63587", "id": "e20bf201-a6b5-11e0-b446-00251188dd67",
+        "decade": "1990s / 2000s / 2010s", "name": "Mary J. Blige"}, {"main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "306951", "vevo_id": "541983a2-2ad9-47c7-95ca-81cfe0385184",
+        "sort_name": "Monae, Janelle", "gender": "Female", "rhapsody_id": "21341400",
+        "id": "797235ac-28e3-8d5a-a019-1de30f6d4c4d", "decade": "2000s / 2010s", "name":
+        "Janelle Mon\u00e1e"}, {"7digital_id": "1237", "main_genre": "soul/r&b", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "1097",
+        "vevo_id": "097fa028-d897-4fc3-b115-afb1df7349e1", "sort_name": "Keys, Alicia",
+        "gender": "Female", "rhapsody_id": "48841", "id": "e2ffcd91-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 2010s / 1990s", "name": "Alicia Keys"}, {"7digital_id":
+        "181007", "main_genre": "soul/r&b", "entity_type": "artist", "artist_ref_id":
+        "191941", "vevo_id": "7bc439fb-174c-4d45-bd60-ce172e6df3e3", "sort_name":
+        "London", "gender": "Male", "rhapsody_id": "57585", "id": "eecefb20-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s", "name": "London"}, {"7digital_id": "4", "main_genre": "soul/r&b",
+        "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "196967", "vevo_id": "3A1FA398-8873-42D9-A242-EF818B1EB840", "sort_name":
+        "Winehouse, Amy", "gender": "Female", "rhapsody_id": "6070451", "id": "7fd4290a-c1d8-169b-c416-41d86bbb490a",
+        "decade": "2000s / 2010s", "name": "Amy Winehouse"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 16:41:22 GMT
 recorded_with: VCR 2.9.3

@@ -62,6 +62,21 @@ module MusicGraph
           expect(artists.last.name).to eql("Juicy J")
         end
       end
+
+      it "accepts hash and returns genre results" do
+        VCR.use_cassette("artist", record: :new_episodes) do
+          params = {
+            genre: "Soul/R&B"
+          }
+          artists = MusicGraph::Artist.search(params)
+
+          expect(artists).to_not be_empty
+          expect(artists.length).to eql(20)
+          expect(artists.first).to be_a Artist
+          expect(artists.first.name).to eql("Chris Brown")
+          expect(artists.last.name).to eql("Amy Winehouse")
+        end
+      end
     end
 
   end
