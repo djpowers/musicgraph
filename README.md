@@ -25,6 +25,10 @@ artist = MusicGraph::Artist.search('kaiser chiefs').first
 artist.name # => "Kaiser Chiefs"
 artist.main_genre # => "rock"
 artist.decade # => "2000s / 2010s"
+
+artists = MusicGraph::Artist.search({similar_to: "Pink Floyd"})
+artists.first.name # => "David Gilmour"
+artists.last.name # => "Eric Clapton"
 ```
 
 ## Contributing

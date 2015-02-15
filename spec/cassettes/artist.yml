@@ -88,4 +88,126 @@ http_interactions:
         "decade": "2000s / 2010s", "name": "Local Natives"}]}'
     http_version: 
   recorded_at: Sun, 15 Feb 2015 05:06:00 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&similar_to=Pink%20Floyd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 16:15:40 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '6988'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"7digital_id": "20483", "country_of_origin":
+        "England", "entity_type": "artist", "artist_ref_id": "7815", "vevo_id": "91e5345e-7acc-4a2c-a277-22082842f3d1",
+        "id": "74baf8a2-173d-167c-1ba8-c1e66ddf9c6c", "sort_name": "Gilmour, David",
+        "gender": "Male", "rhapsody_id": "5002", "main_genre": "rock", "decade": "1960s
+        / 1970s / 1980s / 1990s / 2000s / 2010s", "name": "David Gilmour"}, {"7digital_id":
+        "128187", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "19340", "gender": "Male", "sort_name": "Led Zeppelin", "rhapsody_id": "453",
+        "id": "edc53fa6-a6b5-11e0-b446-00251188dd67", "main_genre": "rock", "decade":
+        "1960s / 1970s / 1980s / 1990s / 2000s", "name": "Led Zeppelin"}, {"7digital_id":
+        "17450", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "28546", "vevo_id": "1918009f-a830-463d-8f54-87f7f93cab0a", "id": "e6d997a2-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Waters, Roger", "gender": "Male", "rhapsody_id": "68413", "main_genre":
+        "rock", "decade": "1990s / 1980s / 1960s / 1970s / 2000s / 2010s", "name":
+        "Roger Waters"}, {"7digital_id": "361", "country_of_origin": "England", "entity_type":
+        "artist", "artist_ref_id": "31372", "gender": "Male", "sort_name": "Barrett,
+        Syd", "rhapsody_id": "1844", "id": "b15f78da-a179-2c8a-0c56-9aaf12de45c4",
+        "main_genre": "rock", "decade": "1970s / 1960s", "name": "Syd Barrett"}, {"7digital_id":
+        "4073", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "32473", "gender": "Male", "sort_name": "Doors", "rhapsody_id":
+        "43266", "id": "e462f24f-a6b5-11e0-b446-00251188dd67", "main_genre": "rock",
+        "decade": "1960s / 1970s", "name": "The Doors"}, {"main_genre": "rock", "name":
+        "Rick Wright", "entity_type": "artist", "artist_ref_id": "214408", "gender":
+        "Male", "sort_name": "Wright, Rick", "rhapsody_id": "53194", "id": "2c5e2a6f-db9b-9c25-386a-d1149494fb08"},
+        {"country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "18304", "gender": "Male", "sort_name": "King Crimson", "decade": "1960s /
+        1970s / 1980s / 1990s / 2000s / 2010s", "rhapsody_id": "4816", "id": "59a0c449-7bf0-6b89-54f7-666326940060",
+        "name": "King Crimson"}, {"7digital_id": "55751", "country_of_origin": "England",
+        "entity_type": "artist", "artist_ref_id": "32083", "vevo_id": "e2028a40-4edb-444b-89a3-9674711ebfa2",
+        "id": "ea2c530f-a6b5-11e0-b446-00251188dd67", "sort_name": "Beatles", "gender":
+        "Male", "rhapsody_id": "61025", "main_genre": "pop", "decade": "1960s", "name":
+        "The Beatles"}, {"7digital_id": "4549", "country_of_origin": "England", "entity_type":
+        "artist", "artist_ref_id": "26713", "vevo_id": "fc9b08e1-ec04-403f-ada7-0803a697a3af",
+        "id": "b90ef51a-bb10-0fe6-5b0c-b8a84ddeb6cc", "sort_name": "Porcupine Tree",
+        "gender": "Male", "rhapsody_id": "37811", "main_genre": "rock", "decade":
+        "1990s / 2000s / 2010s / 1980s", "name": "Porcupine Tree"}, {"7digital_id":
+        "15920", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "3630", "vevo_id": "1782b48b-8536-44ef-97df-02891e95b46b", "id": "4ec8fbc7-fa14-ebb0-168d-5244d6751d72",
+        "sort_name": "Black Sabbath", "gender": "Male", "rhapsody_id": "44069", "main_genre":
+        "rock", "decade": "1970s / 1980s / 1990s / 2000s / 1960s / 2010s", "name":
+        "Black Sabbath"}, {"7digital_id": "1486", "country_of_origin": "England",
+        "entity_type": "artist", "artist_ref_id": "8489", "vevo_id": "74571b7f-a5cc-406d-8f08-6091481f1e0b",
+        "id": "e351c528-a6b5-11e0-b446-00251188dd67", "sort_name": "Dire Straits",
+        "gender": "Male", "rhapsody_id": "3953", "main_genre": "rock", "decade": "1970s
+        / 1980s / 1990s", "name": "Dire Straits"}, {"7digital_id": "204", "country_of_origin":
+        "England", "entity_type": "artist", "artist_ref_id": "26939", "vevo_id": "1D99C15F-A66E-451D-A7A8-ADE5117B1A0E",
+        "id": "e2283cce-a6b5-11e0-b446-00251188dd67", "sort_name": "Queen", "gender":
+        "Male", "rhapsody_id": "69088", "main_genre": "rock", "decade": "1970s / 1980s
+        / 1990s / 2000s", "name": "Queen"}, {"7digital_id": "32", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "16003",
+        "vevo_id": "64a07116-6f74-4420-85c6-8400f2e9eed3", "id": "333caa00-4211-ce3d-e60c-d07dd0d954c8",
+        "sort_name": "Hendrix, Jimi", "gender": "Male", "rhapsody_id": "44156", "main_genre":
+        "rock", "decade": "1960s / 1970s", "name": "Jimi Hendrix"}, {"7digital_id":
+        "7514", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "6768", "vevo_id": "289e56e2-2195-4d2b-b46b-dbc6788a9216", "id": "e55b1223-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Cream", "gender": "Male", "rhapsody_id": "39656", "main_genre":
+        "rock", "decade": "1960s / 1990s / 2000s", "name": "Cream"}, {"7digital_id":
+        "35909", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "70626", "gender": "Male", "sort_name": "Emerson, Lake & Palmer", "rhapsody_id":
+        "7098", "id": "e7e45f3d-a6b5-11e0-b446-00251188dd67", "main_genre": "rock",
+        "decade": "1970s / 1980s / 1990s / 2000s / 2010s", "name": "Emerson, Lake
+        & Palmer"}, {"7digital_id": "75", "country_of_origin": "England", "entity_type":
+        "artist", "artist_ref_id": "33843", "vevo_id": "30876f4d-5ef7-4af2-be4e-a4287e6fa2cc",
+        "id": "e211c27d-a6b5-11e0-b446-00251188dd67", "sort_name": "Who", "gender":
+        "Male", "rhapsody_id": "774", "main_genre": "rock", "decade": "1960s / 1970s
+        / 1980s / 1990s / 2000s", "name": "The Who"}, {"7digital_id": "15610", "country_of_origin":
+        "England", "entity_type": "artist", "artist_ref_id": "15927", "vevo_id": "9022588e-6daf-40c0-a7c6-e83fc9c7d080",
+        "id": "b9005d98-129e-d616-2377-a79f3a0e3403", "sort_name": "Jethro Tull",
+        "gender": "Male", "rhapsody_id": "44067", "main_genre": "rock", "decade":
+        "1970s / 1980s / 1960s / 1990s / 2000s / 2010s", "name": "Jethro Tull"}, {"7digital_id":
+        "522", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "33474", "vevo_id": "421c03bb-a70b-4dd4-8192-b8a40b3104aa", "id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Rolling Stones", "gender": "Male", "rhapsody_id": "978", "main_genre":
+        "rock", "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s", "name":
+        "The Rolling Stones"}, {"7digital_id": "21564", "country_of_origin": "United
+        States of America", "entity_type": "artist", "artist_ref_id": "6776", "vevo_id":
+        "b2b96c3f-d530-45a1-9056-0982587121fa", "id": "e706cd02-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Creedence Clearwater Revival", "gender": "Male", "rhapsody_id":
+        "5944", "main_genre": "rock", "decade": "1960s / 1970s", "name": "Creedence
+        Clearwater Revival"}, {"7digital_id": "1481", "main_genre": "rock", "country_of_origin":
+        "England", "entity_type": "artist", "artist_ref_id": "10093", "gender": "Male",
+        "sort_name": "Clapton, Eric", "decade": "2000s / 1990s / 1980s / 1970s / 1960s
+        / 2010s", "rhapsody_id": "43228", "id": "080d8ae6-a0b8-a0ef-77cd-39555d2074cc",
+        "name": "Eric Clapton"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 16:15:38 GMT
 recorded_with: VCR 2.9.3
