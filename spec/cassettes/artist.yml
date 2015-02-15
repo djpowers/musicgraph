@@ -1002,4 +1002,169 @@ http_interactions:
         More"}]}'
     http_version: 
   recorded_at: Sun, 15 Feb 2015 20:06:58 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/suggest?api_key=<API_KEY>&prefix=gree
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 21:35:56 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '6964'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"7digital_id": "610", "country_of_origin":
+        "United States of America", "name": "Green Day", "entity_type": "artist",
+        "artist_ref_id": "12673", "vevo_id": "0a7fd8f9-0e46-422d-9a85-e73357244647",
+        "main_genre": "alternative/indie", "gender": "Male", "id": "e2969105-a6b5-11e0-b446-00251188dd67",
+        "rhapsody_id": "6167", "slug": "green day", "decade": "1990s / 2000s / 1980s
+        / 2010s"}, {"7digital_id": "585272", "country_of_origin": "United States of
+        America", "name": "Cee Lo Green", "entity_type": "artist", "artist_ref_id":
+        "56571", "vevo_id": "29f4e32f-ff09-4bac-acc4-cf6b610b6426", "main_genre":
+        "rap/hip hop", "gender": "Male", "id": "0b120f6a-c9c7-98b7-8885-af7bc9dd6b34",
+        "rhapsody_id": "58951", "slug": "cee lo green", "decade": "2000s / 2010s /
+        1990s"}, {"7digital_id": "18776", "country_of_origin": "United States of America",
+        "name": "Al Green", "entity_type": "artist", "artist_ref_id": "706", "vevo_id":
+        "a89b9ec0-71fc-459c-b9d4-51a0c8c529c9", "main_genre": "soul/r&b", "gender":
+        "Male", "id": "8072fc3c-3265-32c7-4d7a-1bf90ccb978e", "rhapsody_id": "57038",
+        "slug": "al green", "decade": "1970s / 1960s / 1980s / 1990s / 2000s / 2010s"},
+        {"country_of_origin": "England", "name": "Professor Green", "entity_type":
+        "artist", "artist_ref_id": "329952", "vevo_id": "d7c30d16-ad9b-49e1-aabe-94da5b53e87a",
+        "main_genre": "rap/hip hop", "gender": "Male", "id": "0087345c-506d-fd38-22f5-9c1656c146b6",
+        "rhapsody_id": "13953243", "slug": "professor green", "decade": "2010s / 2000s"},
+        {"7digital_id": "30531", "country_of_origin": "United States of America",
+        "name": "Norman Greenbaum", "entity_type": "artist", "artist_ref_id": "316053",
+        "gender": "Male", "id": "9eb2c334-26b4-c0d5-fa8a-29cdffe9abb9", "rhapsody_id":
+        "47795", "slug": "norman greenbaum", "decade": "1960s / 1970s / 1980s / 1990s
+        / 2000s"}, {"7digital_id": "17515", "country_of_origin": "United States of
+        America", "name": "Pat Green", "entity_type": "artist", "artist_ref_id": "25702",
+        "vevo_id": "4e38270c-6f54-47f5-8fbc-fa78309a6cd8", "main_genre": "country",
+        "gender": "Male", "id": "a71aac20-aad2-39d6-7e1c-74b8c5631225", "rhapsody_id":
+        "5423", "slug": "pat green", "decade": "1990s / 2000s / 2010s"}, {"7digital_id":
+        "955", "country_of_origin": "United States of America", "name": "Grant Green",
+        "entity_type": "artist", "artist_ref_id": "12645", "gender": "Male", "main_genre":
+        "jazz", "id": "7e28a833-5ab8-56a8-914d-235681a89e6e", "rhapsody_id": "3691",
+        "slug": "grant green", "decade": "1950s / 1960s / 1970s"}, {"7digital_id":
+        "1643", "country_of_origin": "United States of America", "name": "Lee Greenwood",
+        "entity_type": "artist", "artist_ref_id": "19356", "vevo_id": "26867d74-7002-452c-98ae-c650ed11fbde",
+        "main_genre": "country", "gender": "Male", "id": "550081b0-60a4-27f2-b71b-c81b8d5f78c6",
+        "rhapsody_id": "3063", "slug": "lee greenwood", "decade": "1970s / 1980s /
+        1990s / 2000s / 2010s"}, {"country_of_origin": "United States of America",
+        "name": "The Green", "entity_type": "artist", "artist_ref_id": "1583722",
+        "vevo_id": "e734cda5-6e0f-42d7-8065-71282e5fca77", "main_genre": "reggae/ska",
+        "id": "f550f5c9-3bf8-8aeb-0c14-254c2cbd6d3c", "rhapsody_id": "13564252", "slug":
+        "the green", "decade": "2010s"}, {"7digital_id": "60636", "country_of_origin":
+        "England", "name": "Peter Green", "entity_type": "artist", "artist_ref_id":
+        "26269", "gender": "Male", "main_genre": "blues", "id": "95dd0bee-60fb-7c12-ab60-03a332d6a4e9",
+        "rhapsody_id": "10489", "slug": "peter green", "decade": "1960s / 1970s /
+        1980s / 1990s / 2000s / 2010s"}, {"7digital_id": "30038", "country_of_origin":
+        "United States of America", "name": "Vivian Green", "entity_type": "artist",
+        "artist_ref_id": "35361", "vevo_id": "83241abf-1097-4e78-bb91-1e701e71c31b",
+        "main_genre": "soul/r&b", "gender": "Female", "id": "e7b28410-a6b5-11e0-b446-00251188dd67",
+        "rhapsody_id": "38589", "slug": "vivian green", "decade": "2000s / 2010s"},
+        {"country_of_origin": "Canada", "name": "Jacques Greene", "entity_type": "artist",
+        "artist_ref_id": "1382771", "vevo_id": "aac77784-7f6c-4000-bad8-3970ab99249e",
+        "main_genre": "electronica/dance", "gender": "Male", "id": "1e3d8b8c-c71e-193b-487a-383128ff37b2",
+        "rhapsody_id": "42837355", "slug": "jacques greene", "decade": "2010s"}, {"7digital_id":
+        "219807", "country_of_origin": "United States of America", "name": "Anthony
+        Green", "entity_type": "artist", "artist_ref_id": "290496", "gender": "Male",
+        "main_genre": "alternative/indie", "id": "ef2eebaa-a6b5-11e0-b446-00251188dd67",
+        "rhapsody_id": "10953963", "slug": "anthony green", "decade": "1990s / 2000s
+        / 2010s"}, {"7digital_id": "1049563", "country_of_origin": "Ireland", "name":
+        "Little Green Cars", "entity_type": "artist", "artist_ref_id": "865954", "vevo_id":
+        "f373e916-5e21-4d11-9801-98efe0887a8e", "main_genre": "alternative/indie",
+        "gender": "Both", "id": "09a19c59-9e89-b3dd-3350-e3d9b8c5b410", "rhapsody_id":
+        "27744567", "slug": "little green cars", "decade": "2010s"}, {"7digital_id":
+        "175887", "country_of_origin": "Australia", "name": "Micky Green", "entity_type":
+        "artist", "artist_ref_id": "375174", "vevo_id": "ea5233c0-f0c3-4c11-bf50-235616a8d6b1",
+        "main_genre": "pop", "gender": "Female", "id": "eec3efda-a6b5-11e0-b446-00251188dd67",
+        "rhapsody_id": "23505303", "slug": "micky green", "decade": "2000s / 2010s"},
+        {"name": "Douglas Greed", "entity_type": "artist", "artist_ref_id": "284319",
+        "vevo_id": "79174d99-2194-4b96-a1ba-effae5d7addd", "slug": "douglas greed",
+        "gender": "Male", "id": "ee5a7c62-a6b5-11e0-b446-00251188dd67", "rhapsody_id":
+        "17454227", "main_genre": "electronica/dance"}, {"7digital_id": "258034",
+        "country_of_origin": "England", "name": "Liz Green", "entity_type": "artist",
+        "artist_ref_id": "374672", "vevo_id": "e2fa7d45-9502-4d96-aef9-78b5263fbf97",
+        "main_genre": "alternative/indie", "gender": "Female", "id": "9ad14b62-5c4c-5df5-e764-c3706596379e",
+        "rhapsody_id": "15447818", "slug": "liz green", "decade": "2000s / 2010s"},
+        {"7digital_id": "1285976", "country_of_origin": "United States of America",
+        "name": "Milo Greene", "entity_type": "artist", "artist_ref_id": "2147577",
+        "main_genre": "rock", "id": "43a5c001-4626-2b7f-ccf0-8557a52e9834", "rhapsody_id":
+        "60022987", "slug": "milo greene", "decade": "2010s / 2000s"}, {"7digital_id":
+        "10557", "name": "Steve Green", "entity_type": "artist", "artist_ref_id":
+        "30965", "vevo_id": "95dab6a5-c0a2-419a-8515-99844e073201", "main_genre":
+        "christian/gospel", "gender": "Male", "id": "e5c6d718-a6b5-11e0-b446-00251188dd67",
+        "rhapsody_id": "1292", "slug": "steve green", "decade": "1980s / 1990s"},
+        {"7digital_id": "1607", "country_of_origin": "United States of America", "name":
+        "Adam Green", "entity_type": "artist", "artist_ref_id": "533", "gender": "Male",
+        "main_genre": "alternative/indie", "id": "e371e5a4-a6b5-11e0-b446-00251188dd67",
+        "rhapsody_id": "38868", "slug": "adam green", "decade": "2000s / 2010s"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 21:35:35 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/suggest?api_key=<API_KEY>&prefix=%7B:prefix=%3E%22gree%22%7D
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 21:44:06 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 1}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 21:41:54 GMT
 recorded_with: VCR 2.9.3

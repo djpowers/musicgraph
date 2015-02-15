@@ -141,5 +141,32 @@ module MusicGraph
       end
     end
 
+    describe "#suggest" do
+      it "returns a list of matches" do
+        VCR.use_cassette("artist", record: :new_episodes) do
+          query = "gree"
+          artists = MusicGraph::Artist.suggest(query)
+
+          expect(artists.length).to eql(20)
+          expect(artists).to be_a Array
+          expect(artists.first).to be_a Artist
+          expect(artists.first.name).to eql("Green Day")
+        end
+      end
+    end
+
+    it "accepts hash and returns suggestions" do
+      VCR.use_cassette("artist", record: :new_episodes) do
+        params = {
+          prefix: "gree"
+        }
+        artists = MusicGraph::Artist.suggest(params)
+
+        expect(artists.length).to eql(20)
+        expect(artists).to be_a Array
+        expect(artists.first).to be_a Artist
+        expect(artists.first.name).to eql("Green Day")
+      end
+    end
   end
 end

@@ -44,6 +44,9 @@ artists.last.name # => "Tom Jones"
 
 artists = MusicGraph::Artist.search({limit: 5})
 artists.length # => 5
+
+artist = MusicGraph::Artist.suggest("king").last
+artist.name # => "King James"
 ```
 
 ## Contributing
