@@ -29,6 +29,21 @@ artist.decade # => "2000s / 2010s"
 artists = MusicGraph::Artist.search({similar_to: "Pink Floyd"})
 artists.first.name # => "David Gilmour"
 artists.last.name # => "Eric Clapton"
+
+artists = MusicGraph::Artist.search({decade: "1990s"})
+artists.first.name # => "Lil Wayne"
+
+artists = MusicGraph::Artist.search({genre: "Soul/R&B"})
+artists.last.name # => "Amy Winehouse"
+
+artists = MusicGraph::Artist.search({gender: "female"})
+artists.last.name # => "Shakira"
+
+artists = MusicGraph::Artist.search({country: "wales"})
+artists.last.name # => "Tom Jones"
+
+artists = MusicGraph::Artist.search({limit: 5})
+artists.length # => 5
 ```
 
 ## Contributing

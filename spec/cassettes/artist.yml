@@ -460,4 +460,546 @@ http_interactions:
         "decade": "2000s / 2010s", "name": "Amy Winehouse"}]}'
     http_version: 
   recorded_at: Sun, 15 Feb 2015 16:41:22 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&genre=female
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 16:46:38 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '622'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": -1, "message": "Invalid parameters", "api": "v2",
+        "errors": {"genre": "\"female\" is not one of alternative/indie, blues, cast
+        recordings/cabaret, christian/gospel, children''s, classical/opera, comedy/spoken
+        word, country, electronica/dance, folk, instrumental, jazz, latin, new age,
+        pop, rap/hip hop, reggae/ska, rock, seasonal, soul/r&b, soundtracks, vocals,
+        world, show music, contemporary christian, drum n'' bass, techno, latin jazz,
+        swing, latin pop, latin rock, latin urban, mpb, regional mexican, salsa, tango,
+        pop ballad, pop rock, 90''s rock, adult contemporary, metal, television, tropical"}}}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 16:46:16 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&gender=female
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 16:48:54 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '7286'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"main_genre": "world", "country_of_origin":
+        "Latin Continuum", "entity_type": "artist", "artist_ref_id": "585302", "vevo_id":
+        "b298bb00-407f-4b67-940f-588116f8848a", "sort_name": "Sasha", "gender": "Female",
+        "rhapsody_id": "882", "id": "c9ece652-dcb3-b49e-0519-542f10326f86", "decade":
+        "1990s / 1980s", "name": "Sasha"}, {"7digital_id": "660559", "main_genre":
+        "rap/hip hop", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "490023", "vevo_id": "a883c6f8-1718-422e-be7d-4d9a65acf1b5",
+        "sort_name": "Minaj, Nicki", "gender": "Female", "rhapsody_id": "32558379",
+        "id": "2584a55b-01cd-5c09-bd7b-fc93eada3b57", "decade": "2000s / 2010s", "name":
+        "Nicki Minaj"}, {"7digital_id": "10653", "main_genre": "pop", "country_of_origin":
+        "Barbados", "entity_type": "artist", "artist_ref_id": "192994", "vevo_id":
+        "33ebb568-f285-4c1f-8eba-6b9f54566a87", "sort_name": "Rihanna", "gender":
+        "Female", "rhapsody_id": "7375005", "id": "e5cae432-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 2010s", "name": "Rihanna"}, {"7digital_id": "21453", "main_genre":
+        "pop", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "187269", "vevo_id": "0cb45e50-012b-4e98-bfd1-2ab60a2a1dca",
+        "sort_name": "Beyonce", "gender": "Female", "rhapsody_id": "42919", "id":
+        "6cb4bc22-71a6-9f57-193a-e88aae92b975", "decade": "1990s / 2000s / 2010s",
+        "name": "Beyonc\u00e9"}, {"7digital_id": "6", "main_genre": "electronica/dance",
+        "country_of_origin": "Australia", "entity_type": "artist", "artist_ref_id":
+        "196941", "vevo_id": "09fb595d-4208-4d83-a24f-d4d50a62b8eb", "sort_name":
+        "Sia", "gender": "Female", "rhapsody_id": "58977", "id": "95ca4a1f-f7df-288a-2809-52a618eed77f",
+        "decade": "2000s / 2010s", "name": "Sia"}, {"7digital_id": "459", "main_genre":
+        "jazz", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "24465", "vevo_id": "af694f7e-1908-4dc5-8ba5-2eba23691cb3",
+        "sort_name": "Simone, Nina", "gender": "Female", "rhapsody_id": "4516", "id":
+        "e3abc7dd-a6b5-11e0-b446-00251188dd67", "decade": "1960s / 1970s / 1980s /
+        1990s / 2000s / 1950s", "name": "Nina Simone"}, {"7digital_id": "440928",
+        "main_genre": "pop", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "36347", "vevo_id": "8b060cb3-5f7b-41b0-a6c5-f8fd8ce1c41b",
+        "sort_name": "Yo-Yo", "gender": "Female", "rhapsody_id": "9324", "id": "f0af58be-a6b5-11e0-b446-00251188dd67",
+        "decade": "1990s / 2000s / 2010s", "name": "Yo-Yo"}, {"7digital_id": "132789",
+        "main_genre": "pop", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "190103", "vevo_id": "75f426ad-5e04-4f83-9dd5-88a9ca841201",
+        "sort_name": "Perry, Katy", "gender": "Female", "rhapsody_id": "7330911",
+        "id": "71f693bb-31ae-bbc2-3ac8-7bba698d1671", "decade": "2000s / 2010s", "name":
+        "Katy Perry"}, {"7digital_id": "1420370", "main_genre": "rap/hip hop", "country_of_origin":
+        "Australia", "entity_type": "artist", "artist_ref_id": "2003168", "vevo_id":
+        "7b94a7b3-b033-45de-95fd-e2a503bf48e0", "sort_name": "Azalea, Iggy", "gender":
+        "Female", "rhapsody_id": "54001663", "id": "4c158d13-a835-5565-026f-ceccab1d4fe5",
+        "decade": "2010s", "name": "Iggy Azalea"}, {"7digital_id": "1173256", "main_genre":
+        "pop", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "1912584", "vevo_id": "5ffb2977-e466-4809-9064-b5c3487948d0",
+        "sort_name": "Grande, Ariana", "gender": "Female", "rhapsody_id": "52416439",
+        "id": "3749d5f5-0c8c-2695-9389-2679975311f2", "decade": "2010s", "name": "Ariana
+        Grande"}, {"7digital_id": "1107056", "main_genre": "alternative/indie", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "1813292",
+        "vevo_id": "ce868bea-a9b1-4fcd-b7b3-aeb58b2fb65c", "sort_name": "Del Rey,
+        Lana", "gender": "Female", "rhapsody_id": "53235866", "id": "6252fc9d-7231-b75d-0c29-79ad325cbb0a",
+        "decade": "2010s", "name": "Lana Del Rey"}, {"main_genre": "electronica/dance",
+        "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "607835", "vevo_id": "85c353e9-e326-467e-995e-64097d6b5522", "sort_name":
+        "Charli XCX", "gender": "Female", "rhapsody_id": "21545732", "id": "82a309cf-1e2f-c7fa-91e5-076eacbeaded",
+        "decade": "2010s", "name": "Charli XCX"}, {"7digital_id": "216", "main_genre":
+        "pop", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "6030", "vevo_id": "03c3303b-69dc-46b2-8ef8-fce6588f85bf",
+        "sort_name": "Aguilera, Christina", "gender": "Female", "rhapsody_id": "8204",
+        "id": "e22e4bfb-a6b5-11e0-b446-00251188dd67", "decade": "1990s / 2000s / 2010s",
+        "name": "Christina Aguilera"}, {"country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "1921301", "vevo_id": "21f5faae-6b85-4003-b682-04e4a084a74b",
+        "sort_name": "Aiko, Jhene", "gender": "Female", "rhapsody_id": "1953", "id":
+        "0654158e-d08a-f11f-5f83-45dc48f07d17", "decade": "2010s / 2000s", "name":
+        "Jhen\u00e9 Aiko"}, {"7digital_id": "253545", "main_genre": "country", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "289042",
+        "vevo_id": "25a993a0-500d-4d93-9512-f369a2e51f57", "sort_name": "Swift, Taylor",
+        "gender": "Female", "rhapsody_id": "10482910", "id": "ef82ddea-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 2010s", "name": "Taylor Swift"}, {"7digital_id": "468577",
+        "main_genre": "pop", "country_of_origin": "England", "entity_type": "artist",
+        "artist_ref_id": "878610", "vevo_id": "07dad402-7b9b-4051-b589-4d2a88210d2b",
+        "sort_name": "Goulding, Ellie", "gender": "Female", "rhapsody_id": "32907864",
+        "id": "6675c578-5524-5577-d93b-e6528c3c343b", "decade": "2000s / 2010s", "name":
+        "Ellie Goulding"}, {"country_of_origin": "Canada", "entity_type": "artist",
+        "artist_ref_id": "12595", "vevo_id": "f5a5ad35-f7a1-4e65-8532-9cdbdb05484d",
+        "id": "db2fec6f-6eda-0715-65da-19872e7479b5", "gender": "Female", "sort_name":
+        "Grace", "main_genre": "rock", "decade": "2000s / 2010s", "name": "Grace"},
+        {"7digital_id": "21255", "main_genre": "pop", "country_of_origin": "United
+        States of America", "entity_type": "artist", "artist_ref_id": "15741", "vevo_id":
+        "002a6d53-f503-4386-831a-2539e27ca453", "sort_name": "Lopez, Jennifer", "gender":
+        "Female", "rhapsody_id": "2630", "id": "e7039b90-a6b5-11e0-b446-00251188dd67",
+        "decade": "1990s / 2000s / 2010s", "name": "Jennifer Lopez"}, {"7digital_id":
+        "43112", "main_genre": "pop", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "2664971", "vevo_id": "03376ed2-d96f-4d4e-8c83-2fc732481d1e",
+        "sort_name": "Cyrus, Miley", "gender": "Female", "rhapsody_id": "9557743",
+        "id": "88393833-745d-baef-a84c-edc4295e41e3", "decade": "2000s / 2010s", "name":
+        "Miley Cyrus"}, {"7digital_id": "21239", "main_genre": "pop", "country_of_origin":
+        "Colombia", "entity_type": "artist", "artist_ref_id": "29835", "vevo_id":
+        "045fc1ea-3340-4cfb-968f-49f00dd842a9", "sort_name": "Shakira", "gender":
+        "Female", "rhapsody_id": "1835", "id": "245baeb0-fbf3-d183-2d0c-c5c04af20568",
+        "decade": "1990s / 2000s / 2010s", "name": "Shakira"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 16:46:42 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&country=america
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 16:51:34 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '7538'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"7digital_id": "15256", "main_genre":
+        "rap/hip hop", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "19812", "vevo_id": "02f4053f-0f87-471e-bd67-5a923804b68d",
+        "sort_name": "Lil Wayne", "gender": "Male", "rhapsody_id": "9005", "id": "e6b149bb-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 1990s / 2010s", "name": "Lil Wayne"}, {"7digital_id": "11439",
+        "main_genre": "rap/hip hop", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "297716", "vevo_id": "b470a310-6db4-4b4f-b925-c945789fbca4",
+        "sort_name": "Pitbull", "gender": "Male", "rhapsody_id": "6375330", "id":
+        "3aec318a-7241-43e4-17c1-38a0eceafbbb", "decade": "2000s / 2010s", "name":
+        "Pitbull"}, {"7digital_id": "91677", "main_genre": "rap/hip hop", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "309325",
+        "vevo_id": "a602d657-e85e-4478-ae5b-6dc4004bf19e", "sort_name": "Wiz Khalifa",
+        "gender": "Male", "rhapsody_id": "15802707", "id": "3d8ace70-6493-f175-b6a8-1a2a4fc1a37b",
+        "decade": "2000s / 2010s", "name": "Wiz Khalifa"}, {"7digital_id": "262",
+        "main_genre": "rap/hip hop", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "9966", "vevo_id": "03ec39dd-ced2-437e-9acf-0ad9a394ec81",
+        "sort_name": "Eminem", "gender": "Male", "rhapsody_id": "44", "id": "65951b5d-f6f6-898a-0e85-9f2dc8f7e888",
+        "decade": "1990s / 2000s / 2010s", "name": "Eminem"}, {"7digital_id": "1298",
+        "main_genre": "rap/hip hop", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "15520", "vevo_id": "01a4bda7-78a0-4a59-8b13-7e996e29e40b",
+        "sort_name": "Jay-Z", "gender": "Male", "rhapsody_id": "1289", "id": "e4484087-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 1990s / 2010s", "name": "Jay-Z"}, {"7digital_id": "660559",
+        "main_genre": "rap/hip hop", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "490023", "vevo_id": "a883c6f8-1718-422e-be7d-4d9a65acf1b5",
+        "sort_name": "Minaj, Nicki", "gender": "Female", "rhapsody_id": "32558379",
+        "id": "2584a55b-01cd-5c09-bd7b-fc93eada3b57", "decade": "2000s / 2010s", "name":
+        "Nicki Minaj"}, {"7digital_id": "1001366", "main_genre": "rap/hip hop", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "1591276",
+        "vevo_id": "2e585252-6153-4ca4-97ac-2889ec43fb80", "sort_name": "2 Chainz",
+        "gender": "Male", "rhapsody_id": "46022569", "id": "4da7f3dc-3773-2d15-bc94-eedfb6eed775",
+        "decade": "2010s", "name": "2 Chainz"}, {"7digital_id": "15239", "main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "254715", "vevo_id": "0f6da068-d175-4dd0-afeb-edcc3c58e720",
+        "sort_name": "Brown, Chris", "gender": "Male", "rhapsody_id": "7499873", "id":
+        "e6b1441e-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "Chris Brown"}, {"country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "30438", "vevo_id": "0e66edd8-7c33-4886-8ac5-bb629eab0637",
+        "id": "032799d6-2ab7-7495-5877-1ffffb61cce4", "gender": "Male", "rhapsody_id":
+        "64713", "sort_name": "Williams, Pharrell", "main_genre": "rap/hip hop", "decade":
+        "1990s / 2000s / 2010s", "name": "Pharrell Williams"}, {"7digital_id": "52267",
+        "main_genre": "rap/hip hop", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "28119", "vevo_id": "2ba8aef3-50d3-445c-a023-3598b123aa27",
+        "sort_name": "Ross, Rick", "gender": "Male", "rhapsody_id": "10872254", "id":
+        "ffe8937b-617d-de34-6e13-e5fc7a4b2229", "decade": "2000s / 2010s", "name":
+        "Rick Ross"}, {"7digital_id": "1052127", "main_genre": "rap/hip hop", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "210884",
+        "vevo_id": "7d91ef80-ca3a-4b9a-b0b6-8537f9d8bbb7", "sort_name": "Cole, J.",
+        "gender": "Male", "rhapsody_id": "20697410", "id": "c1b0db47-8728-5388-6252-1b839f588d8e",
+        "decade": "2000s / 2010s", "name": "J. Cole"}, {"7digital_id": "21453", "main_genre":
+        "pop", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "187269", "vevo_id": "0cb45e50-012b-4e98-bfd1-2ab60a2a1dca",
+        "sort_name": "Beyonce", "gender": "Female", "rhapsody_id": "42919", "id":
+        "6cb4bc22-71a6-9f57-193a-e88aae92b975", "decade": "1990s / 2000s / 2010s",
+        "name": "Beyonc\u00e9"}, {"7digital_id": "222", "main_genre": "pop", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "56570",
+        "vevo_id": "2603d10e-71a0-4a6c-8be9-5fab0272e82e", "sort_name": "Maroon 5",
+        "gender": "Male", "rhapsody_id": "56348", "id": "e22e4d96-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 1990s / 2010s", "name": "Maroon 5"}, {"7digital_id": "822668",
+        "main_genre": "rap/hip hop", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "1033754", "vevo_id": "5512f562-9135-4bd3-affd-c1f457d3daf9",
+        "sort_name": "Lamar, Kendrick", "gender": "Male", "rhapsody_id": "40912632",
+        "id": "c585e5eb-cdc4-e067-9340-7e0427e5b34e", "decade": "2010s / 2000s", "name":
+        "Kendrick Lamar"}, {"7digital_id": "1280", "main_genre": "rap/hip hop", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "31602",
+        "vevo_id": "0d421016-06db-421f-86e8-fcff16e61f7b", "sort_name": "T.I.", "gender":
+        "Male", "rhapsody_id": "58816", "id": "27fad9bd-80d9-f6b9-555d-d658c063d35d",
+        "decade": "2000s / 2010s", "name": "T.I."}, {"7digital_id": "8368", "main_genre":
+        "soul/r&b", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "66858", "vevo_id": "0cba49aa-824e-46b2-8e6b-c2e54d06d708",
+        "sort_name": "Legend, John", "gender": "Male", "rhapsody_id": "6432383", "id":
+        "e5792cc4-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "John Legend"}, {"7digital_id": "88", "main_genre": "pop", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "22921",
+        "vevo_id": "0783f26a-c35a-475a-85f0-574aa7530a12", "sort_name": "Jackson,
+        Michael", "gender": "Male", "rhapsody_id": "63692", "id": "62e4e2d5-b34e-4712-01f0-ec879c6251ab",
+        "decade": "1970s / 1980s / 1990s / 2000s / 1960s", "name": "Michael Jackson"},
+        {"7digital_id": "459", "main_genre": "jazz", "country_of_origin": "United
+        States of America", "entity_type": "artist", "artist_ref_id": "24465", "vevo_id":
+        "af694f7e-1908-4dc5-8ba5-2eba23691cb3", "sort_name": "Simone, Nina", "gender":
+        "Female", "rhapsody_id": "4516", "id": "e3abc7dd-a6b5-11e0-b446-00251188dd67",
+        "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 1950s", "name": "Nina Simone"},
+        {"7digital_id": "440928", "main_genre": "pop", "country_of_origin": "United
+        States of America", "entity_type": "artist", "artist_ref_id": "36347", "vevo_id":
+        "8b060cb3-5f7b-41b0-a6c5-f8fd8ce1c41b", "sort_name": "Yo-Yo", "gender": "Female",
+        "rhapsody_id": "9324", "id": "f0af58be-a6b5-11e0-b446-00251188dd67", "decade":
+        "1990s / 2000s / 2010s", "name": "Yo-Yo"}, {"main_genre": "rap/hip hop", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "17372",
+        "vevo_id": "62c09b41-04a5-4dac-b7be-73908c3794b9", "sort_name": "Juicy J",
+        "gender": "Male", "rhapsody_id": "56336", "id": "58462c78-798c-cf5a-45cd-abafaad67f98",
+        "decade": "2000s / 1990s / 2010s", "name": "Juicy J"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 16:49:22 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&limit=5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 20:01:20 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '1619'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 5, "offset": 1}, "data": [{"7digital_id": "15256", "main_genre":
+        "rap/hip hop", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "19812", "vevo_id": "02f4053f-0f87-471e-bd67-5a923804b68d",
+        "sort_name": "Lil Wayne", "gender": "Male", "rhapsody_id": "9005", "id": "e6b149bb-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 1990s / 2010s", "name": "Lil Wayne"}, {"7digital_id": "11439",
+        "name": "Pitbull", "entity_type": "artist", "artist_ref_id": "297716", "id":
+        "e5ef0ac3-a6b5-11e0-b446-00251188dd67", "sort_name": "Pitbull", "main_genre":
+        "rap/hip hop"}, {"7digital_id": "11439", "main_genre": "rap/hip hop", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "297716",
+        "vevo_id": "b470a310-6db4-4b4f-b925-c945789fbca4", "sort_name": "Pitbull",
+        "gender": "Male", "rhapsody_id": "6375330", "id": "3aec318a-7241-43e4-17c1-38a0eceafbbb",
+        "decade": "2000s / 2010s", "name": "Pitbull"}, {"name": "Grande", "entity_type":
+        "artist", "artist_ref_id": "1130450", "vevo_id": "b074930b-6929-4bda-81f7-4ab445add5e6",
+        "sort_name": "Grande", "rhapsody_id": "17673415", "id": "03be82d1-e150-8cc6-0eae-9093359050d6"},
+        {"main_genre": "classical/opera", "country_of_origin": "Austria", "entity_type":
+        "artist", "artist_ref_id": "36153", "vevo_id": "27c594a4-f7ae-4eb2-a3d5-4b510a0b28b3",
+        "sort_name": "Mozart, Wolfgang Amadeus", "gender": "Male", "rhapsody_id":
+        "61587", "id": "65e7c1ba-6d52-6f5a-14f1-9296057218b0", "decade": "2010s",
+        "name": "Wolfgang Amadeus Mozart"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 20:01:18 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&limit=5&similar_to=Pink%20Floyd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 20:01:18 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '1797'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 5, "offset": 1}, "data": [{"7digital_id": "20483", "main_genre":
+        "rock", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "7815", "vevo_id": "91e5345e-7acc-4a2c-a277-22082842f3d1", "sort_name": "Gilmour,
+        David", "gender": "Male", "rhapsody_id": "5002", "id": "74baf8a2-173d-167c-1ba8-c1e66ddf9c6c",
+        "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s", "name": "David
+        Gilmour"}, {"7digital_id": "128187", "main_genre": "rock", "country_of_origin":
+        "England", "entity_type": "artist", "artist_ref_id": "19340", "gender": "Male",
+        "sort_name": "Led Zeppelin", "rhapsody_id": "453", "id": "edc53fa6-a6b5-11e0-b446-00251188dd67",
+        "decade": "1960s / 1970s / 1980s / 1990s / 2000s", "name": "Led Zeppelin"},
+        {"7digital_id": "17450", "main_genre": "rock", "country_of_origin": "England",
+        "entity_type": "artist", "artist_ref_id": "28546", "vevo_id": "1918009f-a830-463d-8f54-87f7f93cab0a",
+        "sort_name": "Waters, Roger", "gender": "Male", "rhapsody_id": "68413", "id":
+        "e6d997a2-a6b5-11e0-b446-00251188dd67", "decade": "1990s / 1980s / 1960s /
+        1970s / 2000s / 2010s", "name": "Roger Waters"}, {"7digital_id": "361", "main_genre":
+        "rock", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "31372", "gender": "Male", "sort_name": "Barrett, Syd", "rhapsody_id": "1844",
+        "id": "b15f78da-a179-2c8a-0c56-9aaf12de45c4", "decade": "1970s / 1960s", "name":
+        "Syd Barrett"}, {"7digital_id": "4073", "main_genre": "rock", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "32473",
+        "gender": "Male", "sort_name": "Doors", "rhapsody_id": "43266", "id": "e462f24f-a6b5-11e0-b446-00251188dd67",
+        "decade": "1960s / 1970s", "name": "The Doors"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 20:02:09 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&offset=10&similar_to=Pink%20Floyd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 20:07:38 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '1499'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 5, "offset": 10}, "data": [{"7digital_id": "18341", "main_genre":
+        "pop", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "55611", "gender": "Male", "sort_name": "Young, Jimmy", "rhapsody_id": "11428560",
+        "id": "e6e36f8b-a6b5-11e0-b446-00251188dd67", "decade": "1950s / 1960s / 1980s
+        / 1990s / 1970s", "name": "Jimmy Young"}, {"entity_type": "artist", "artist_ref_id":
+        "569017", "gender": "Female", "id": "5a5e5c16-0676-4389-bd68-c5e788c6945b",
+        "rhapsody_id": "16893580", "sort_name": "Coogan, Anna", "main_genre": "folk",
+        "decade": "2000s", "name": "Anna Coogan"}, {"7digital_id": "1945734", "main_genre":
+        "rock", "entity_type": "artist", "artist_ref_id": "194833", "gender": "Male",
+        "sort_name": "Nakamura, Goh", "rhapsody_id": "8844783", "id": "ca5bbd92-a171-1b2c-8e75-a93eb043bd1e",
+        "decade": "2000s", "name": "Goh Nakamura"}, {"7digital_id": "123693", "main_genre":
+        "electronica/dance", "entity_type": "artist", "artist_ref_id": "357240", "vevo_id":
+        "e8d26e57-5a98-4809-86a0-6859198094cb", "sort_name": "Hess Is More", "rhapsody_id":
+        "12410093", "id": "ed3c507d-a6b5-11e0-b446-00251188dd67", "name": "Hess Is
+        More"}, {"entity_type": "artist", "artist_ref_id": "312002", "vevo_id": "20e4df76-8516-4f46-b6df-07e1b527b355",
+        "id": "58097b64-18f8-7d71-97f5-0fa736852bfb", "gender": "Female", "sort_name":
+        "Whatmore, Sarah", "main_genre": "pop", "decade": "2000s", "name": "Sarah
+        Whatmore"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 20:05:26 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&offset=5&similar_to=Pink%20Floyd
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 20:07:00 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '2086'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 7, "offset": 5}, "data": [{"name": "Robert Skiles", "entity_type":
+        "artist", "artist_ref_id": "262071", "gender": "Male", "id": "299522e7-4787-a3a2-8ed5-0ae7cde7f524",
+        "rhapsody_id": "24357057", "sort_name": "Skiles, Robert", "main_genre": "pop"},
+        {"7digital_id": "22311", "main_genre": "rock", "country_of_origin": "Norway",
+        "entity_type": "artist", "artist_ref_id": "211900", "vevo_id": "d738ff60-1cb5-4b07-8e68-5b0cb7ed0225",
+        "sort_name": "Enslaved", "rhapsody_id": "14200488", "id": "e72f7bcc-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 1990s", "name": "Enslaved"}, {"main_genre": "electronica/dance",
+        "country_of_origin": "Puerto Rico", "entity_type": "artist", "artist_ref_id":
+        "17747", "gender": "Male", "sort_name": "Kako", "rhapsody_id": "25052", "id":
+        "90e0319d-c117-1e64-c300-cffc7efca6ab", "decade": "1950s / 1960s / 1970s /
+        1980s / 1990s / 2000s", "name": "Kako"}, {"7digital_id": "18341", "main_genre":
+        "pop", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "55611", "gender": "Male", "sort_name": "Young, Jimmy", "rhapsody_id": "11428560",
+        "id": "e6e36f8b-a6b5-11e0-b446-00251188dd67", "decade": "1950s / 1960s / 1980s
+        / 1990s / 1970s", "name": "Jimmy Young"}, {"entity_type": "artist", "artist_ref_id":
+        "569017", "gender": "Female", "id": "5a5e5c16-0676-4389-bd68-c5e788c6945b",
+        "rhapsody_id": "16893580", "sort_name": "Coogan, Anna", "main_genre": "folk",
+        "decade": "2000s", "name": "Anna Coogan"}, {"7digital_id": "1945734", "main_genre":
+        "rock", "entity_type": "artist", "artist_ref_id": "194833", "gender": "Male",
+        "sort_name": "Nakamura, Goh", "rhapsody_id": "8844783", "id": "ca5bbd92-a171-1b2c-8e75-a93eb043bd1e",
+        "decade": "2000s", "name": "Goh Nakamura"}, {"7digital_id": "123693", "main_genre":
+        "electronica/dance", "entity_type": "artist", "artist_ref_id": "357240", "vevo_id":
+        "e8d26e57-5a98-4809-86a0-6859198094cb", "sort_name": "Hess Is More", "rhapsody_id":
+        "12410093", "id": "ed3c507d-a6b5-11e0-b446-00251188dd67", "name": "Hess Is
+        More"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 20:06:58 GMT
 recorded_with: VCR 2.9.3
