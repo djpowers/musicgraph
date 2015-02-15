@@ -47,6 +47,9 @@ artists.length # => 5
 
 artist = MusicGraph::Artist.suggest("king").last
 artist.name # => "King James"
+
+artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67")
+artist.name # => "Beck"
 ```
 
 ## Contributing

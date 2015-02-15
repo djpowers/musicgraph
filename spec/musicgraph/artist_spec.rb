@@ -169,4 +169,27 @@ module MusicGraph
       end
     end
   end
+
+  describe "#find" do
+    it "returns a single artist" do
+      VCR.use_cassette("artist", record: :new_episodes) do
+        artist_id = "e4de0d41-a6b5-11e0-b446-00251188dd67"
+        artist = MusicGraph::Artist.find(artist_id)
+
+        expect(artist).to be_a Artist
+        expect(artist.seven_digital_id).to eql("5843")
+        expect(artist.main_genre).to eql("alternative/indie")
+        expect(artist.country_of_origin).to eql("United States of America")
+        expect(artist.entity_type).to eql("artist")
+        expect(artist.artist_ref_id).to eql("2918")
+        expect(artist.vevo_id).to eql("05158a95-fe62-42df-8359-e4b6a2c8bf5d")
+        expect(artist.sort_name).to eql("Beck")
+        expect(artist.gender).to eql("Male")
+        expect(artist.rhapsody_id).to eql("7053")
+        expect(artist.id).to eql("e4de0d41-a6b5-11e0-b446-00251188dd67")
+        expect(artist.decade).to eql("1990s / 2000s / 2010s")
+        expect(artist.name).to eql("Beck")
+      end
+    end
+  end
 end
