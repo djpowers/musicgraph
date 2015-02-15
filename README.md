@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+artist = MusicGraph::Artist.search('kaiser chiefs').first
+artist.name # => "Kaiser Chiefs"
+artist.main_genre # => "rock"
+artist.decade # => "2000s / 2010s"
+```
 
 ## Contributing
 

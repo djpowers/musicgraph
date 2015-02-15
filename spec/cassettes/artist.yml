@@ -1,0 +1,91 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=wilco
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 05:06:02 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '482'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "4307", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "35857",
+        "vevo_id": "2a30215b-c9cd-45b7-9240-0a5757a5d123", "id": "e46a8e2e-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Wilco", "gender": "Male", "rhapsody_id": "40249", "main_genre":
+        "alternative/indie", "decade": "1990s / 2000s / 2010s", "name": "Wilco"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 05:06:00 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=local%20natives
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 15 Feb 2015 05:05:09 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '471'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"country_of_origin": "United States of
+        America", "entity_type": "artist", "artist_ref_id": "844541", "vevo_id": "1bc89fd8-fbd1-4954-aafe-aa4ffdfe0c16",
+        "id": "f6360a59-2e1d-ddd0-28d9-3a412505f0ac", "sort_name": "Local Natives",
+        "gender": "Male", "rhapsody_id": "32132354", "main_genre": "alternative/indie",
+        "decade": "2000s / 2010s", "name": "Local Natives"}]}'
+    http_version: 
+  recorded_at: Sun, 15 Feb 2015 05:06:00 GMT
+recorded_with: VCR 2.9.3
