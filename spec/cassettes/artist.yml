@@ -1330,4 +1330,180 @@ http_interactions:
         ["albums", "similar", "tracks"]}'
     http_version: 
   recorded_at: Mon, 16 Feb 2015 02:14:08 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 16 Feb 2015 02:51:37 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '435'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "data":
+        {"7digital_id": "5843", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "2918", "vevo_id": "05158a95-fe62-42df-8359-e4b6a2c8bf5d",
+        "id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "sort_name": "Beck", "gender":
+        "Male", "rhapsody_id": "7053", "main_genre": "alternative/indie", "decade":
+        "1990s / 2000s / 2010s", "name": "Beck"}}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 02:51:15 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 16 Feb 2015 03:03:35 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '435'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "data":
+        {"7digital_id": "5843", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "2918", "vevo_id": "05158a95-fe62-42df-8359-e4b6a2c8bf5d",
+        "id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "sort_name": "Beck", "gender":
+        "Male", "rhapsody_id": "7053", "main_genre": "alternative/indie", "decade":
+        "1990s / 2000s / 2010s", "name": "Beck"}}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 03:03:13 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 16 Feb 2015 03:02:28 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '435'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "data":
+        {"7digital_id": "5843", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "2918", "vevo_id": "05158a95-fe62-42df-8359-e4b6a2c8bf5d",
+        "id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "sort_name": "Beck", "gender":
+        "Male", "rhapsody_id": "7053", "main_genre": "alternative/indie", "decade":
+        "1990s / 2000s / 2010s", "name": "Beck"}}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 03:03:19 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 16 Feb 2015 03:03:50 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '435'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "data":
+        {"7digital_id": "5843", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "2918", "vevo_id": "05158a95-fe62-42df-8359-e4b6a2c8bf5d",
+        "id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "sort_name": "Beck", "gender":
+        "Male", "rhapsody_id": "7053", "main_genre": "alternative/indie", "decade":
+        "1990s / 2000s / 2010s", "name": "Beck"}}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 03:03:28 GMT
 recorded_with: VCR 2.9.3
