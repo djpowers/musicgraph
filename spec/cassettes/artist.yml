@@ -1506,4 +1506,385 @@ http_interactions:
         "1990s / 2000s / 2010s", "name": "Beck"}}'
     http_version: 
   recorded_at: Mon, 16 Feb 2015 03:03:28 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67/similar?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 16 Feb 2015 03:39:51 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '7196'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"name": "Bob Forrest", "entity_type":
+        "artist", "artist_ref_id": "389946", "gender": "Male", "sort_name": "Forrest,
+        Bob", "rhapsody_id": "65678", "id": "2188081d-d67e-e078-3447-96473ce875cd",
+        "decade": "2000s"}, {"7digital_id": "543", "main_genre": "alternative/indie",
+        "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "33790", "vevo_id": "a1055cd3-a9d8-4016-95a7-d2853d2a9642", "sort_name": "Verve",
+        "gender": "Male", "rhapsody_id": "731", "id": "e2758916-a6b5-11e0-b446-00251188dd67",
+        "decade": "1990s / 2000s", "name": "The Verve"}, {"7digital_id": "39290",
+        "main_genre": "alternative/indie", "country_of_origin": "United States of
+        America", "entity_type": "artist", "artist_ref_id": "334822", "vevo_id": "70c3b3c1-1c6a-4d33-8581-ef61311575ca",
+        "sort_name": "Grinderman", "gender": "Male", "rhapsody_id": "13876621", "id":
+        "e7fc182d-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "Grinderman"}, {"7digital_id": "171648", "main_genre": "alternative/indie",
+        "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "195733", "vevo_id": "0170c249-93a0-419c-86d4-d8d8086bebac",
+        "sort_name": "Grizzly Bear", "gender": "Male", "rhapsody_id": "6883601", "id":
+        "d1b9dea0-0338-c18e-fae7-7a7b91006eb3", "decade": "2000s / 2010s", "name":
+        "Grizzly Bear"}, {"7digital_id": "116", "main_genre": "electronica/dance",
+        "country_of_origin": "France", "entity_type": "artist", "artist_ref_id": "71214",
+        "vevo_id": "7d76efaa-e57e-4b19-8da0-98fd216eab8d", "sort_name": "Air", "gender":
+        "Male", "rhapsody_id": "6829", "id": "5abd10ff-d787-d355-cc59-bd7872b00bd8",
+        "decade": "1990s / 2000s / 2010s", "name": "Air"}, {"7digital_id": "10583",
+        "main_genre": "alternative/indie", "country_of_origin": "United States of
+        America", "entity_type": "artist", "artist_ref_id": "52728", "vevo_id": "2661eb8a-d41b-47a8-9824-69adb3a191e2",
+        "sort_name": "Smith, Elliott", "gender": "Male", "rhapsody_id": "4825", "id":
+        "e5c6dc9e-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 1980s / 1990s",
+        "name": "Elliott Smith"}, {"7digital_id": "165", "main_genre": "folk", "country_of_origin":
+        "England", "entity_type": "artist", "artist_ref_id": "24336", "gender": "Male",
+        "sort_name": "Drake, Nick", "rhapsody_id": "452", "id": "ee7413ba-a6b5-11e0-b446-00251188dd67",
+        "decade": "1970s / 1960s", "name": "Nick Drake"}, {"7digital_id": "27486",
+        "main_genre": "alternative/indie", "country_of_origin": "United States of
+        America", "entity_type": "artist", "artist_ref_id": "270549", "vevo_id": "4d1650ce-835d-4121-8c0e-30139c925c51",
+        "sort_name": "Bird, Andrew", "gender": "Male", "rhapsody_id": "12440", "id":
+        "e799cf1d-a6b5-11e0-b446-00251188dd67", "decade": "1990s / 2000s / 2010s",
+        "name": "Andrew Bird"}, {"7digital_id": "2805", "main_genre": "rock", "country_of_origin":
+        "England", "entity_type": "artist", "artist_ref_id": "9900", "vevo_id": "526a098f-1e32-4250-810b-5121a2446e4d",
+        "sort_name": "Costello, Elvis", "gender": "Male", "rhapsody_id": "1123", "id":
+        "1e724902-b270-2b85-b251-9044bd18a800", "decade": "1970s / 1980s / 1990s /
+        2000s / 2010s", "name": "Elvis Costello"}, {"7digital_id": "5782", "main_genre":
+        "pop", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "178124", "vevo_id": "c9c71961-ca5d-4d99-8779-20d6b3d6f5c3",
+        "sort_name": "LCD Soundsystem", "gender": "Male", "rhapsody_id": "66426",
+        "id": "e4dc3a7a-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "LCD Soundsystem"}, {"country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "189811", "gender": "Both", "id": "84329a13-7f27-7de7-75bf-a2b5c6dcc186",
+        "sort_name": "Malkmus, Stephen & the Jicks", "main_genre": "alternative/indie",
+        "decade": "2000s", "name": "Stephen Malkmus & the Jicks"}, {"7digital_id":
+        "4021", "main_genre": "alternative/indie", "country_of_origin": "United States
+        of America", "entity_type": "artist", "artist_ref_id": "32578", "vevo_id":
+        "e44fbf81-12dc-4b50-8b83-3b6279e4461a", "sort_name": "Flaming Lips", "gender":
+        "Male", "rhapsody_id": "6996", "id": "e45d3d2b-a6b5-11e0-b446-00251188dd67",
+        "decade": "1980s / 1990s / 2000s / 2010s", "name": "The Flaming Lips"}, {"7digital_id":
+        "919", "main_genre": "rock", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "31654", "vevo_id": "89906e04-f10c-4a62-8554-9ca08c738e77",
+        "sort_name": "Talking Heads", "gender": "Both", "rhapsody_id": "4049", "id":
+        "e2ddf70a-a6b5-11e0-b446-00251188dd67", "decade": "1970s / 1980s / 1990s",
+        "name": "Talking Heads"}, {"7digital_id": "14639", "main_genre": "alternative/indie",
+        "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "139409", "vevo_id": "00391db5-4607-4467-92ed-ba80ebcdecb6",
+        "sort_name": "TV on the Radio", "gender": "Male", "rhapsody_id": "5230944",
+        "id": "e6971ab5-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "TV on the Radio"}, {"main_genre": "alternative/indie", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "111491",
+        "gender": "Both", "sort_name": "Yo La Tengo", "rhapsody_id": "5076", "id":
+        "b675f77a-60d6-4e25-a3b0-af9f72eb49ee", "decade": "1980s / 1990s / 2000s /
+        2010s", "name": "Yo La Tengo"}, {"7digital_id": "15010", "main_genre": "alternative/indie",
+        "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "224899", "gender": "Male", "sort_name": "Clap Your Hands
+        Say Yeah", "rhapsody_id": "7674685", "id": "e6a80483-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 2010s", "name": "Clap Your Hands Say Yeah"}, {"7digital_id":
+        "11350", "main_genre": "rock", "country_of_origin": "United States of America",
+        "entity_type": "artist", "artist_ref_id": "3782", "vevo_id": "072a39cf-226d-4658-a1a5-78049c00f6be",
+        "sort_name": "Dylan, Bob", "gender": "Male", "rhapsody_id": "831", "id": "f27b1534-3cef-9a5a-df47-e4fd683f045d",
+        "decade": "2000s / 1990s / 1980s / 1970s / 1960s / 2010s", "name": "Bob Dylan"},
+        {"main_genre": "rock", "country_of_origin": "England", "entity_type": "artist",
+        "artist_ref_id": "315670", "gender": "Male", "sort_name": "Good, the Bad &
+        the Queen", "rhapsody_id": "12014925", "id": "b896ac0b-2ff0-b85b-bced-4150d9686334",
+        "decade": "2000s", "name": "The Good, the Bad & the Queen"}, {"7digital_id":
+        "13409", "main_genre": "alternative/indie", "country_of_origin": "United States
+        of America", "entity_type": "artist", "artist_ref_id": "47919", "vevo_id":
+        "6635a81a-1825-4112-8143-ec8bace804c2", "sort_name": "My Morning Jacket",
+        "gender": "Male", "rhapsody_id": "7347", "id": "e64ba67e-a6b5-11e0-b446-00251188dd67",
+        "decade": "2000s / 2010s / 1990s", "name": "My Morning Jacket"}, {"7digital_id":
+        "47954", "main_genre": "alternative/indie", "country_of_origin": "Canada",
+        "entity_type": "artist", "artist_ref_id": "200486", "vevo_id": "f29c5cf8-bec8-49c6-aeaa-ea27129abecf",
+        "sort_name": "Arcade Fire", "gender": "Both", "rhapsody_id": "6593890", "id":
+        "e9fb3604-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "Arcade Fire"}]}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 03:39:49 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67/similar?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 16 Feb 2015 03:44:35 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '7196'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"name": "Bob Forrest", "entity_type":
+        "artist", "artist_ref_id": "389946", "gender": "Male", "sort_name": "Forrest,
+        Bob", "decade": "2000s", "rhapsody_id": "65678", "id": "2188081d-d67e-e078-3447-96473ce875cd"},
+        {"7digital_id": "543", "country_of_origin": "England", "entity_type": "artist",
+        "artist_ref_id": "33790", "vevo_id": "a1055cd3-a9d8-4016-95a7-d2853d2a9642",
+        "id": "e2758916-a6b5-11e0-b446-00251188dd67", "sort_name": "Verve", "gender":
+        "Male", "rhapsody_id": "731", "main_genre": "alternative/indie", "decade":
+        "1990s / 2000s", "name": "The Verve"}, {"7digital_id": "39290", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "334822",
+        "vevo_id": "70c3b3c1-1c6a-4d33-8581-ef61311575ca", "id": "e7fc182d-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Grinderman", "gender": "Male", "rhapsody_id": "13876621", "main_genre":
+        "alternative/indie", "decade": "2000s / 2010s", "name": "Grinderman"}, {"7digital_id":
+        "171648", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "195733", "vevo_id": "0170c249-93a0-419c-86d4-d8d8086bebac",
+        "id": "d1b9dea0-0338-c18e-fae7-7a7b91006eb3", "sort_name": "Grizzly Bear",
+        "gender": "Male", "rhapsody_id": "6883601", "main_genre": "alternative/indie",
+        "decade": "2000s / 2010s", "name": "Grizzly Bear"}, {"7digital_id": "116",
+        "country_of_origin": "France", "entity_type": "artist", "artist_ref_id": "71214",
+        "vevo_id": "7d76efaa-e57e-4b19-8da0-98fd216eab8d", "id": "5abd10ff-d787-d355-cc59-bd7872b00bd8",
+        "sort_name": "Air", "gender": "Male", "rhapsody_id": "6829", "main_genre":
+        "electronica/dance", "decade": "1990s / 2000s / 2010s", "name": "Air"}, {"7digital_id":
+        "10583", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "52728", "vevo_id": "2661eb8a-d41b-47a8-9824-69adb3a191e2",
+        "id": "e5c6dc9e-a6b5-11e0-b446-00251188dd67", "sort_name": "Smith, Elliott",
+        "gender": "Male", "rhapsody_id": "4825", "main_genre": "alternative/indie",
+        "decade": "2000s / 1980s / 1990s", "name": "Elliott Smith"}, {"7digital_id":
+        "165", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "24336", "gender": "Male", "sort_name": "Drake, Nick", "rhapsody_id": "452",
+        "id": "ee7413ba-a6b5-11e0-b446-00251188dd67", "main_genre": "folk", "decade":
+        "1970s / 1960s", "name": "Nick Drake"}, {"7digital_id": "27486", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "270549",
+        "vevo_id": "4d1650ce-835d-4121-8c0e-30139c925c51", "id": "e799cf1d-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Bird, Andrew", "gender": "Male", "rhapsody_id": "12440", "main_genre":
+        "alternative/indie", "decade": "1990s / 2000s / 2010s", "name": "Andrew Bird"},
+        {"7digital_id": "2805", "country_of_origin": "England", "entity_type": "artist",
+        "artist_ref_id": "9900", "vevo_id": "526a098f-1e32-4250-810b-5121a2446e4d",
+        "id": "1e724902-b270-2b85-b251-9044bd18a800", "sort_name": "Costello, Elvis",
+        "gender": "Male", "rhapsody_id": "1123", "main_genre": "rock", "decade": "1970s
+        / 1980s / 1990s / 2000s / 2010s", "name": "Elvis Costello"}, {"7digital_id":
+        "5782", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "178124", "vevo_id": "c9c71961-ca5d-4d99-8779-20d6b3d6f5c3",
+        "id": "e4dc3a7a-a6b5-11e0-b446-00251188dd67", "sort_name": "LCD Soundsystem",
+        "gender": "Male", "rhapsody_id": "66426", "main_genre": "pop", "decade": "2000s
+        / 2010s", "name": "LCD Soundsystem"}, {"main_genre": "alternative/indie",
+        "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "189811", "gender": "Both", "sort_name": "Malkmus, Stephen
+        & the Jicks", "id": "84329a13-7f27-7de7-75bf-a2b5c6dcc186", "decade": "2000s",
+        "name": "Stephen Malkmus & the Jicks"}, {"7digital_id": "4021", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "32578",
+        "vevo_id": "e44fbf81-12dc-4b50-8b83-3b6279e4461a", "id": "e45d3d2b-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Flaming Lips", "gender": "Male", "rhapsody_id": "6996", "main_genre":
+        "alternative/indie", "decade": "1980s / 1990s / 2000s / 2010s", "name": "The
+        Flaming Lips"}, {"7digital_id": "919", "country_of_origin": "United States
+        of America", "entity_type": "artist", "artist_ref_id": "31654", "vevo_id":
+        "89906e04-f10c-4a62-8554-9ca08c738e77", "id": "e2ddf70a-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Talking Heads", "gender": "Both", "rhapsody_id": "4049", "main_genre":
+        "rock", "decade": "1970s / 1980s / 1990s", "name": "Talking Heads"}, {"7digital_id":
+        "14639", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "139409", "vevo_id": "00391db5-4607-4467-92ed-ba80ebcdecb6",
+        "id": "e6971ab5-a6b5-11e0-b446-00251188dd67", "sort_name": "TV on the Radio",
+        "gender": "Male", "rhapsody_id": "5230944", "main_genre": "alternative/indie",
+        "decade": "2000s / 2010s", "name": "TV on the Radio"}, {"country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "111491",
+        "gender": "Both", "sort_name": "Yo La Tengo", "rhapsody_id": "5076", "id":
+        "b675f77a-60d6-4e25-a3b0-af9f72eb49ee", "main_genre": "alternative/indie",
+        "decade": "1980s / 1990s / 2000s / 2010s", "name": "Yo La Tengo"}, {"7digital_id":
+        "15010", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "224899", "gender": "Male", "sort_name": "Clap Your Hands
+        Say Yeah", "rhapsody_id": "7674685", "id": "e6a80483-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "alternative/indie", "decade": "2000s / 2010s", "name": "Clap
+        Your Hands Say Yeah"}, {"7digital_id": "11350", "country_of_origin": "United
+        States of America", "entity_type": "artist", "artist_ref_id": "3782", "vevo_id":
+        "072a39cf-226d-4658-a1a5-78049c00f6be", "id": "f27b1534-3cef-9a5a-df47-e4fd683f045d",
+        "sort_name": "Dylan, Bob", "gender": "Male", "rhapsody_id": "831", "main_genre":
+        "rock", "decade": "2000s / 1990s / 1980s / 1970s / 1960s / 2010s", "name":
+        "Bob Dylan"}, {"country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "315670", "gender": "Male", "sort_name": "Good, the Bad & the Queen", "rhapsody_id":
+        "12014925", "id": "b896ac0b-2ff0-b85b-bced-4150d9686334", "main_genre": "rock",
+        "decade": "2000s", "name": "The Good, the Bad & the Queen"}, {"7digital_id":
+        "13409", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "47919", "vevo_id": "6635a81a-1825-4112-8143-ec8bace804c2",
+        "id": "e64ba67e-a6b5-11e0-b446-00251188dd67", "sort_name": "My Morning Jacket",
+        "gender": "Male", "rhapsody_id": "7347", "main_genre": "alternative/indie",
+        "decade": "2000s / 2010s / 1990s", "name": "My Morning Jacket"}, {"7digital_id":
+        "47954", "country_of_origin": "Canada", "entity_type": "artist", "artist_ref_id":
+        "200486", "vevo_id": "f29c5cf8-bec8-49c6-aeaa-ea27129abecf", "id": "e9fb3604-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Arcade Fire", "gender": "Both", "rhapsody_id": "6593890", "main_genre":
+        "alternative/indie", "decade": "2000s / 2010s", "name": "Arcade Fire"}]}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 03:44:33 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67/similar?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 16 Feb 2015 04:08:18 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '7196'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"name": "Bob Forrest", "entity_type":
+        "artist", "artist_ref_id": "389946", "gender": "Male", "sort_name": "Forrest,
+        Bob", "decade": "2000s", "rhapsody_id": "65678", "id": "2188081d-d67e-e078-3447-96473ce875cd"},
+        {"7digital_id": "543", "country_of_origin": "England", "entity_type": "artist",
+        "artist_ref_id": "33790", "vevo_id": "a1055cd3-a9d8-4016-95a7-d2853d2a9642",
+        "id": "e2758916-a6b5-11e0-b446-00251188dd67", "sort_name": "Verve", "gender":
+        "Male", "rhapsody_id": "731", "main_genre": "alternative/indie", "decade":
+        "1990s / 2000s", "name": "The Verve"}, {"7digital_id": "39290", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "334822",
+        "vevo_id": "70c3b3c1-1c6a-4d33-8581-ef61311575ca", "id": "e7fc182d-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Grinderman", "gender": "Male", "rhapsody_id": "13876621", "main_genre":
+        "alternative/indie", "decade": "2000s / 2010s", "name": "Grinderman"}, {"7digital_id":
+        "171648", "country_of_origin": "United States of America", "entity_type":
+        "artist", "artist_ref_id": "195733", "vevo_id": "0170c249-93a0-419c-86d4-d8d8086bebac",
+        "id": "d1b9dea0-0338-c18e-fae7-7a7b91006eb3", "sort_name": "Grizzly Bear",
+        "gender": "Male", "rhapsody_id": "6883601", "main_genre": "alternative/indie",
+        "decade": "2000s / 2010s", "name": "Grizzly Bear"}, {"7digital_id": "116",
+        "country_of_origin": "France", "entity_type": "artist", "artist_ref_id": "71214",
+        "vevo_id": "7d76efaa-e57e-4b19-8da0-98fd216eab8d", "id": "5abd10ff-d787-d355-cc59-bd7872b00bd8",
+        "sort_name": "Air", "gender": "Male", "rhapsody_id": "6829", "main_genre":
+        "electronica/dance", "decade": "1990s / 2000s / 2010s", "name": "Air"}, {"7digital_id":
+        "10583", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "52728", "vevo_id": "2661eb8a-d41b-47a8-9824-69adb3a191e2",
+        "id": "e5c6dc9e-a6b5-11e0-b446-00251188dd67", "sort_name": "Smith, Elliott",
+        "gender": "Male", "rhapsody_id": "4825", "main_genre": "alternative/indie",
+        "decade": "2000s / 1980s / 1990s", "name": "Elliott Smith"}, {"7digital_id":
+        "165", "country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "24336", "gender": "Male", "sort_name": "Drake, Nick", "rhapsody_id": "452",
+        "id": "ee7413ba-a6b5-11e0-b446-00251188dd67", "main_genre": "folk", "decade":
+        "1970s / 1960s", "name": "Nick Drake"}, {"7digital_id": "27486", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "270549",
+        "vevo_id": "4d1650ce-835d-4121-8c0e-30139c925c51", "id": "e799cf1d-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Bird, Andrew", "gender": "Male", "rhapsody_id": "12440", "main_genre":
+        "alternative/indie", "decade": "1990s / 2000s / 2010s", "name": "Andrew Bird"},
+        {"7digital_id": "2805", "country_of_origin": "England", "entity_type": "artist",
+        "artist_ref_id": "9900", "vevo_id": "526a098f-1e32-4250-810b-5121a2446e4d",
+        "id": "1e724902-b270-2b85-b251-9044bd18a800", "sort_name": "Costello, Elvis",
+        "gender": "Male", "rhapsody_id": "1123", "main_genre": "rock", "decade": "1970s
+        / 1980s / 1990s / 2000s / 2010s", "name": "Elvis Costello"}, {"7digital_id":
+        "5782", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "178124", "vevo_id": "c9c71961-ca5d-4d99-8779-20d6b3d6f5c3",
+        "id": "e4dc3a7a-a6b5-11e0-b446-00251188dd67", "sort_name": "LCD Soundsystem",
+        "gender": "Male", "rhapsody_id": "66426", "main_genre": "pop", "decade": "2000s
+        / 2010s", "name": "LCD Soundsystem"}, {"main_genre": "alternative/indie",
+        "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "189811", "gender": "Both", "sort_name": "Malkmus, Stephen
+        & the Jicks", "id": "84329a13-7f27-7de7-75bf-a2b5c6dcc186", "decade": "2000s",
+        "name": "Stephen Malkmus & the Jicks"}, {"7digital_id": "4021", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "32578",
+        "vevo_id": "e44fbf81-12dc-4b50-8b83-3b6279e4461a", "id": "e45d3d2b-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Flaming Lips", "gender": "Male", "rhapsody_id": "6996", "main_genre":
+        "alternative/indie", "decade": "1980s / 1990s / 2000s / 2010s", "name": "The
+        Flaming Lips"}, {"7digital_id": "919", "country_of_origin": "United States
+        of America", "entity_type": "artist", "artist_ref_id": "31654", "vevo_id":
+        "89906e04-f10c-4a62-8554-9ca08c738e77", "id": "e2ddf70a-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Talking Heads", "gender": "Both", "rhapsody_id": "4049", "main_genre":
+        "rock", "decade": "1970s / 1980s / 1990s", "name": "Talking Heads"}, {"7digital_id":
+        "14639", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "139409", "vevo_id": "00391db5-4607-4467-92ed-ba80ebcdecb6",
+        "id": "e6971ab5-a6b5-11e0-b446-00251188dd67", "sort_name": "TV on the Radio",
+        "gender": "Male", "rhapsody_id": "5230944", "main_genre": "alternative/indie",
+        "decade": "2000s / 2010s", "name": "TV on the Radio"}, {"country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "111491",
+        "gender": "Both", "sort_name": "Yo La Tengo", "rhapsody_id": "5076", "id":
+        "b675f77a-60d6-4e25-a3b0-af9f72eb49ee", "main_genre": "alternative/indie",
+        "decade": "1980s / 1990s / 2000s / 2010s", "name": "Yo La Tengo"}, {"7digital_id":
+        "15010", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "224899", "gender": "Male", "sort_name": "Clap Your Hands
+        Say Yeah", "rhapsody_id": "7674685", "id": "e6a80483-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "alternative/indie", "decade": "2000s / 2010s", "name": "Clap
+        Your Hands Say Yeah"}, {"7digital_id": "11350", "country_of_origin": "United
+        States of America", "entity_type": "artist", "artist_ref_id": "3782", "vevo_id":
+        "072a39cf-226d-4658-a1a5-78049c00f6be", "id": "f27b1534-3cef-9a5a-df47-e4fd683f045d",
+        "sort_name": "Dylan, Bob", "gender": "Male", "rhapsody_id": "831", "main_genre":
+        "rock", "decade": "2000s / 1990s / 1980s / 1970s / 1960s / 2010s", "name":
+        "Bob Dylan"}, {"country_of_origin": "England", "entity_type": "artist", "artist_ref_id":
+        "315670", "gender": "Male", "sort_name": "Good, the Bad & the Queen", "rhapsody_id":
+        "12014925", "id": "b896ac0b-2ff0-b85b-bced-4150d9686334", "main_genre": "rock",
+        "decade": "2000s", "name": "The Good, the Bad & the Queen"}, {"7digital_id":
+        "13409", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "47919", "vevo_id": "6635a81a-1825-4112-8143-ec8bace804c2",
+        "id": "e64ba67e-a6b5-11e0-b446-00251188dd67", "sort_name": "My Morning Jacket",
+        "gender": "Male", "rhapsody_id": "7347", "main_genre": "alternative/indie",
+        "decade": "2000s / 2010s / 1990s", "name": "My Morning Jacket"}, {"7digital_id":
+        "47954", "country_of_origin": "Canada", "entity_type": "artist", "artist_ref_id":
+        "200486", "vevo_id": "f29c5cf8-bec8-49c6-aeaa-ea27129abecf", "id": "e9fb3604-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Arcade Fire", "gender": "Both", "rhapsody_id": "6593890", "main_genre":
+        "alternative/indie", "decade": "2000s / 2010s", "name": "Arcade Fire"}]}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 04:06:06 GMT
 recorded_with: VCR 2.9.3

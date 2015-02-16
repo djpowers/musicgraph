@@ -214,4 +214,16 @@ module MusicGraph
       end
     end
   end
+
+  describe "#similar" do
+    it "returns similar artists for an artist" do
+      VCR.use_cassette("artist", record: :new_episodes) do
+        artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67")
+
+        expect(artist.similar).to be_a Array
+        expect(artist.similar.first).to be_a Artist
+        expect(artist.similar.first.name).to eql("Bob Forrest")
+      end
+    end
+  end
 end
