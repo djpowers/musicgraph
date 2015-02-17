@@ -5,7 +5,7 @@ module MusicGraph
     let(:musicgraph) { MusicGraph::API.new(ENV["API_KEY"]) }
 
     it "exists" do
-      expect(Artist)
+      expect(MusicGraph::Artist)
     end
 
     describe "#search" do
