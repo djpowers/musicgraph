@@ -57,7 +57,9 @@ artist.metadata # => returns all available metadata
 
 artist.similar.first # => "Bob Forrest"
 
-artist.albums # => returns array of albums
+artist.albums # => returns array of albums belonging to artist
+
+artist.tracks # => returns array of tracks belonging to artist
 ```
 
 ## Contributing

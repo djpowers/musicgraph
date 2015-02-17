@@ -75,5 +75,11 @@ module MusicGraph
       albums = JSON.parse(response.body)["data"]
       albums.map { |attributes| Album.new(attributes) }
     end
+
+    def tracks
+      response = Faraday.get("#{API_URL}#{id}/albums?#{KEY_PARAM}")
+      albums = JSON.parse(response.body)["data"]
+      albums.map { |attributes| Track.new(attributes) }
+    end
   end
 end

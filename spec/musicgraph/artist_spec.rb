@@ -237,4 +237,15 @@ module MusicGraph
       end
     end
   end
+
+  describe "#tracks" do
+    it "returns tracks for an artist" do
+      VCR.use_cassette("artist", record: :new_episodes) do
+        artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67")
+
+        expect(artist.tracks).to be_a Array
+        expect(artist.tracks.first).to be_a Track
+      end
+    end
+  end
 end
