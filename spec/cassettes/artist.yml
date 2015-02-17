@@ -1887,4 +1887,816 @@ http_interactions:
         "alternative/indie", "decade": "2000s / 2010s", "name": "Arcade Fire"}]}'
     http_version: 
   recorded_at: Mon, 16 Feb 2015 04:06:06 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67/albums?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 16 Feb 2015 04:55:05 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '10356'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "total": 1855, "offset": 1}, "data": [{"popularity": 0.47, "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2006, "title": "Hell
+        Yes", "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "entity_type":
+        "track", "track_ref_id": "6580429", "artist_name": "Beck", "main_genre": "alternative/indie",
+        "label_name": "Geffen", "track_album_ref_id": "3652479", "album_title": "Guero",
+        "performer_name": "Beck", "track_index": "7", "duration": 161, "isrc": "USIR10401092",
+        "track_rhapsody_id": "108478081", "id": "570f6314-98c1-c090-a95a-87808287d2ac",
+        "track_artist_ref_id": "2918"}, {"popularity": 0.28, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2008, "title": "Gamma Ray", "track_album_id": "47f4d610-a8fe-f5e8-d86a-0a844c00289f",
+        "entity_type": "track", "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "1", "duration": 0, "album_title": "Gamma Ray [Jay Reatard Version]", "id":
+        "bd243d5d-d12f-af2f-9f47-56627dbb980f"}, {"popularity": 0.42, "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2006, "title": "New
+        Round", "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11", "entity_type":
+        "track", "track_ref_id": "8404049", "artist_name": "Beck", "main_genre": "rock",
+        "label_name": "Interscope", "track_album_ref_id": "8488805", "performer_name":
+        "Beck", "track_index": "7", "duration": 205, "isrc": "USUM70607753", "album_title":
+        "Information", "id": "baf9c558-9d64-eed2-2eb2-87ea08f7d497", "track_artist_ref_id":
+        "2918"}, {"popularity": -1.0, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2007, "title": "We Dance Alone", "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "entity_type": "track", "track_ref_id": "8488855", "artist_name": "Beck",
+        "main_genre": "alternative/indie", "label_name": "Interscope", "track_album_ref_id":
+        "8488805", "album_title": "Information", "performer_name": "Beck", "track_index":
+        "33", "duration": 237, "isrc": "USUM70607760", "track_rhapsody_id": "11860591",
+        "id": "4d408814-b5bd-849c-1a02-2f5358f82e21", "track_artist_ref_id": "2918"},
+        {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2014, "title": "Unforgiven", "track_album_id": "149c86b1-b8a9-431c-ac1c-1a83715fed61",
+        "entity_type": "track", "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "6", "duration": 274, "album_title": "Morning Phase", "track_rhapsody_id":
+        "138136317", "id": "1bf896aa-734b-477c-a8a8-9d3f7d20959d"}, {"popularity":
+        0.23, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "title": "Painted Eyelids", "track_album_id": "80016e82-cbc6-1315-47fe-2293c8ba190d",
+        "entity_type": "track", "track_ref_id": "28682745", "artist_name": "Beck",
+        "main_genre": "alternative/indie", "label_name": "XL", "track_album_ref_id":
+        "28682703", "album_title": "One Foot in the Grave", "performer_name": "Beck",
+        "track_index": "15", "duration": 186, "isrc": "USK110402815", "track_rhapsody_id":
+        "27897344", "id": "5ce44577-ed52-5882-c25b-b45e3b0d07b6", "track_artist_ref_id":
+        "2918"}, {"popularity": 0.38, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "title": "Derelict", "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0",
+        "entity_type": "track", "track_ref_id": "2002729", "artist_name": "Beck",
+        "main_genre": "alternative/indie", "label_name": "Geffen", "track_album_ref_id":
+        "2002711", "album_title": "Odelay", "performer_name": "Beck", "track_index":
+        "5", "duration": 252, "isrc": "USGF19682305", "track_rhapsody_id": "1995461",
+        "id": "3d8574a9-17e5-d801-952c-99b385f8fcda", "track_artist_ref_id": "2918"},
+        {"popularity": 0.46, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2005, "title": "Missing", "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1",
+        "entity_type": "track", "track_ref_id": "3652487", "artist_name": "Beck",
+        "main_genre": "rock", "label_name": "Geffen", "track_album_ref_id": "3652479",
+        "album_title": "Guero", "performer_name": "Beck", "track_index": "4", "duration":
+        284, "isrc": "USIR10500091", "track_rhapsody_id": "57886267", "id": "a8bed73d-5244-ed97-d031-a241e8302043",
+        "track_artist_ref_id": "2918"}, {"popularity": -1.0, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2009, "title": "Everybody''s Got to Learn Sometime [Exclusive
+        Recording]", "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447", "artist_name":
+        "Beck", "entity_type": "track", "performer_name": "Beck", "track_index": "9",
+        "duration": 352, "isrc": "USIR10400238", "album_title": "Eternal Sunshine
+        of the Spotless Mind", "id": "c0713a64-b4ac-9aae-387c-9d9452a88bba"}, {"popularity":
+        0.36, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2005, "title": "Ghost Range (E-Pro)", "track_album_id": "e3c43058-81af-4ab6-3747-e8710d2c6892",
+        "entity_type": "track", "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "1", "duration": 263, "album_title": "Guerolito", "id": "bab80594-27d0-bdd5-349a-d0f438091cf7"},
+        {"popularity": 0.45, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2008, "title": "Ramshackle", "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0",
+        "entity_type": "track", "track_ref_id": "12696803", "artist_name": "Beck",
+        "main_genre": "alternative/indie", "label_name": "Interscope", "track_album_ref_id":
+        "2002711", "album_title": "Odelay", "performer_name": "Beck", "track_index":
+        "13", "duration": 283, "isrc": "USGF19682313", "track_rhapsody_id": "18144763",
+        "id": "1d869777-1fdc-dfa8-2038-312f56a0761f", "track_artist_ref_id": "2918"},
+        {"popularity": 0.4, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "title": "Novacane", "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0",
+        "entity_type": "track", "track_ref_id": "2002713", "artist_name": "Beck",
+        "main_genre": "alternative/indie", "label_name": "Geffen", "track_album_ref_id":
+        "2002711", "performer_name": "Beck", "track_index": "6", "duration": 277,
+        "isrc": "USGF19682306", "album_title": "Odelay", "id": "47b85581-fc61-ddcb-3448-08823ab502ce",
+        "track_artist_ref_id": "2918"}, {"popularity": 0.33, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "title": "Hollywood Freaks", "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "entity_type": "track", "track_ref_id": "2002697", "artist_name": "Beck",
+        "main_genre": "alternative/indie", "label_name": "Geffen", "track_album_ref_id":
+        "2002685", "album_title": "Midnite Vultures", "performer_name": "Beck", "track_index":
+        "5", "duration": 239, "isrc": "USIR19915164", "track_rhapsody_id": "1881884",
+        "id": "430331d5-6bda-9da9-b39c-8792b0afd794", "track_artist_ref_id": "2918"},
+        {"popularity": 0.46, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2005, "title": "Missing", "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1",
+        "entity_type": "track", "track_ref_id": "3652487", "artist_name": "Beck",
+        "main_genre": "rock", "label_name": "Geffen", "track_album_ref_id": "3652479",
+        "album_title": "Guero", "performer_name": "Beck", "track_index": "4", "duration":
+        284, "isrc": "USIR10500091", "track_rhapsody_id": "57886267", "id": "aa26917b-f0de-6877-c599-135d60ae11cc",
+        "track_artist_ref_id": "2918"}, {"popularity": 0.31, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "title": "Milk & Honey", "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "entity_type": "track", "track_ref_id": "2801315", "artist_name": "Beck",
+        "main_genre": "alternative/indie", "label_name": "Geffen", "track_album_ref_id":
+        "2002685", "album_title": "Midnite Vultures", "performer_name": "Beck", "track_index":
+        "8", "duration": 319, "isrc": "USIR19915167", "track_rhapsody_id": "1881887",
+        "id": "3d4ea0b5-43d7-b44e-8582-cc32f4643ffa", "track_artist_ref_id": "2918"},
+        {"popularity": -1.0, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1994, "title": "Mutherfuker", "track_album_id": "e1cb865a-ae90-0ce5-0b84-4e44ab7e44d5",
+        "artist_name": "Beck", "entity_type": "track", "performer_name": "Beck", "track_index":
+        "11", "duration": 125, "isrc": "USGF19463411", "album_title": "Mellow Gold",
+        "id": "abce6fdf-886c-6178-433c-aae40d971958"}, {"popularity": -1.0, "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2004, "title": "Everybody''s
+        Gotta Learn Sometimes", "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447",
+        "entity_type": "track", "track_ref_id": "2749445", "artist_name": "Beck",
+        "main_genre": "soundtracks", "label_name": "Hollywood", "track_album_ref_id":
+        "2749427", "album_title": "Eternal Sunshine of the Spotless Mind", "performer_name":
+        "Beck", "track_index": "9", "duration": 354, "isrc": "USIR10400238", "track_rhapsody_id":
+        "5190322", "id": "49704602-0dfe-83b8-e21f-0a7d759db83c", "track_artist_ref_id":
+        "2918"}, {"popularity": -1.0, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "title": "Where It''s At", "track_album_id": "52b27d3d-2385-a6da-9326-1d24ebf3a723",
+        "entity_type": "track", "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "2", "duration": 223, "album_title": "Where It''s At", "track_rhapsody_id":
+        "107570704", "id": "66494148-af38-e45f-8f0b-23ea14b52d4b"}, {"popularity":
+        -1.0, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2006, "title": "Elevator Music", "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "entity_type": "track", "track_ref_id": "8488839", "artist_name": "Beck",
+        "main_genre": "alternative/indie", "label_name": "Interscope", "track_album_ref_id":
+        "8488805", "performer_name": "Beck", "track_index": "17", "duration": 217,
+        "isrc": "USUM70607763", "album_title": "Information", "id": "00bd2dcb-f8ac-ca5c-f21e-bdd8fba68db3",
+        "track_artist_ref_id": "2918"}, {"popularity": 0.43, "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2012, "title": "Farewell Ride", "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1",
+        "artist_name": "Beck", "entity_type": "track", "performer_name": "Beck", "track_index":
+        "11", "duration": 259, "isrc": "USIR10500089", "album_title": "Guero", "id":
+        "556e17f7-facb-cbb2-0d3a-971d4ad13325"}]}'
+    http_version: 
+  recorded_at: Mon, 16 Feb 2015 04:54:43 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67/albums?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 17 Feb 2015 00:33:38 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '10356'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "total": 1855, "offset": 1}, "data": [{"isrc": "USIR10401092",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2006, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "id": "570f6314-98c1-c090-a95a-87808287d2ac",
+        "popularity": 0.47, "track_ref_id": "6580429", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Geffen", "track_album_ref_id": "3652479",
+        "performer_name": "Beck", "album_title": "Guero", "duration": 161, "title":
+        "Hell Yes", "track_rhapsody_id": "108478081", "track_index": "7", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2008, "entity_type": "track", "track_album_id": "47f4d610-a8fe-f5e8-d86a-0a844c00289f",
+        "popularity": 0.28, "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "1", "duration": 0, "title": "Gamma Ray", "album_title": "Gamma Ray [Jay Reatard
+        Version]", "id": "bd243d5d-d12f-af2f-9f47-56627dbb980f"}, {"track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2006, "track_album_id":
+        "8e26e075-74a4-ab3e-1b12-c05a8876ff11", "id": "baf9c558-9d64-eed2-2eb2-87ea08f7d497",
+        "popularity": 0.42, "track_ref_id": "8404049", "artist_name": "Beck", "main_genre":
+        "rock", "label_name": "Interscope", "track_album_ref_id": "8488805", "performer_name":
+        "Beck", "track_index": "7", "duration": 205, "title": "New Round", "album_title":
+        "Information", "isrc": "USUM70607753", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"isrc": "USUM70607760", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2007, "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "id": "4d408814-b5bd-849c-1a02-2f5358f82e21", "popularity": -1.0, "track_ref_id":
+        "8488855", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Interscope", "track_album_ref_id": "8488805", "performer_name": "Beck", "album_title":
+        "Information", "duration": 237, "title": "We Dance Alone", "track_rhapsody_id":
+        "11860591", "track_index": "33", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2014, "entity_type": "track", "track_album_id": "149c86b1-b8a9-431c-ac1c-1a83715fed61",
+        "title": "Unforgiven", "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "6", "duration": 274, "album_title": "Morning Phase", "track_rhapsody_id":
+        "138136317", "id": "1bf896aa-734b-477c-a8a8-9d3f7d20959d"}, {"isrc": "USK110402815",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "track_album_id": "80016e82-cbc6-1315-47fe-2293c8ba190d", "id": "5ce44577-ed52-5882-c25b-b45e3b0d07b6",
+        "popularity": 0.23, "track_ref_id": "28682745", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "XL", "track_album_ref_id": "28682703",
+        "performer_name": "Beck", "album_title": "One Foot in the Grave", "duration":
+        186, "title": "Painted Eyelids", "track_rhapsody_id": "27897344", "track_index":
+        "15", "entity_type": "track", "track_artist_ref_id": "2918"}, {"isrc": "USGF19682305",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2004, "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0", "id": "3d8574a9-17e5-d801-952c-99b385f8fcda",
+        "popularity": 0.38, "track_ref_id": "2002729", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Geffen", "track_album_ref_id": "2002711",
+        "performer_name": "Beck", "album_title": "Odelay", "duration": 252, "title":
+        "Derelict", "track_rhapsody_id": "1995461", "track_index": "5", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"isrc": "USIR10500091", "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2005, "track_album_id":
+        "277afc0a-9165-88b5-29d3-12ed7b0134a1", "id": "a8bed73d-5244-ed97-d031-a241e8302043",
+        "popularity": 0.46, "track_ref_id": "3652487", "artist_name": "Beck", "main_genre":
+        "rock", "label_name": "Geffen", "track_album_ref_id": "3652479", "performer_name":
+        "Beck", "album_title": "Guero", "duration": 284, "title": "Missing", "track_rhapsody_id":
+        "57886267", "track_index": "4", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2009, "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447", "popularity":
+        -1.0, "artist_name": "Beck", "id": "c0713a64-b4ac-9aae-387c-9d9452a88bba",
+        "performer_name": "Beck", "track_index": "9", "duration": 352, "title": "Everybody''s
+        Got to Learn Sometime [Exclusive Recording]", "album_title": "Eternal Sunshine
+        of the Spotless Mind", "isrc": "USIR10400238", "entity_type": "track"}, {"track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2005, "entity_type":
+        "track", "track_album_id": "e3c43058-81af-4ab6-3747-e8710d2c6892", "popularity":
+        0.36, "artist_name": "Beck", "performer_name": "Beck", "track_index": "1",
+        "duration": 263, "title": "Ghost Range (E-Pro)", "album_title": "Guerolito",
+        "id": "bab80594-27d0-bdd5-349a-d0f438091cf7"}, {"isrc": "USGF19682313", "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2008, "track_album_id":
+        "ce7f26ef-ee57-abd0-acfc-723da5d604d0", "id": "1d869777-1fdc-dfa8-2038-312f56a0761f",
+        "popularity": 0.45, "track_ref_id": "12696803", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Interscope", "track_album_ref_id": "2002711",
+        "performer_name": "Beck", "album_title": "Odelay", "duration": 283, "title":
+        "Ramshackle", "track_rhapsody_id": "18144763", "track_index": "13", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0",
+        "id": "47b85581-fc61-ddcb-3448-08823ab502ce", "popularity": 0.4, "track_ref_id":
+        "2002713", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002711", "performer_name": "Beck", "track_index":
+        "6", "duration": 277, "title": "Novacane", "album_title": "Odelay", "isrc":
+        "USGF19682306", "entity_type": "track", "track_artist_ref_id": "2918"}, {"isrc":
+        "USIR19915164", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "id": "430331d5-6bda-9da9-b39c-8792b0afd794", "popularity": 0.33, "track_ref_id":
+        "2002697", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002685", "performer_name": "Beck", "album_title":
+        "Midnite Vultures", "duration": 239, "title": "Hollywood Freaks", "track_rhapsody_id":
+        "1881884", "track_index": "5", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"isrc": "USIR10500091", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2005, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1",
+        "id": "aa26917b-f0de-6877-c599-135d60ae11cc", "popularity": 0.46, "track_ref_id":
+        "3652487", "artist_name": "Beck", "main_genre": "rock", "label_name": "Geffen",
+        "track_album_ref_id": "3652479", "performer_name": "Beck", "album_title":
+        "Guero", "duration": 284, "title": "Missing", "track_rhapsody_id": "57886267",
+        "track_index": "4", "entity_type": "track", "track_artist_ref_id": "2918"},
+        {"isrc": "USIR19915167", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "id": "3d4ea0b5-43d7-b44e-8582-cc32f4643ffa", "popularity": 0.31, "track_ref_id":
+        "2801315", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002685", "performer_name": "Beck", "album_title":
+        "Midnite Vultures", "duration": 319, "title": "Milk & Honey", "track_rhapsody_id":
+        "1881887", "track_index": "8", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "track_album_id": "e1cb865a-ae90-0ce5-0b84-4e44ab7e44d5", "popularity":
+        -1.0, "artist_name": "Beck", "id": "abce6fdf-886c-6178-433c-aae40d971958",
+        "performer_name": "Beck", "track_index": "11", "duration": 125, "title": "Mutherfuker",
+        "album_title": "Mellow Gold", "isrc": "USGF19463411", "entity_type": "track"},
+        {"isrc": "USIR10400238", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447",
+        "id": "49704602-0dfe-83b8-e21f-0a7d759db83c", "popularity": -1.0, "track_ref_id":
+        "2749445", "artist_name": "Beck", "main_genre": "soundtracks", "label_name":
+        "Hollywood", "track_album_ref_id": "2749427", "performer_name": "Beck", "album_title":
+        "Eternal Sunshine of the Spotless Mind", "duration": 354, "title": "Everybody''s
+        Gotta Learn Sometimes", "track_rhapsody_id": "5190322", "track_index": "9",
+        "entity_type": "track", "track_artist_ref_id": "2918"}, {"track_rhapsody_id":
+        "107570704", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1999, "entity_type": "track", "track_album_id": "52b27d3d-2385-a6da-9326-1d24ebf3a723",
+        "popularity": -1.0, "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "2", "duration": 223, "title": "Where It''s At", "album_title": "Where It''s
+        At", "id": "66494148-af38-e45f-8f0b-23ea14b52d4b"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2006, "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "id": "00bd2dcb-f8ac-ca5c-f21e-bdd8fba68db3", "popularity": -1.0, "track_ref_id":
+        "8488839", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Interscope", "track_album_ref_id": "8488805", "performer_name": "Beck", "track_index":
+        "17", "duration": 217, "title": "Elevator Music", "album_title": "Information",
+        "isrc": "USUM70607763", "entity_type": "track", "track_artist_ref_id": "2918"},
+        {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2012, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "popularity":
+        0.43, "artist_name": "Beck", "id": "556e17f7-facb-cbb2-0d3a-971d4ad13325",
+        "performer_name": "Beck", "track_index": "11", "duration": 259, "title": "Farewell
+        Ride", "album_title": "Guero", "isrc": "USIR10500089", "entity_type": "track"}]}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 00:31:24 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67/albums?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 17 Feb 2015 00:35:14 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '10356'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "total": 1855, "offset": 1}, "data": [{"isrc": "USIR10401092",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2006, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "id": "570f6314-98c1-c090-a95a-87808287d2ac",
+        "popularity": 0.47, "track_ref_id": "6580429", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Geffen", "track_album_ref_id": "3652479",
+        "performer_name": "Beck", "album_title": "Guero", "duration": 161, "title":
+        "Hell Yes", "track_rhapsody_id": "108478081", "track_index": "7", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2008, "entity_type": "track", "track_album_id": "47f4d610-a8fe-f5e8-d86a-0a844c00289f",
+        "popularity": 0.28, "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "1", "duration": 0, "title": "Gamma Ray", "album_title": "Gamma Ray [Jay Reatard
+        Version]", "id": "bd243d5d-d12f-af2f-9f47-56627dbb980f"}, {"track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2006, "track_album_id":
+        "8e26e075-74a4-ab3e-1b12-c05a8876ff11", "id": "baf9c558-9d64-eed2-2eb2-87ea08f7d497",
+        "popularity": 0.42, "track_ref_id": "8404049", "artist_name": "Beck", "main_genre":
+        "rock", "label_name": "Interscope", "track_album_ref_id": "8488805", "performer_name":
+        "Beck", "track_index": "7", "duration": 205, "title": "New Round", "album_title":
+        "Information", "isrc": "USUM70607753", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"isrc": "USUM70607760", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2007, "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "id": "4d408814-b5bd-849c-1a02-2f5358f82e21", "popularity": -1.0, "track_ref_id":
+        "8488855", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Interscope", "track_album_ref_id": "8488805", "performer_name": "Beck", "album_title":
+        "Information", "duration": 237, "title": "We Dance Alone", "track_rhapsody_id":
+        "11860591", "track_index": "33", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2014, "entity_type": "track", "track_album_id": "149c86b1-b8a9-431c-ac1c-1a83715fed61",
+        "title": "Unforgiven", "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "6", "duration": 274, "album_title": "Morning Phase", "track_rhapsody_id":
+        "138136317", "id": "1bf896aa-734b-477c-a8a8-9d3f7d20959d"}, {"isrc": "USK110402815",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "track_album_id": "80016e82-cbc6-1315-47fe-2293c8ba190d", "id": "5ce44577-ed52-5882-c25b-b45e3b0d07b6",
+        "popularity": 0.23, "track_ref_id": "28682745", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "XL", "track_album_ref_id": "28682703",
+        "performer_name": "Beck", "album_title": "One Foot in the Grave", "duration":
+        186, "title": "Painted Eyelids", "track_rhapsody_id": "27897344", "track_index":
+        "15", "entity_type": "track", "track_artist_ref_id": "2918"}, {"isrc": "USGF19682305",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2004, "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0", "id": "3d8574a9-17e5-d801-952c-99b385f8fcda",
+        "popularity": 0.38, "track_ref_id": "2002729", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Geffen", "track_album_ref_id": "2002711",
+        "performer_name": "Beck", "album_title": "Odelay", "duration": 252, "title":
+        "Derelict", "track_rhapsody_id": "1995461", "track_index": "5", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"isrc": "USIR10500091", "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2005, "track_album_id":
+        "277afc0a-9165-88b5-29d3-12ed7b0134a1", "id": "a8bed73d-5244-ed97-d031-a241e8302043",
+        "popularity": 0.46, "track_ref_id": "3652487", "artist_name": "Beck", "main_genre":
+        "rock", "label_name": "Geffen", "track_album_ref_id": "3652479", "performer_name":
+        "Beck", "album_title": "Guero", "duration": 284, "title": "Missing", "track_rhapsody_id":
+        "57886267", "track_index": "4", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2009, "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447", "popularity":
+        -1.0, "artist_name": "Beck", "id": "c0713a64-b4ac-9aae-387c-9d9452a88bba",
+        "performer_name": "Beck", "track_index": "9", "duration": 352, "title": "Everybody''s
+        Got to Learn Sometime [Exclusive Recording]", "album_title": "Eternal Sunshine
+        of the Spotless Mind", "isrc": "USIR10400238", "entity_type": "track"}, {"track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2005, "entity_type":
+        "track", "track_album_id": "e3c43058-81af-4ab6-3747-e8710d2c6892", "popularity":
+        0.36, "artist_name": "Beck", "performer_name": "Beck", "track_index": "1",
+        "duration": 263, "title": "Ghost Range (E-Pro)", "album_title": "Guerolito",
+        "id": "bab80594-27d0-bdd5-349a-d0f438091cf7"}, {"isrc": "USGF19682313", "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2008, "track_album_id":
+        "ce7f26ef-ee57-abd0-acfc-723da5d604d0", "id": "1d869777-1fdc-dfa8-2038-312f56a0761f",
+        "popularity": 0.45, "track_ref_id": "12696803", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Interscope", "track_album_ref_id": "2002711",
+        "performer_name": "Beck", "album_title": "Odelay", "duration": 283, "title":
+        "Ramshackle", "track_rhapsody_id": "18144763", "track_index": "13", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0",
+        "id": "47b85581-fc61-ddcb-3448-08823ab502ce", "popularity": 0.4, "track_ref_id":
+        "2002713", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002711", "performer_name": "Beck", "track_index":
+        "6", "duration": 277, "title": "Novacane", "album_title": "Odelay", "isrc":
+        "USGF19682306", "entity_type": "track", "track_artist_ref_id": "2918"}, {"isrc":
+        "USIR19915164", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "id": "430331d5-6bda-9da9-b39c-8792b0afd794", "popularity": 0.33, "track_ref_id":
+        "2002697", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002685", "performer_name": "Beck", "album_title":
+        "Midnite Vultures", "duration": 239, "title": "Hollywood Freaks", "track_rhapsody_id":
+        "1881884", "track_index": "5", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"isrc": "USIR10500091", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2005, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1",
+        "id": "aa26917b-f0de-6877-c599-135d60ae11cc", "popularity": 0.46, "track_ref_id":
+        "3652487", "artist_name": "Beck", "main_genre": "rock", "label_name": "Geffen",
+        "track_album_ref_id": "3652479", "performer_name": "Beck", "album_title":
+        "Guero", "duration": 284, "title": "Missing", "track_rhapsody_id": "57886267",
+        "track_index": "4", "entity_type": "track", "track_artist_ref_id": "2918"},
+        {"isrc": "USIR19915167", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "id": "3d4ea0b5-43d7-b44e-8582-cc32f4643ffa", "popularity": 0.31, "track_ref_id":
+        "2801315", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002685", "performer_name": "Beck", "album_title":
+        "Midnite Vultures", "duration": 319, "title": "Milk & Honey", "track_rhapsody_id":
+        "1881887", "track_index": "8", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "track_album_id": "e1cb865a-ae90-0ce5-0b84-4e44ab7e44d5", "popularity":
+        -1.0, "artist_name": "Beck", "id": "abce6fdf-886c-6178-433c-aae40d971958",
+        "performer_name": "Beck", "track_index": "11", "duration": 125, "title": "Mutherfuker",
+        "album_title": "Mellow Gold", "isrc": "USGF19463411", "entity_type": "track"},
+        {"isrc": "USIR10400238", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447",
+        "id": "49704602-0dfe-83b8-e21f-0a7d759db83c", "popularity": -1.0, "track_ref_id":
+        "2749445", "artist_name": "Beck", "main_genre": "soundtracks", "label_name":
+        "Hollywood", "track_album_ref_id": "2749427", "performer_name": "Beck", "album_title":
+        "Eternal Sunshine of the Spotless Mind", "duration": 354, "title": "Everybody''s
+        Gotta Learn Sometimes", "track_rhapsody_id": "5190322", "track_index": "9",
+        "entity_type": "track", "track_artist_ref_id": "2918"}, {"track_rhapsody_id":
+        "107570704", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1999, "entity_type": "track", "track_album_id": "52b27d3d-2385-a6da-9326-1d24ebf3a723",
+        "popularity": -1.0, "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "2", "duration": 223, "title": "Where It''s At", "album_title": "Where It''s
+        At", "id": "66494148-af38-e45f-8f0b-23ea14b52d4b"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2006, "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "id": "00bd2dcb-f8ac-ca5c-f21e-bdd8fba68db3", "popularity": -1.0, "track_ref_id":
+        "8488839", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Interscope", "track_album_ref_id": "8488805", "performer_name": "Beck", "track_index":
+        "17", "duration": 217, "title": "Elevator Music", "album_title": "Information",
+        "isrc": "USUM70607763", "entity_type": "track", "track_artist_ref_id": "2918"},
+        {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2012, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "popularity":
+        0.43, "artist_name": "Beck", "id": "556e17f7-facb-cbb2-0d3a-971d4ad13325",
+        "performer_name": "Beck", "track_index": "11", "duration": 259, "title": "Farewell
+        Ride", "album_title": "Guero", "isrc": "USIR10500089", "entity_type": "track"}]}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 00:33:00 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67/albums?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 17 Feb 2015 00:32:23 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '10356'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "total": 1855, "offset": 1}, "data": [{"isrc": "USIR10401092",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2006, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "id": "570f6314-98c1-c090-a95a-87808287d2ac",
+        "popularity": 0.47, "track_ref_id": "6580429", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Geffen", "track_album_ref_id": "3652479",
+        "performer_name": "Beck", "album_title": "Guero", "duration": 161, "title":
+        "Hell Yes", "track_rhapsody_id": "108478081", "track_index": "7", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2008, "entity_type": "track", "track_album_id": "47f4d610-a8fe-f5e8-d86a-0a844c00289f",
+        "popularity": 0.28, "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "1", "duration": 0, "title": "Gamma Ray", "album_title": "Gamma Ray [Jay Reatard
+        Version]", "id": "bd243d5d-d12f-af2f-9f47-56627dbb980f"}, {"track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2006, "track_album_id":
+        "8e26e075-74a4-ab3e-1b12-c05a8876ff11", "id": "baf9c558-9d64-eed2-2eb2-87ea08f7d497",
+        "popularity": 0.42, "track_ref_id": "8404049", "artist_name": "Beck", "main_genre":
+        "rock", "label_name": "Interscope", "track_album_ref_id": "8488805", "performer_name":
+        "Beck", "track_index": "7", "duration": 205, "title": "New Round", "album_title":
+        "Information", "isrc": "USUM70607753", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"isrc": "USUM70607760", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2007, "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "id": "4d408814-b5bd-849c-1a02-2f5358f82e21", "popularity": -1.0, "track_ref_id":
+        "8488855", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Interscope", "track_album_ref_id": "8488805", "performer_name": "Beck", "album_title":
+        "Information", "duration": 237, "title": "We Dance Alone", "track_rhapsody_id":
+        "11860591", "track_index": "33", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2014, "entity_type": "track", "track_album_id": "149c86b1-b8a9-431c-ac1c-1a83715fed61",
+        "title": "Unforgiven", "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "6", "duration": 274, "album_title": "Morning Phase", "track_rhapsody_id":
+        "138136317", "id": "1bf896aa-734b-477c-a8a8-9d3f7d20959d"}, {"isrc": "USK110402815",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "track_album_id": "80016e82-cbc6-1315-47fe-2293c8ba190d", "id": "5ce44577-ed52-5882-c25b-b45e3b0d07b6",
+        "popularity": 0.23, "track_ref_id": "28682745", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "XL", "track_album_ref_id": "28682703",
+        "performer_name": "Beck", "album_title": "One Foot in the Grave", "duration":
+        186, "title": "Painted Eyelids", "track_rhapsody_id": "27897344", "track_index":
+        "15", "entity_type": "track", "track_artist_ref_id": "2918"}, {"isrc": "USGF19682305",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2004, "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0", "id": "3d8574a9-17e5-d801-952c-99b385f8fcda",
+        "popularity": 0.38, "track_ref_id": "2002729", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Geffen", "track_album_ref_id": "2002711",
+        "performer_name": "Beck", "album_title": "Odelay", "duration": 252, "title":
+        "Derelict", "track_rhapsody_id": "1995461", "track_index": "5", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"isrc": "USIR10500091", "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2005, "track_album_id":
+        "277afc0a-9165-88b5-29d3-12ed7b0134a1", "id": "a8bed73d-5244-ed97-d031-a241e8302043",
+        "popularity": 0.46, "track_ref_id": "3652487", "artist_name": "Beck", "main_genre":
+        "rock", "label_name": "Geffen", "track_album_ref_id": "3652479", "performer_name":
+        "Beck", "album_title": "Guero", "duration": 284, "title": "Missing", "track_rhapsody_id":
+        "57886267", "track_index": "4", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2009, "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447", "popularity":
+        -1.0, "artist_name": "Beck", "id": "c0713a64-b4ac-9aae-387c-9d9452a88bba",
+        "performer_name": "Beck", "track_index": "9", "duration": 352, "title": "Everybody''s
+        Got to Learn Sometime [Exclusive Recording]", "album_title": "Eternal Sunshine
+        of the Spotless Mind", "isrc": "USIR10400238", "entity_type": "track"}, {"track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2005, "entity_type":
+        "track", "track_album_id": "e3c43058-81af-4ab6-3747-e8710d2c6892", "popularity":
+        0.36, "artist_name": "Beck", "performer_name": "Beck", "track_index": "1",
+        "duration": 263, "title": "Ghost Range (E-Pro)", "album_title": "Guerolito",
+        "id": "bab80594-27d0-bdd5-349a-d0f438091cf7"}, {"isrc": "USGF19682313", "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2008, "track_album_id":
+        "ce7f26ef-ee57-abd0-acfc-723da5d604d0", "id": "1d869777-1fdc-dfa8-2038-312f56a0761f",
+        "popularity": 0.45, "track_ref_id": "12696803", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Interscope", "track_album_ref_id": "2002711",
+        "performer_name": "Beck", "album_title": "Odelay", "duration": 283, "title":
+        "Ramshackle", "track_rhapsody_id": "18144763", "track_index": "13", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0",
+        "id": "47b85581-fc61-ddcb-3448-08823ab502ce", "popularity": 0.4, "track_ref_id":
+        "2002713", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002711", "performer_name": "Beck", "track_index":
+        "6", "duration": 277, "title": "Novacane", "album_title": "Odelay", "isrc":
+        "USGF19682306", "entity_type": "track", "track_artist_ref_id": "2918"}, {"isrc":
+        "USIR19915164", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "id": "430331d5-6bda-9da9-b39c-8792b0afd794", "popularity": 0.33, "track_ref_id":
+        "2002697", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002685", "performer_name": "Beck", "album_title":
+        "Midnite Vultures", "duration": 239, "title": "Hollywood Freaks", "track_rhapsody_id":
+        "1881884", "track_index": "5", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"isrc": "USIR10500091", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2005, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1",
+        "id": "aa26917b-f0de-6877-c599-135d60ae11cc", "popularity": 0.46, "track_ref_id":
+        "3652487", "artist_name": "Beck", "main_genre": "rock", "label_name": "Geffen",
+        "track_album_ref_id": "3652479", "performer_name": "Beck", "album_title":
+        "Guero", "duration": 284, "title": "Missing", "track_rhapsody_id": "57886267",
+        "track_index": "4", "entity_type": "track", "track_artist_ref_id": "2918"},
+        {"isrc": "USIR19915167", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "id": "3d4ea0b5-43d7-b44e-8582-cc32f4643ffa", "popularity": 0.31, "track_ref_id":
+        "2801315", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002685", "performer_name": "Beck", "album_title":
+        "Midnite Vultures", "duration": 319, "title": "Milk & Honey", "track_rhapsody_id":
+        "1881887", "track_index": "8", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "track_album_id": "e1cb865a-ae90-0ce5-0b84-4e44ab7e44d5", "popularity":
+        -1.0, "artist_name": "Beck", "id": "abce6fdf-886c-6178-433c-aae40d971958",
+        "performer_name": "Beck", "track_index": "11", "duration": 125, "title": "Mutherfuker",
+        "album_title": "Mellow Gold", "isrc": "USGF19463411", "entity_type": "track"},
+        {"isrc": "USIR10400238", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447",
+        "id": "49704602-0dfe-83b8-e21f-0a7d759db83c", "popularity": -1.0, "track_ref_id":
+        "2749445", "artist_name": "Beck", "main_genre": "soundtracks", "label_name":
+        "Hollywood", "track_album_ref_id": "2749427", "performer_name": "Beck", "album_title":
+        "Eternal Sunshine of the Spotless Mind", "duration": 354, "title": "Everybody''s
+        Gotta Learn Sometimes", "track_rhapsody_id": "5190322", "track_index": "9",
+        "entity_type": "track", "track_artist_ref_id": "2918"}, {"track_rhapsody_id":
+        "107570704", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1999, "entity_type": "track", "track_album_id": "52b27d3d-2385-a6da-9326-1d24ebf3a723",
+        "popularity": -1.0, "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "2", "duration": 223, "title": "Where It''s At", "album_title": "Where It''s
+        At", "id": "66494148-af38-e45f-8f0b-23ea14b52d4b"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2006, "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "id": "00bd2dcb-f8ac-ca5c-f21e-bdd8fba68db3", "popularity": -1.0, "track_ref_id":
+        "8488839", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Interscope", "track_album_ref_id": "8488805", "performer_name": "Beck", "track_index":
+        "17", "duration": 217, "title": "Elevator Music", "album_title": "Information",
+        "isrc": "USUM70607763", "entity_type": "track", "track_artist_ref_id": "2918"},
+        {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2012, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "popularity":
+        0.43, "artist_name": "Beck", "id": "556e17f7-facb-cbb2-0d3a-971d4ad13325",
+        "performer_name": "Beck", "track_index": "11", "duration": 259, "title": "Farewell
+        Ride", "album_title": "Guero", "isrc": "USIR10500089", "entity_type": "track"}]}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 00:33:15 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/e4de0d41-a6b5-11e0-b446-00251188dd67/albums?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Tue, 17 Feb 2015 00:32:26 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '10356'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "total": 1855, "offset": 1}, "data": [{"isrc": "USIR10401092",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2006, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "id": "570f6314-98c1-c090-a95a-87808287d2ac",
+        "popularity": 0.47, "track_ref_id": "6580429", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Geffen", "track_album_ref_id": "3652479",
+        "performer_name": "Beck", "album_title": "Guero", "duration": 161, "title":
+        "Hell Yes", "track_rhapsody_id": "108478081", "track_index": "7", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2008, "entity_type": "track", "track_album_id": "47f4d610-a8fe-f5e8-d86a-0a844c00289f",
+        "popularity": 0.28, "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "1", "duration": 0, "title": "Gamma Ray", "album_title": "Gamma Ray [Jay Reatard
+        Version]", "id": "bd243d5d-d12f-af2f-9f47-56627dbb980f"}, {"track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2006, "track_album_id":
+        "8e26e075-74a4-ab3e-1b12-c05a8876ff11", "id": "baf9c558-9d64-eed2-2eb2-87ea08f7d497",
+        "popularity": 0.42, "track_ref_id": "8404049", "artist_name": "Beck", "main_genre":
+        "rock", "label_name": "Interscope", "track_album_ref_id": "8488805", "performer_name":
+        "Beck", "track_index": "7", "duration": 205, "title": "New Round", "album_title":
+        "Information", "isrc": "USUM70607753", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"isrc": "USUM70607760", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2007, "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "id": "4d408814-b5bd-849c-1a02-2f5358f82e21", "popularity": -1.0, "track_ref_id":
+        "8488855", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Interscope", "track_album_ref_id": "8488805", "performer_name": "Beck", "album_title":
+        "Information", "duration": 237, "title": "We Dance Alone", "track_rhapsody_id":
+        "11860591", "track_index": "33", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2014, "entity_type": "track", "track_album_id": "149c86b1-b8a9-431c-ac1c-1a83715fed61",
+        "title": "Unforgiven", "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "6", "duration": 274, "album_title": "Morning Phase", "track_rhapsody_id":
+        "138136317", "id": "1bf896aa-734b-477c-a8a8-9d3f7d20959d"}, {"isrc": "USK110402815",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "track_album_id": "80016e82-cbc6-1315-47fe-2293c8ba190d", "id": "5ce44577-ed52-5882-c25b-b45e3b0d07b6",
+        "popularity": 0.23, "track_ref_id": "28682745", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "XL", "track_album_ref_id": "28682703",
+        "performer_name": "Beck", "album_title": "One Foot in the Grave", "duration":
+        186, "title": "Painted Eyelids", "track_rhapsody_id": "27897344", "track_index":
+        "15", "entity_type": "track", "track_artist_ref_id": "2918"}, {"isrc": "USGF19682305",
+        "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2004, "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0", "id": "3d8574a9-17e5-d801-952c-99b385f8fcda",
+        "popularity": 0.38, "track_ref_id": "2002729", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Geffen", "track_album_ref_id": "2002711",
+        "performer_name": "Beck", "album_title": "Odelay", "duration": 252, "title":
+        "Derelict", "track_rhapsody_id": "1995461", "track_index": "5", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"isrc": "USIR10500091", "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2005, "track_album_id":
+        "277afc0a-9165-88b5-29d3-12ed7b0134a1", "id": "a8bed73d-5244-ed97-d031-a241e8302043",
+        "popularity": 0.46, "track_ref_id": "3652487", "artist_name": "Beck", "main_genre":
+        "rock", "label_name": "Geffen", "track_album_ref_id": "3652479", "performer_name":
+        "Beck", "album_title": "Guero", "duration": 284, "title": "Missing", "track_rhapsody_id":
+        "57886267", "track_index": "4", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2009, "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447", "popularity":
+        -1.0, "artist_name": "Beck", "id": "c0713a64-b4ac-9aae-387c-9d9452a88bba",
+        "performer_name": "Beck", "track_index": "9", "duration": 352, "title": "Everybody''s
+        Got to Learn Sometime [Exclusive Recording]", "album_title": "Eternal Sunshine
+        of the Spotless Mind", "isrc": "USIR10400238", "entity_type": "track"}, {"track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2005, "entity_type":
+        "track", "track_album_id": "e3c43058-81af-4ab6-3747-e8710d2c6892", "popularity":
+        0.36, "artist_name": "Beck", "performer_name": "Beck", "track_index": "1",
+        "duration": 263, "title": "Ghost Range (E-Pro)", "album_title": "Guerolito",
+        "id": "bab80594-27d0-bdd5-349a-d0f438091cf7"}, {"isrc": "USGF19682313", "track_artist_id":
+        "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year": 2008, "track_album_id":
+        "ce7f26ef-ee57-abd0-acfc-723da5d604d0", "id": "1d869777-1fdc-dfa8-2038-312f56a0761f",
+        "popularity": 0.45, "track_ref_id": "12696803", "artist_name": "Beck", "main_genre":
+        "alternative/indie", "label_name": "Interscope", "track_album_ref_id": "2002711",
+        "performer_name": "Beck", "album_title": "Odelay", "duration": 283, "title":
+        "Ramshackle", "track_rhapsody_id": "18144763", "track_index": "13", "entity_type":
+        "track", "track_artist_ref_id": "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "track_album_id": "ce7f26ef-ee57-abd0-acfc-723da5d604d0",
+        "id": "47b85581-fc61-ddcb-3448-08823ab502ce", "popularity": 0.4, "track_ref_id":
+        "2002713", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002711", "performer_name": "Beck", "track_index":
+        "6", "duration": 277, "title": "Novacane", "album_title": "Odelay", "isrc":
+        "USGF19682306", "entity_type": "track", "track_artist_ref_id": "2918"}, {"isrc":
+        "USIR19915164", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "id": "430331d5-6bda-9da9-b39c-8792b0afd794", "popularity": 0.33, "track_ref_id":
+        "2002697", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002685", "performer_name": "Beck", "album_title":
+        "Midnite Vultures", "duration": 239, "title": "Hollywood Freaks", "track_rhapsody_id":
+        "1881884", "track_index": "5", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"isrc": "USIR10500091", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2005, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1",
+        "id": "aa26917b-f0de-6877-c599-135d60ae11cc", "popularity": 0.46, "track_ref_id":
+        "3652487", "artist_name": "Beck", "main_genre": "rock", "label_name": "Geffen",
+        "track_album_ref_id": "3652479", "performer_name": "Beck", "album_title":
+        "Guero", "duration": 284, "title": "Missing", "track_rhapsody_id": "57886267",
+        "track_index": "4", "entity_type": "track", "track_artist_ref_id": "2918"},
+        {"isrc": "USIR19915167", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 1999, "track_album_id": "f4cbcc81-194d-fb11-feaa-eb7667f99faf",
+        "id": "3d4ea0b5-43d7-b44e-8582-cc32f4643ffa", "popularity": 0.31, "track_ref_id":
+        "2801315", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Geffen", "track_album_ref_id": "2002685", "performer_name": "Beck", "album_title":
+        "Midnite Vultures", "duration": 319, "title": "Milk & Honey", "track_rhapsody_id":
+        "1881887", "track_index": "8", "entity_type": "track", "track_artist_ref_id":
+        "2918"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1994, "track_album_id": "e1cb865a-ae90-0ce5-0b84-4e44ab7e44d5", "popularity":
+        -1.0, "artist_name": "Beck", "id": "abce6fdf-886c-6178-433c-aae40d971958",
+        "performer_name": "Beck", "track_index": "11", "duration": 125, "title": "Mutherfuker",
+        "album_title": "Mellow Gold", "isrc": "USGF19463411", "entity_type": "track"},
+        {"isrc": "USIR10400238", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2004, "track_album_id": "5062f2ba-cf48-825b-edb4-6c80377e4447",
+        "id": "49704602-0dfe-83b8-e21f-0a7d759db83c", "popularity": -1.0, "track_ref_id":
+        "2749445", "artist_name": "Beck", "main_genre": "soundtracks", "label_name":
+        "Hollywood", "track_album_ref_id": "2749427", "performer_name": "Beck", "album_title":
+        "Eternal Sunshine of the Spotless Mind", "duration": 354, "title": "Everybody''s
+        Gotta Learn Sometimes", "track_rhapsody_id": "5190322", "track_index": "9",
+        "entity_type": "track", "track_artist_ref_id": "2918"}, {"track_rhapsody_id":
+        "107570704", "track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        1999, "entity_type": "track", "track_album_id": "52b27d3d-2385-a6da-9326-1d24ebf3a723",
+        "popularity": -1.0, "artist_name": "Beck", "performer_name": "Beck", "track_index":
+        "2", "duration": 223, "title": "Where It''s At", "album_title": "Where It''s
+        At", "id": "66494148-af38-e45f-8f0b-23ea14b52d4b"}, {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2006, "track_album_id": "8e26e075-74a4-ab3e-1b12-c05a8876ff11",
+        "id": "00bd2dcb-f8ac-ca5c-f21e-bdd8fba68db3", "popularity": -1.0, "track_ref_id":
+        "8488839", "artist_name": "Beck", "main_genre": "alternative/indie", "label_name":
+        "Interscope", "track_album_ref_id": "8488805", "performer_name": "Beck", "track_index":
+        "17", "duration": 217, "title": "Elevator Music", "album_title": "Information",
+        "isrc": "USUM70607763", "entity_type": "track", "track_artist_ref_id": "2918"},
+        {"track_artist_id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "release_year":
+        2012, "track_album_id": "277afc0a-9165-88b5-29d3-12ed7b0134a1", "popularity":
+        0.43, "artist_name": "Beck", "id": "556e17f7-facb-cbb2-0d3a-971d4ad13325",
+        "performer_name": "Beck", "track_index": "11", "duration": 259, "title": "Farewell
+        Ride", "album_title": "Guero", "isrc": "USIR10500089", "entity_type": "track"}]}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 00:33:18 GMT
 recorded_with: VCR 2.9.3

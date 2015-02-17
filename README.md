@@ -56,6 +56,8 @@ artist.edges # => ["albums", "similar", "tracks"]
 artist.metadata # => returns all available metadata
 
 artist.similar.first # => "Bob Forrest"
+
+artist.albums # => returns array of albums
 ```
 
 ## Contributing
