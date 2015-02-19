@@ -9,5 +9,12 @@ rescue LoadError
 end
 
 module MusicGraph
-  # Your code goes here...
+
+  def self.api_key=(key)
+    @api_key = key
+  end
+
+  def self.api_key
+    @api_key
+  end
 end
