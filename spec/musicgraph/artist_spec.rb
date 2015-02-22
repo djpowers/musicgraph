@@ -2,7 +2,6 @@ require "spec_helper"
 
 module MusicGraph
   describe Artist do
-    let(:musicgraph) { MusicGraph::API.new(ENV["API_KEY"]) }
 
     it "exists" do
       expect(MusicGraph::Artist)

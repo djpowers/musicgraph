@@ -17,4 +17,9 @@ module MusicGraph
   def self.api_key
     @api_key
   end
+
+  protected
+  def self.key_param
+    "api_key=" + MusicGraph.api_key
+  end
 end

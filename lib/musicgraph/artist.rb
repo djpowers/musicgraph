@@ -1,11 +1,8 @@
 require "faraday"
-require "dotenv"
 require "json"
 require "uri"
-Dotenv.load
 
 API_URL = "http://api.musicgraph.com/api/v2/artist/"
-KEY_PARAM = "api_key=" + ENV["API_KEY"]
 
 module MusicGraph
   class Artist
@@ -28,10 +25,10 @@ module MusicGraph
 
     def self.search(params)
       if params.is_a? String
-        response = Faraday.get("#{API_URL}search?#{KEY_PARAM}&name=#{params}")
+        response = Faraday.get("#{API_URL}search?#{MusicGraph.key_param}&name=#{params}")
       elsif params.is_a? Hash
         encoded_params = URI.encode_www_form(params)
-        response = Faraday.get("#{API_URL}search?#{KEY_PARAM}&#{encoded_params}")
+        response = Faraday.get("#{API_URL}search?#{MusicGraph.key_param}&#{encoded_params}")
       end
       artists = JSON.parse(response.body)["data"]
       artists.map { |attributes| new(attributes) }
@@ -39,45 +36,45 @@ module MusicGraph
 
     def self.suggest(params)
       if params.is_a? String
-        response = Faraday.get("#{API_URL}suggest?#{KEY_PARAM}&prefix=#{params}")
+        response = Faraday.get("#{API_URL}suggest?#{MusicGraph.key_param}&prefix=#{params}")
       elsif params.is_a? Hash
         encoded_params = URI.encode_www_form(params)
-        response = Faraday.get("#{API_URL}suggest?#{KEY_PARAM}&#{encoded_params}")
+        response = Faraday.get("#{API_URL}suggest?#{MusicGraph.key_param}&#{encoded_params}")
       end
       artists = JSON.parse(response.body)["data"]
       artists.map { |attributes| new(attributes) }
     end
 
     def self.find(id)
-      response = Faraday.get("#{API_URL}#{id}?#{KEY_PARAM}")
+      response = Faraday.get("#{API_URL}#{id}?#{MusicGraph.key_param}")
       attributes = JSON.parse(response.body)
       new(attributes["data"])
     end
 
     def edges
-      response = Faraday.get("#{API_URL}#{id}/edges?#{KEY_PARAM}")
+      response = Faraday.get("#{API_URL}#{id}/edges?#{MusicGraph.key_param}")
       JSON.parse(response.body)["data"]
     end
 
     def metadata
-      response = Faraday.get("#{API_URL}#{id}?#{KEY_PARAM}")
+      response = Faraday.get("#{API_URL}#{id}?#{MusicGraph.key_param}")
       JSON.parse(response.body)["data"]
     end
 
     def similar
-      response = Faraday.get("#{API_URL}#{id}/similar?#{KEY_PARAM}")
+      response = Faraday.get("#{API_URL}#{id}/similar?#{MusicGraph.key_param}")
       artists = JSON.parse(response.body)["data"]
       artists.map { |attributes| Artist.new(attributes) }
     end
 
     def albums
-      response = Faraday.get("#{API_URL}#{id}/albums?#{KEY_PARAM}")
+      response = Faraday.get("#{API_URL}#{id}/albums?#{MusicGraph.key_param}")
       albums = JSON.parse(response.body)["data"]
       albums.map { |attributes| Album.new(attributes) }
     end
 
     def tracks
-      response = Faraday.get("#{API_URL}#{id}/albums?#{KEY_PARAM}")
+      response = Faraday.get("#{API_URL}#{id}/albums?#{MusicGraph.key_param}")
       albums = JSON.parse(response.body)["data"]
       albums.map { |attributes| Track.new(attributes) }
     end
