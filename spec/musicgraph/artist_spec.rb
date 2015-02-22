@@ -212,6 +212,16 @@ module MusicGraph
         expect(artist.metadata).to be_a Hash
       end
     end
+
+    it "filters by given fields" do
+      VCR.use_cassette("artist", record: :new_episodes) do
+        filters = ["id", "name"]
+        artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67", filters)
+
+        expect(artist.name).to eql("Beck")
+        expect(artist.gender).to be(nil)
+      end
+    end
   end
 
   describe "#similar" do

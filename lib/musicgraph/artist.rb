@@ -45,8 +45,10 @@ module MusicGraph
       artists.map { |attributes| new(attributes) }
     end
 
-    def self.find(id)
-      response = Faraday.get("#{API_URL}#{id}?#{MusicGraph.key_param}")
+    def self.find(id, filters = nil)
+      request = "#{API_URL}#{id}?#{MusicGraph.key_param}"
+      request += "&fields=#{filters.join(",")}" if filters
+      response = Faraday.get(request)
       attributes = JSON.parse(response.body)
       new(attributes["data"])
     end
