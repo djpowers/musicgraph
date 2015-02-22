@@ -65,6 +65,10 @@ artist.albums # => returns array of albums belonging to artist
 artist.tracks # => returns array of tracks belonging to artist
 ```
 
+## Testing
+
+To configure the gem for testing, add the following to `.env`: `MUSICGRAPH_API_KEY=xyz` (where "xyz" is your MusicGraph API key)
+
 ## Contributing
 
 1. Fork it ( https://github.com/[djpowers]/musicgraph/fork )
