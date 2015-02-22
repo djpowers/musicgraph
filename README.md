@@ -21,6 +21,9 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+
+MusicGraph.api_key = "[api key]"
+
 artist = MusicGraph::Artist.search('kaiser chiefs').first
 artist.name # => "Kaiser Chiefs"
 artist.main_genre # => "rock"

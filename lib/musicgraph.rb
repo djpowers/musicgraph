@@ -20,6 +20,10 @@ module MusicGraph
 
   protected
   def self.key_param
-    "api_key=" + MusicGraph.api_key
+    begin
+      "api_key=" + MusicGraph.api_key
+    rescue
+      raise "No MusicGraph API key present (MusicGraph.api_key='xyz')"
+    end
   end
 end
