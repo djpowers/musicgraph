@@ -54,10 +54,6 @@ artist.name # => "King James"
 artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67")
 artist.name # => "Beck"
 
-artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67", ["id", "name"])
-artist.name # => "Beck"
-artist.gender # => nil
-
 artist.edges # => ["albums", "similar", "tracks"]
 
 artist.metadata # => returns all available metadata
@@ -67,6 +63,10 @@ artist.similar.first # => "Bob Forrest"
 artist.albums # => returns array of albums belonging to artist
 
 artist.tracks # => returns array of tracks belonging to artist
+
+artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67", ["id", "name"])
+artist.name # => "Beck"
+artist.gender # => nil
 ```
 
 ## Testing
