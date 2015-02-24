@@ -1,6 +1,6 @@
-require 'musicgraph'
-require 'vcr'
-require 'dotenv'
+require "musicgraph"
+require "vcr"
+require "dotenv"
 
 Dotenv.load
 MusicGraph.api_key = ENV["MUSICGRAPH_API_KEY"]
