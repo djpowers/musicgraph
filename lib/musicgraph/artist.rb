@@ -1,7 +1,3 @@
-require "faraday"
-require "json"
-require "uri"
-
 module MusicGraph
   class Artist
     attr_reader :seven_digital_id, :main_genre, :country_of_origin, :entity_type, :artist_ref_id, :vevo_id, :sort_name, :gender, :rhapsody_id, :id, :decade, :name
