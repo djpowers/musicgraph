@@ -2,11 +2,11 @@ require "faraday"
 require "json"
 require "uri"
 
-API_URL = "http://api.musicgraph.com/api/v2/artist/"
-
 module MusicGraph
   class Artist
     attr_reader :seven_digital_id, :main_genre, :country_of_origin, :entity_type, :artist_ref_id, :vevo_id, :sort_name, :gender, :rhapsody_id, :id, :decade, :name
+
+    API_URL = "http://api.musicgraph.com/api/v2/artist/"
 
     def initialize(attributes)
       @seven_digital_id = attributes["7digital_id"]
