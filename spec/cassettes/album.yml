@@ -614,4 +614,108 @@ http_interactions:
         Tribbett", "main_genre": "christian/gospel", "product_form": "Album"}]}'
     http_version: 
   recorded_at: Fri, 27 Feb 2015 04:09:48 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&country=iceland
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 04:23:55 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5603'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"release_year": 2013, "title": "For
+        Now I Am Winter", "entity_type": "album", "id": "4558ffec-00a3-6052-956a-aa31362985eb",
+        "number_of_tracks": "12", "album_ref_id": "82130205", "performer_name": "\u00d3lafur
+        Arnalds", "main_genre": "classical/opera", "product_form": "Album"}, {"release_year":
+        2008, "title": "Declare Independence ", "entity_type": "album", "id": "768cb3ff-b4d9-aecb-ee44-eb31ec19f8b5",
+        "number_of_tracks": "5", "album_ref_id": "54768135", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Single"}, {"release_year":
+        1998, "title": "Singles Box Set", "entity_type": "album", "id": "291e742d-64e1-9dc5-c17a-2a92918a3cbc",
+        "number_of_tracks": "0", "album_ref_id": "11304951", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        2012, "title": "Bastards", "entity_type": "album", "id": "ab9f1137-2c6d-3626-f832-304bc878bc7c",
+        "number_of_tracks": "13", "album_ref_id": "76118403", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        1994, "title": "Best Mixes from the Album Debut (For All the People Who Don''t
+        Buy White Labels)", "entity_type": "album", "id": "06fe4802-02f3-e4d2-b056-5660834d6f8f",
+        "number_of_tracks": "6", "album_ref_id": "19091003", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        1999, "title": "All Is Full of Love", "entity_type": "album", "id": "789088d3-56b0-8481-37d2-5953ca9bf154",
+        "number_of_tracks": "3", "album_ref_id": "30021127", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Single"}, {"release_year":
+        1999, "title": "Hunter", "entity_type": "album", "id": "84e77b82-6833-f1ff-e503-2c05b983c132",
+        "number_of_tracks": "3", "album_ref_id": "19091017", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        2009, "title": "Voltaic", "entity_type": "album", "id": "98fd65b6-0b75-63aa-91d5-5a3badf26c11",
+        "number_of_tracks": "11", "album_ref_id": "30829263", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        2007, "title": "Earth Intruders", "entity_type": "album", "id": "3a48510a-76e0-dbae-1660-9353f8c36d05",
+        "number_of_tracks": "1", "album_ref_id": "10267687", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Single"}, {"release_year":
+        1999, "title": "Alarm Call", "entity_type": "album", "id": "45d2787f-62a0-710d-f04c-87d5455dee23",
+        "number_of_tracks": "3", "album_ref_id": "29946057", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Single"}, {"release_year":
+        1998, "title": "J\u00f3ga", "entity_type": "album", "id": "3988bf7b-1433-5ced-bdf9-a62e9f12a178",
+        "number_of_tracks": "11", "album_ref_id": "19062447", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Single"}, {"release_year":
+        2008, "title": "Dull Flame of Desire", "entity_type": "album", "id": "f69b800f-0186-5a0b-b48f-03c0c95bc6f0",
+        "number_of_tracks": "11", "album_ref_id": "19151945", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Single"}, {"release_year":
+        2002, "title": "Family Tree", "entity_type": "album", "id": "332c1ade-c7ed-215d-7fed-9524ca281092",
+        "number_of_tracks": "35", "album_ref_id": "11304951", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        2003, "title": "Live Box: 1993-2002", "entity_type": "album", "id": "0d845e4a-2c76-0534-f544-d9f0bb6f1fa2",
+        "number_of_tracks": "55", "album_ref_id": "11929459", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        2011, "title": "Biophilia", "entity_type": "album", "id": "fd231f55-91cf-b75f-0f14-d49e62200c48",
+        "number_of_tracks": "13", "label_name": "Nonesuch", "album_ref_id": "59072523",
+        "performer_name": "Bj\u00f6rk", "main_genre": "alternative/indie", "product_form":
+        "Album"}, {"release_year": 2002, "title": "Bj\u00f6rk''s Greatest Hits", "entity_type":
+        "album", "id": "a493205f-2bed-c679-e761-1479c5a822ae", "number_of_tracks":
+        "15", "album_ref_id": "26734611", "performer_name": "Bj\u00f6rk", "main_genre":
+        "alternative/indie", "product_form": "Album"}, {"release_year": 2007, "title":
+        "Volta", "entity_type": "album", "id": "725288f9-7545-7d5c-4ede-0b3a01b4fea6",
+        "number_of_tracks": "10", "album_ref_id": "10433635", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        2012, "title": "Little Talks", "entity_type": "album", "id": "561a3270-0ca4-e0b6-fc39-55c8f91b580d",
+        "number_of_tracks": "1", "album_ref_id": "72199553", "performer_name": "Of
+        Monsters and Men", "main_genre": "alternative/indie", "product_form": "Single"},
+        {"release_year": 2011, "title": "Into the Woods", "entity_type": "album",
+        "id": "063e6dd3-fe2e-dd66-9785-b414c7d748b2", "number_of_tracks": "4", "album_ref_id":
+        "62190819", "performer_name": "Of Monsters and Men", "main_genre": "alternative/indie",
+        "product_form": "EP"}, {"release_year": 2012, "title": "My Head Is an Animal",
+        "entity_type": "album", "id": "433529da-c01c-e583-4962-f7818740d81a", "number_of_tracks":
+        "12", "label_name": "Republic Records", "album_ref_id": "65659279", "performer_name":
+        "Of Monsters and Men", "main_genre": "alternative/indie", "product_form":
+        "Album"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 04:23:52 GMT
 recorded_with: VCR 2.9.3
