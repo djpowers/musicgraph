@@ -46,4 +46,405 @@ http_interactions:
         "Album"}]}'
     http_version: 
   recorded_at: Thu, 26 Feb 2015 04:58:31 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&title=%7B:title=%3E%22the%20carpenter%22%7D
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:47:41 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 1}, "data": []}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:47:14 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&title=the%20carpenter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:56:40 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 1}, "data": []}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:54:11 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=the%20avett%20brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:57:35 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "352390", "main_genre":
+        "rock", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "188989", "vevo_id": "0dd9fb87-10a4-48f4-bb85-c3e5769adf90",
+        "sort_name": "Avett Brothers", "gender": "Male", "rhapsody_id": "7309378",
+        "id": "f064adc4-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "The Avett Brothers"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:32 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=the%20avett%20brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:57:38 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "352390", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "188989",
+        "vevo_id": "0dd9fb87-10a4-48f4-bb85-c3e5769adf90", "id": "f064adc4-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Avett Brothers", "gender": "Male", "rhapsody_id": "7309378",
+        "main_genre": "rock", "decade": "2000s / 2010s", "name": "The Avett Brothers"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:35 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=the%20avett%20brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:57:43 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "352390", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "188989",
+        "vevo_id": "0dd9fb87-10a4-48f4-bb85-c3e5769adf90", "id": "f064adc4-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Avett Brothers", "gender": "Male", "rhapsody_id": "7309378",
+        "main_genre": "rock", "decade": "2000s / 2010s", "name": "The Avett Brothers"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:40 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=the%20avett%20brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 04:00:12 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "352390", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "188989",
+        "vevo_id": "0dd9fb87-10a4-48f4-bb85-c3e5769adf90", "id": "f064adc4-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Avett Brothers", "gender": "Male", "rhapsody_id": "7309378",
+        "main_genre": "rock", "decade": "2000s / 2010s", "name": "The Avett Brothers"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:43 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/f064adc4-a6b5-11e0-b446-00251188dd67/albums?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:58:11 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5064'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "total": 20, "offset": 1}, "data": [{"release_year": 2013, "title":
+        "Magpie and the Dandelion", "entity_type": "album", "id": "6f915c8e-9ffb-43a2-8fcc-807d290da4de",
+        "number_of_tracks": "11", "album_ref_id": "90486047", "main_genre": "rock"},
+        {"release_year": 2012, "title": "Carpenter", "entity_type": "album", "id":
+        "74983766-f9d4-35bf-d647-6ce1a08ccac3", "number_of_tracks": "12", "album_ref_id":
+        "70194615", "performer_name": "The Avett Brothers", "main_genre": "rock",
+        "product_form": "Album"}, {"release_year": 2010, "title": "Live, Vol. 3",
+        "entity_type": "album", "id": "f173f517-2ea3-ad0c-6853-a072441944e9", "number_of_tracks":
+        "16", "album_ref_id": "10535201", "performer_name": "The Avett Brothers",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        2010, "title": "Live, Vol. 3", "entity_type": "album", "id": "114bc1c3-e6a9-5a8f-dfe3-47f46baedf6b",
+        "number_of_tracks": "0", "album_ref_id": "10535201", "performer_name": "The
+        Avett Brothers", "main_genre": "alternative/indie", "product_form": "Album"},
+        {"release_year": 2009, "title": "I and Love and You", "entity_type": "album",
+        "id": "9e39e8b2-aa26-3908-ed47-9c6e17e8a02e", "number_of_tracks": "13", "label_name":
+        "AMERICAN", "album_ref_id": "33118867", "performer_name": "The Avett Brothers",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 2008, "title":
+        "Gleam II", "entity_type": "album", "id": "0f84addd-98b0-25e2-be1a-4942c575cdca",
+        "number_of_tracks": "6", "album_ref_id": "37361561", "performer_name": "The
+        Avett Brothers", "main_genre": "rock", "product_form": "EP"}, {"release_year":
+        2007, "title": "Emotionalism", "entity_type": "album", "id": "4866b11f-6328-4d9d-55e4-641e3573ff52",
+        "number_of_tracks": "14", "album_ref_id": "10416045", "performer_name": "The
+        Avett Brothers", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        2006, "title": "Gleam", "entity_type": "album", "id": "4222ccce-d37b-73a1-9624-01fc6d65ba9d",
+        "number_of_tracks": "6", "album_ref_id": "10542685", "performer_name": "The
+        Avett Brothers", "main_genre": "alternative/indie", "product_form": "EP"},
+        {"release_year": 2006, "title": "Four Thieves Gone: The Robbinsville Sessions",
+        "entity_type": "album", "id": "b70e0ced-c7aa-3915-9f0b-04cf9ccd5f39", "number_of_tracks":
+        "17", "album_ref_id": "6610477", "performer_name": "The Avett Brothers", "main_genre":
+        "country", "product_form": "Album"}, {"release_year": 2005, "title": "Live,
+        Vol. 2", "entity_type": "album", "id": "0371e6f3-d95d-5271-f565-58c5a9bf2fec",
+        "number_of_tracks": "17", "album_ref_id": "26589165", "performer_name": "The
+        Avett Brothers", "main_genre": "folk", "product_form": "Album"}, {"release_year":
+        2004, "title": "Mignonette", "entity_type": "album", "id": "473b392a-085c-32c7-0d92-2a05f137aba2",
+        "number_of_tracks": "20", "album_ref_id": "26589281", "performer_name": "The
+        Avett Brothers", "main_genre": "folk", "product_form": "Album"}, {"release_year":
+        2004, "title": "Swept Away", "entity_type": "album", "id": "de83ef72-c917-8d14-d15c-87e0ef04fff8",
+        "number_of_tracks": "3", "album_ref_id": "34227515", "performer_name": "The
+        Avett Brothers", "main_genre": "country", "product_form": "Single"}, {"release_year":
+        2003, "title": "Carolina Jubilee", "entity_type": "album", "id": "989249a8-c085-b28e-89f9-59063f0500dc",
+        "number_of_tracks": "15", "album_ref_id": "37571025", "performer_name": "The
+        Avett Brothers", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        2002, "title": "Live at the Double Door Inn", "entity_type": "album", "id":
+        "16b02642-9e99-75a6-2562-aaceaed2d65f", "number_of_tracks": "15", "album_ref_id":
+        "35730343", "performer_name": "The Avett Brothers", "main_genre": "rock",
+        "product_form": "Album"}, {"release_year": 2002, "title": "Country Was", "entity_type":
+        "album", "id": "da0c033b-953f-7a3f-39ab-6a32342ffe5c", "number_of_tracks":
+        "8", "album_ref_id": "26328843", "performer_name": "The Avett Brothers", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2000, "title": "Avett Brothers",
+        "entity_type": "album", "number_of_tracks": "6", "performer_name": "The Avett
+        Brothers", "id": "c77ec054-2a78-2a1e-e883-a3734ae43030", "product_form": "EP"},
+        {"title": "I and Love and You/Live, Vol. 3", "entity_type": "album", "id":
+        "d277ba4c-f948-f876-d695-aa770182ea48", "number_of_tracks": "29", "album_ref_id":
+        "37864775", "performer_name": "The Avett Brothers", "main_genre": "rock",
+        "product_form": "Album"}, {"number_of_tracks": "0", "entity_type": "album",
+        "id": "4287047b-8ec1-4b30-b301-385cd2df391c", "title": "Carp "}, {"title":
+        "Live and Die", "entity_type": "album", "id": "907e0e83-dc41-df28-8b02-f009af700f35",
+        "number_of_tracks": "1", "album_ref_id": "70194615", "performer_name": "The
+        Avett Brothers", "main_genre": "rock", "product_form": "Single"}, {"entity_type":
+        "album", "title": "Another is Waiting", "id": "ec710fcd-cd49-40cb-b3ac-a5e9804343c6",
+        "number_of_tracks": "1", "album_ref_id": "87903883", "main_genre": "rock"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:43 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&title=i%20and%20love%20and%20you
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:59:10 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '401'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"release_year": 2009, "entity_type":
+        "album", "title": "I and Love and You", "main_genre": "rock", "number_of_tracks":
+        "13", "label_name": "AMERICAN", "album_ref_id": "33118867", "performer_name":
+        "The Avett Brothers", "id": "9e39e8b2-aa26-3908-ed47-9c6e17e8a02e", "product_form":
+        "Album"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:58:42 GMT
 recorded_with: VCR 2.9.3
