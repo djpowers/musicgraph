@@ -67,6 +67,18 @@ artist.tracks # => returns array of tracks belonging to artist
 artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67", ["id", "name"])
 artist.name # => "Beck"
 artist.gender # => nil
+
+albums = MusicGraph::Album.search("either/or")
+albums.first.title # => "Either/Or"
+
+albums = MusicGraph::Album.search(artist_name: "led zeppelin")
+albums.first.title # => "C'mon Everybody"
+
+albums = MusicGraph::Album.search(similar_to: "grace")
+albums.first.title # => "Tidal"
+
+albums = MusicGraph::Album.search(country: "iceland")
+albums.first.title # => "My Head Is an Animal"
 ```
 
 ## Testing
