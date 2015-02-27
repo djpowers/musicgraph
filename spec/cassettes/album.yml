@@ -447,4 +447,108 @@ http_interactions:
         "Album"}]}'
     http_version: 
   recorded_at: Fri, 27 Feb 2015 03:58:42 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&artist_name=led%20zeppelin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 04:06:58 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5416'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"release_year": 1998, "title": "C''mon
+        Everybody", "entity_type": "album", "id": "53a01775-6774-0bc0-642c-a03ae0bbf244",
+        "number_of_tracks": "16", "album_ref_id": "11842631", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1993, "title": "Complete Studio Recordings", "entity_type": "album", "id":
+        "97f940b9-8fe7-8386-b681-3277de880764", "number_of_tracks": "85", "album_ref_id":
+        "35101251", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 2003, "title": "Led Zeppelin [DVD Box Set]", "entity_type":
+        "album", "id": "24615519-67f9-278f-a031-5ffbbac2489f", "number_of_tracks":
+        "30", "album_ref_id": "35101251", "performer_name": "Led Zeppelin", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1998, "title": "Whole Lotta
+        Love", "entity_type": "album", "id": "a88afd5a-a960-bd7a-8a7d-4a54d0134584",
+        "number_of_tracks": "3", "album_ref_id": "11842631", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Single"}, {"release_year":
+        1971, "title": "Led Zeppelin IV", "entity_type": "album", "id": "5cdd393f-9f99-08db-8768-7cb37292abff",
+        "number_of_tracks": "8", "label_name": "Atlantic Records", "album_ref_id":
+        "11842753", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 2008, "title": "Definitive Collection Mini LP",
+        "entity_type": "album", "id": "4f7f054a-eec2-d2a9-3b1f-ea22b84a2326", "number_of_tracks":
+        "100", "album_ref_id": "35101251", "performer_name": "Led Zeppelin", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1993, "title": "Led Zeppelin
+        [Box Set 2]", "entity_type": "album", "id": "c6282757-9116-7561-72ec-0512c97d5227",
+        "number_of_tracks": "32", "album_ref_id": "35101251", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1975, "title": "Physical Graffiti", "entity_type": "album", "id": "f32c31b4-836b-6588-4ed8-57bb2e902d4a",
+        "number_of_tracks": "15", "label_name": "Atlantic Records", "album_ref_id":
+        "11842721", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 1994, "title": "Pleeease!", "entity_type": "album",
+        "id": "398e8463-72ed-f5ea-c63a-0ba4577c72fd", "number_of_tracks": "14", "album_ref_id":
+        "11842849", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 2002, "title": "Early Days & Latter Days: Vol.
+        1 & 2", "entity_type": "album", "id": "b6500ee4-59b1-dbdd-eaf1-25cccee4d969",
+        "number_of_tracks": "23", "album_ref_id": "11842849", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1991, "title": "Kingdom of Zep", "entity_type": "album", "id": "00b9d24b-3a28-3684-919c-f8e598f3c4a3",
+        "number_of_tracks": "18", "album_ref_id": "35101251", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1977, "title": "Destroyer", "entity_type": "album", "id": "be299d48-9c8c-aad3-a0c6-c992047b7544",
+        "number_of_tracks": "16", "album_ref_id": "11842849", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1992, "title": "Led Zeppelin Remasters", "entity_type": "album", "id": "9613220d-d794-36f5-2ec8-51226ef84da4",
+        "number_of_tracks": "26", "album_ref_id": "35101251", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"title": "Music
+        That Rocked Us", "entity_type": "album", "id": "8299f822-9c11-9ac0-52cc-4bc34932f1d6",
+        "number_of_tracks": "104", "album_ref_id": "84224067", "performer_name": "Led
+        Zeppelin", "main_genre": "pop", "product_form": "Album"}, {"release_year":
+        1976, "title": "Song Remains the Same", "entity_type": "album", "id": "22011f6c-549d-5190-34f1-e0018855a83b",
+        "number_of_tracks": "9", "album_ref_id": "11901971", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"title": "Blueberry
+        Hill [RoundPin]", "entity_type": "album", "id": "8537df58-eb41-8fac-e038-956e5a0fdac3",
+        "number_of_tracks": "14", "album_ref_id": "11842631", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1973, "title": "Madison Square Garden, 1973", "entity_type": "album", "id":
+        "9670fa41-e504-edbd-3748-edcf4512ed03", "number_of_tracks": "10", "album_ref_id":
+        "11901971", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 2009, "title": "Complete Rock Case Studies", "entity_type":
+        "album", "id": "ef8e526e-b0a1-4b34-e5bb-df371eb946e6", "number_of_tracks":
+        "9", "album_ref_id": "11842849", "performer_name": "Led Zeppelin", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1969, "title": "Led Zeppelin",
+        "entity_type": "album", "id": "f12ba578-6299-92a7-e06d-003a4aed892b", "number_of_tracks":
+        "9", "label_name": "Atlantic Records", "album_ref_id": "11842813", "performer_name":
+        "Led Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1990, "title": "Led Zeppelin [Box Set]", "entity_type": "album", "id": "971d772f-d9d3-d3ca-d512-2b4163a4c102",
+        "number_of_tracks": "54", "album_ref_id": "35101251", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 04:04:28 GMT
 recorded_with: VCR 2.9.3
