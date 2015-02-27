@@ -44,6 +44,21 @@ module MusicGraph
           expect(albums.last.title).to eql("Led Zeppelin [Box Set]")
         end
       end
+
+      it "accepts hash and returns similar to albums" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          params = {
+            similar_to: "grace"
+          }
+          albums = MusicGraph::Album.search(params)
+
+          expect(albums).to_not be_empty
+          expect(albums.length).to eql(7)
+          expect(albums.first).to be_a Album
+          expect(albums.first.title).to eql("Tidal")
+          expect(albums.last.title).to eql("Greater Than")
+        end
+      end
     end
   end
 end

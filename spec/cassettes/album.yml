@@ -551,4 +551,67 @@ http_interactions:
         Zeppelin", "main_genre": "rock", "product_form": "Album"}]}'
     http_version: 
   recorded_at: Fri, 27 Feb 2015 04:04:28 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&similar_to=grace
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 04:09:51 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '1992'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 7, "offset": 1}, "data": [{"release_year": 1996, "title": "Tidal",
+        "entity_type": "album", "id": "4f2412ac-c60f-0017-996a-1aaa382c5134", "number_of_tracks":
+        "10", "label_name": "Work", "album_ref_id": "30423903", "performer_name":
+        "Fiona Apple", "main_genre": "alternative/indie", "product_form": "Album"},
+        {"release_year": 2005, "title": "Back to Bedlam", "entity_type": "album",
+        "id": "134e50d5-1385-5149-fe30-e665352a07fe", "number_of_tracks": "10", "album_ref_id":
+        "5349699", "performer_name": "James Blunt", "main_genre": "alternative/indie",
+        "product_form": "Album"}, {"release_year": 1998, "title": "Rufus Wainwright",
+        "entity_type": "album", "id": "d5cd6891-9e46-1fe0-2764-972221046799", "number_of_tracks":
+        "12", "album_ref_id": "1530715", "performer_name": "Rufus Wainwright", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1994, "title": "Under the
+        Pink", "entity_type": "album", "id": "be7e9aa4-7211-8bcc-c61c-88f6263d43ef",
+        "number_of_tracks": "12", "label_name": "Atlantic Records", "album_ref_id":
+        "20993", "performer_name": "Tori Amos", "main_genre": "alternative/indie",
+        "product_form": "Album"}, {"release_year": 2006, "title": "Beautiful Lie",
+        "entity_type": "album", "id": "f0cd1aad-1d84-2fe8-7d6e-62427bf80e23", "number_of_tracks":
+        "14", "album_ref_id": "7335785", "performer_name": "Ed Harcourt", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2006, "title": "Real Life",
+        "entity_type": "album", "id": "61b85423-6370-540a-1d99-5aa886531a6e", "number_of_tracks":
+        "10", "album_ref_id": "11352933", "performer_name": "Joan as Police Woman",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 2013, "title":
+        "Greater Than", "entity_type": "album", "id": "d3ea8dd8-eb76-ec8b-1b62-93aa538dad2b",
+        "number_of_tracks": "12", "album_ref_id": "87274829", "performer_name": "Tye
+        Tribbett", "main_genre": "christian/gospel", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 04:09:48 GMT
 recorded_with: VCR 2.9.3
