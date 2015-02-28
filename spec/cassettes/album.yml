@@ -924,4 +924,60 @@ http_interactions:
         "main_genre": "rock", "product_form": "EP"}]}'
     http_version: 
   recorded_at: Sat, 28 Feb 2015 04:59:32 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&limit=5&similar_to=Sgt.%20Pepper's%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 28 Feb 2015 05:41:09 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '1425'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 5, "offset": 1}, "data": [{"release_year": 1967, "title": "Days
+        of Future Passed", "entity_type": "album", "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50",
+        "number_of_tracks": "7", "album_ref_id": "15223705", "performer_name": "The
+        Moody Blues", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1967, "title": "Surrealistic Pillow", "entity_type": "album", "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1",
+        "number_of_tracks": "11", "album_ref_id": "31006189", "performer_name": "Jefferson
+        Airplane", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1967, "title": "Doors", "entity_type": "album", "id": "44354016-526d-7db7-982a-976e8337dd70",
+        "number_of_tracks": "11", "album_ref_id": "7679753", "performer_name": "The
+        Doors", "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967,
+        "title": "SMiLE [Not Released]", "entity_type": "album", "id": "6042f35b-010b-b945-ce5a-64bba6b9c488",
+        "number_of_tracks": "14", "album_ref_id": "59665381", "performer_name": "The
+        Beach Boys", "main_genre": "pop", "product_form": "Album"}, {"release_year":
+        1967, "title": "Their Satanic Majesties Request", "entity_type": "album",
+        "id": "7fa4a465-2be1-1531-7fee-376f22810732", "number_of_tracks": "10", "album_ref_id":
+        "6459063", "performer_name": "The Rolling Stones", "main_genre": "rock", "product_form":
+        "Album"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Feb 2015 05:41:07 GMT
 recorded_with: VCR 2.9.3

@@ -85,6 +85,9 @@ albums.first.title # => "Soul Shakedown"
 
 albums = MusicGraph::Album.search({genre: "rock"})
 albums.first.title # => "You Are the Night"
+
+albums = MusicGraph::Album.search({limit: 5}).last
+albums.length # => 5
 ```
 
 ## Testing
