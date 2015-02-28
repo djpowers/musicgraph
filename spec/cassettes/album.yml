@@ -980,4 +980,69 @@ http_interactions:
         "Album"}]}'
     http_version: 
   recorded_at: Sat, 28 Feb 2015 05:41:07 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=5&similar_to=Sgt.%20Pepper's%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 28 Feb 2015 06:14:31 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '2223'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 8, "offset": 5}, "data": [{"release_year": 1967, "title": "Their
+        Satanic Majesties Request", "entity_type": "album", "id": "7fa4a465-2be1-1531-7fee-376f22810732",
+        "number_of_tracks": "10", "album_ref_id": "6459063", "performer_name": "The
+        Rolling Stones", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1967, "title": "Piper at the Gates of Dawn", "entity_type": "album", "id":
+        "0ce62699-8c96-ecc0-d080-9bb3f24cd783", "number_of_tracks": "11", "album_ref_id":
+        "4994353", "performer_name": "Pink Floyd", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 1967, "title": "Magic Garden", "entity_type": "album",
+        "id": "da181ad6-54de-2fa6-c954-b5aa9e149def", "number_of_tracks": "12", "album_ref_id":
+        "11402595", "performer_name": "The 5th Dimension", "main_genre": "pop", "product_form":
+        "Album"}, {"release_year": 1967, "title": "Of Cabbages and Kings", "entity_type":
+        "album", "id": "563f0014-4706-c10a-a285-49ac92620315", "number_of_tracks":
+        "17", "album_ref_id": "38700231", "performer_name": "Chad & Jeremy", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1968, "title": "Village
+        Green Preservation Society", "entity_type": "album", "id": "736ec1d2-f201-10a4-ae3a-f1ef3559381e",
+        "number_of_tracks": "15", "album_ref_id": "19683453", "performer_name": "The
+        Kinks", "main_genre": "rock", "product_form": "Album"}, {"release_year": 1969,
+        "title": "Odessa", "entity_type": "album", "id": "8f0eca9a-6b10-15fd-7b2e-32e57acb70de",
+        "number_of_tracks": "17", "album_ref_id": "12534915", "performer_name": "Bee
+        Gees", "main_genre": "pop", "product_form": "Album"}, {"release_year": 1968,
+        "title": "S.F. Sorrow", "entity_type": "album", "id": "ca991371-a131-71fb-4aa0-43c033e6aa2e",
+        "number_of_tracks": "17", "album_ref_id": "80159857", "performer_name": "The
+        Pretty Things", "main_genre": "pop", "product_form": "Album"}, {"release_year":
+        1967, "title": "Are You Experienced?", "entity_type": "album", "id": "3be84976-a930-1ebd-41bd-f318553f882e",
+        "number_of_tracks": "17", "album_ref_id": "35619375", "performer_name": "The
+        Jimi Hendrix Experience", "main_genre": "rock", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Feb 2015 06:14:28 GMT
 recorded_with: VCR 2.9.3

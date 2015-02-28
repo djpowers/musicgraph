@@ -120,6 +120,22 @@ module MusicGraph
           expect(albums.last.title).to eql("Their Satanic Majesties Request")
         end
       end
+
+      it "accepts hash and returns offset results" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          params = {
+            similar_to: "Sgt. Pepper's Lonely Hearts Club Band",
+            offset: 5
+          }
+          albums = MusicGraph::Album.search(params)
+
+          expect(albums).to_not be_empty
+          expect(albums.length).to eql(8)
+          expect(albums.first).to be_a Album
+          expect(albums.first.title).to_not eql("Days of Future Passed")
+          expect(albums.last.title).to eql("Are You Experienced?")
+        end
+      end
     end
   end
 end
