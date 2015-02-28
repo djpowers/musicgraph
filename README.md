@@ -82,6 +82,9 @@ albums.first.title # => "My Head Is an Animal"
 
 albums = MusicGraph::Album.search(decade: "1960s")
 albums.first.title # => "Soul Shakedown"
+
+albums = MusicGraph::Album.search(genre: "rock")
+albums.first.title # => "You Are the Night"
 ```
 
 ## Testing

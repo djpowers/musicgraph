@@ -821,4 +821,107 @@ http_interactions:
         Simone", "main_genre": "jazz", "product_form": "Album"}]}'
     http_version: 
   recorded_at: Sat, 28 Feb 2015 04:42:10 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&genre=rock
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 28 Feb 2015 04:59:35 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5259'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"title": "You Are the Night", "entity_type":
+        "album", "id": "1299c862-9bce-53e8-6c5f-0ae5c7d5b5e3", "number_of_tracks":
+        "10", "album_ref_id": "40158785", "performer_name": "Grande", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2006, "title": "These and
+        Other Things", "entity_type": "album", "id": "aff81bc0-920e-b5aa-3c02-e6fcb85787bb",
+        "number_of_tracks": "11", "label_name": "drake", "album_ref_id": "62098209",
+        "performer_name": "Drake", "main_genre": "rock", "product_form": "Album"},
+        {"release_year": 1989, "title": "Mind Bomb", "entity_type": "album", "id":
+        "a1db31ba-7bed-8f35-681e-138b0c1b6d32", "number_of_tracks": "8", "album_ref_id":
+        "8590237", "performer_name": "The The", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 1993, "title": "Dusk", "entity_type": "album",
+        "id": "c6e5e43a-79a5-a723-1448-cf0a6e68c34a", "number_of_tracks": "10", "album_ref_id":
+        "6754457", "performer_name": "The The", "main_genre": "rock:80''s rock", "product_form":
+        "Album"}, {"release_year": 1995, "title": "Jamaican Singles, Vol. 1", "entity_type":
+        "album", "id": "cfeaa3c2-2edc-1245-39a6-6e81e4f8e193", "number_of_tracks":
+        "18", "album_ref_id": "56393411", "performer_name": "Bob Marley & The Wailers",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1998, "title":
+        "Mr. Chatterbox", "entity_type": "album", "id": "2c94883d-2584-4dbb-f94c-9939c53cbea2",
+        "number_of_tracks": "20", "album_ref_id": "56393411", "performer_name": "Bob
+        Marley & The Wailers", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        2007, "title": "It Won''t Be Soon Before Long", "entity_type": "album", "id":
+        "9df634ec-ee7f-2421-1853-08dbf6de47dd", "number_of_tracks": "12", "album_ref_id":
+        "10512043", "performer_name": "Maroon 5", "main_genre": "rock", "product_form":
+        "Album"}, {"title": "Songs About Jane/It Won''t Be Soon Before Long", "entity_type":
+        "album", "id": "b483a707-185e-3b65-b9ff-c8b8f97aca0a", "number_of_tracks":
+        "31", "album_ref_id": "15129589", "performer_name": "Maroon 5", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2004, "title": "Colour
+        the Small One", "entity_type": "album", "id": "188053e0-fffb-77f9-9705-5b7fb04939b0",
+        "number_of_tracks": "11", "album_ref_id": "6332999", "performer_name": "Sia",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 2007, "title":
+        "Won''t Go Home Without You", "entity_type": "album", "id": "79a531f0-52d4-c805-9ffe-fa51145249aa",
+        "number_of_tracks": "3", "label_name": "A&M / Octone Records", "album_ref_id":
+        "12861063", "performer_name": "Maroon 5", "main_genre": "rock", "product_form":
+        "Single"}, {"release_year": 2002, "title": "Songs About Jane", "entity_type":
+        "album", "id": "069aefe2-b3b2-3ba8-6ff1-6b3796da5116", "number_of_tracks":
+        "12", "label_name": "UMC (Universal Music Catalogue)", "album_ref_id": "1631021",
+        "performer_name": "Maroon 5", "main_genre": "rock", "product_form": "Album"},
+        {"title": "Never Gonna Leave This Bed (France Version)", "entity_type": "album",
+        "id": "dd5d8795-a071-4237-e98d-dccf60ca65b3", "number_of_tracks": "2", "album_ref_id":
+        "69412577", "performer_name": "Maroon 5", "main_genre": "rock", "product_form":
+        "Single"}, {"title": "Numb Remixes 1", "entity_type": "album", "id": "b8f1e37f-2cbe-0947-91fe-4c3a7e732773",
+        "number_of_tracks": "2", "album_ref_id": "14972941", "performer_name": "Sia",
+        "main_genre": "rock", "product_form": "Single"}, {"release_year": 2004, "title":
+        "Don''t Bring Me Down [UK CD]", "entity_type": "album", "id": "794f094e-6a19-c6ac-402f-0b111b15f853",
+        "number_of_tracks": "4", "album_ref_id": "14972925", "performer_name": "Sia",
+        "main_genre": "rock", "product_form": "Single"}, {"title": "Remixes 2", "entity_type":
+        "album", "id": "81fa8de0-c17b-477d-cb10-0c357ada54be", "number_of_tracks":
+        "4", "album_ref_id": "14972925", "performer_name": "Sia", "main_genre": "rock",
+        "product_form": "EP"}, {"release_year": 2005, "title": "Numb Remixes 2", "entity_type":
+        "album", "id": "9c4ea005-897d-71f7-2262-b4f19b33e690", "number_of_tracks":
+        "0", "album_ref_id": "14972941", "performer_name": "Sia", "main_genre": "rock",
+        "product_form": "Single"}, {"release_year": 2007, "title": "Makes Me Wonder",
+        "entity_type": "album", "id": "d6b00f20-5f62-fedf-8225-c59652629738", "number_of_tracks":
+        "16", "album_ref_id": "11881567", "performer_name": "Maroon 5", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2008, "title": "Some People
+        Have Real Problems", "entity_type": "album", "id": "e9ea3215-d8d7-5d78-b46a-edf3101001ac",
+        "number_of_tracks": "14", "album_ref_id": "12404219", "performer_name": "Sia",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 2007, "title":
+        "7 Inch Collection", "entity_type": "album", "id": "df6c110a-c82d-4208-402d-2ee2e131690e",
+        "number_of_tracks": "33", "album_ref_id": "13518929", "performer_name": "Coldplay",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1998, "title":
+        "Safety", "entity_type": "album", "id": "4c82ede3-90a6-c995-27a2-9d88f83f3ee9",
+        "number_of_tracks": "3", "album_ref_id": "974141", "performer_name": "Coldplay",
+        "main_genre": "rock", "product_form": "EP"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Feb 2015 04:59:32 GMT
 recorded_with: VCR 2.9.3

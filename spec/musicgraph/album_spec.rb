@@ -89,6 +89,21 @@ module MusicGraph
           expect(albums.last.title).to eql("At Carnegie Hall")
         end
       end
+
+      it "accepts hash and returns genre search results" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          params = {
+            genre: "rock"
+          }
+          albums = MusicGraph::Album.search(params)
+
+          expect(albums).to_not be_empty
+          expect(albums.length).to eql(20)
+          expect(albums.first).to be_a Album
+          expect(albums.first.title).to eql("You Are the Night")
+          expect(albums.last.title).to eql("Safety")
+        end
+      end
     end
   end
 end
