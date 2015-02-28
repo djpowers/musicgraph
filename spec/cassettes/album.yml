@@ -718,4 +718,107 @@ http_interactions:
         "Album"}]}'
     http_version: 
   recorded_at: Fri, 27 Feb 2015 04:23:52 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&decade=1960s
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 28 Feb 2015 04:41:11 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5284'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"release_year": 1969, "title": "Soul
+        Shakedown", "entity_type": "album", "id": "8d1f2f13-c345-1c22-ce76-515af52fbe48",
+        "number_of_tracks": "20", "album_ref_id": "39934207", "performer_name": "Bob
+        Marley & The Wailers", "main_genre": "reggae/ska", "product_form": "Album"},
+        {"release_year": 1963, "title": "Nina''s Choice", "entity_type": "album",
+        "id": "10732a8e-ae6e-a6a1-00cd-d2f4abaca5b4", "number_of_tracks": "9", "album_ref_id":
+        "64144127", "performer_name": "Nina Simone", "main_genre": "jazz", "product_form":
+        "Album"}, {"release_year": 1968, "title": "''Nuff Said!", "entity_type": "album",
+        "id": "73ccd8c9-28a9-321d-d709-924d6351629f", "number_of_tracks": "11", "album_ref_id":
+        "13698013", "performer_name": "Nina Simone", "main_genre": "jazz", "product_form":
+        "Album"}, {"release_year": 1960, "title": "Nina Simone at Newport", "entity_type":
+        "album", "id": "1b09b262-e06e-7b96-aa84-0a9ff9a0d396", "number_of_tracks":
+        "7", "album_ref_id": "64725041", "performer_name": "Nina Simone", "main_genre":
+        "jazz", "product_form": "Album"}, {"release_year": 1964, "title": "Nina Simone
+        in Concert", "entity_type": "album", "id": "302171d7-614a-0fb4-d036-90e5e245b61f",
+        "number_of_tracks": "7", "album_ref_id": "26580005", "performer_name": "Nina
+        Simone", "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        1966, "title": "Let It All Out", "entity_type": "album", "id": "c9648d77-62df-5c69-6350-f0bf362dba82",
+        "number_of_tracks": "11", "album_ref_id": "6687551", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1969, "title": "Very Rare Evening", "entity_type": "album", "id": "29b84b98-b796-f06d-9587-e8e2434d159f",
+        "number_of_tracks": "8", "album_ref_id": "13541089", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1967, "title": "Nina Simone Sings the Blues", "entity_type": "album", "id":
+        "b225dc8e-c513-71c5-ee9a-cc7a89906dc1", "number_of_tracks": "13", "album_ref_id":
+        "28175449", "performer_name": "Nina Simone", "main_genre": "vocals", "product_form":
+        "Album"}, {"release_year": 1961, "title": "Forbidden Fruit", "entity_type":
+        "album", "id": "b7718279-a6a1-b20e-ed86-a484ccf17cc2", "number_of_tracks":
+        "21", "album_ref_id": "80555067", "performer_name": "Nina Simone", "main_genre":
+        "jazz", "product_form": "Album"}, {"release_year": 1969, "title": "To Love
+        Somebody", "entity_type": "album", "id": "3cfbaac2-f53b-fca2-22e8-45e62ad581a8",
+        "number_of_tracks": "8", "album_ref_id": "30802591", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1967, "title": "Sings the Blues/Nuff Said", "entity_type": "album", "id":
+        "59c24eeb-ff31-fc4c-e4b9-53b628ff529a", "number_of_tracks": "22", "album_ref_id":
+        "13698013", "performer_name": "Nina Simone", "main_genre": "jazz", "product_form":
+        "Album"}, {"release_year": 1969, "title": "Gifted & Black", "entity_type":
+        "album", "number_of_tracks": "10", "album_ref_id": "26607723", "performer_name":
+        "Nina Simone", "id": "206ff583-2e7b-01be-e590-890a5df0ba6f", "product_form":
+        "Album"}, {"release_year": 1967, "title": "Silk & Soul", "entity_type": "album",
+        "id": "a170aa15-f82a-7e27-10af-173b31e71272", "number_of_tracks": "10", "album_ref_id":
+        "6468731", "performer_name": "Nina Simone", "main_genre": "vocals", "product_form":
+        "Album"}, {"release_year": 1969, "title": "Best of Nina Simone [PolyGram]",
+        "entity_type": "album", "id": "127f9cfc-c745-c3a8-a2e8-b44100c0b795", "number_of_tracks":
+        "12", "album_ref_id": "766135", "performer_name": "Nina Simone", "main_genre":
+        "jazz", "product_form": "Album"}, {"release_year": 1962, "title": "At the
+        Village Gate", "entity_type": "album", "id": "300e6c96-f0e5-132b-23bd-9d1a28f6b8d0",
+        "number_of_tracks": "8", "album_ref_id": "52582861", "performer_name": "Nina
+        Simone", "main_genre": "soul/r&b", "product_form": "Album"}, {"release_year":
+        1964, "title": "Folksy Nina", "entity_type": "album", "id": "37200eb0-5563-7e49-9d42-b2e6e3ab8da7",
+        "number_of_tracks": "0", "album_ref_id": "64143737", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1964, "title": "Broadway-Blues-Ballads", "entity_type": "album", "id": "59d0a311-95ea-dc5b-6df9-e6d1934d2c1b",
+        "number_of_tracks": "13", "album_ref_id": "6687507", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1965, "title": "I Put a Spell on You", "entity_type": "album", "id": "46ee1fa9-658a-af23-37f5-cc729375ade0",
+        "number_of_tracks": "12", "album_ref_id": "6687481", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1965, "title": "Pastel Blues", "entity_type": "album", "id": "83a218c6-d068-0be0-7599-7219cc038bcb",
+        "number_of_tracks": "10", "album_ref_id": "6693331", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1963, "title": "At Carnegie Hall", "entity_type": "album", "id": "e09da5bf-6ad9-7760-00f7-551aa87170eb",
+        "number_of_tracks": "7", "album_ref_id": "64144069", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Feb 2015 04:42:10 GMT
 recorded_with: VCR 2.9.3

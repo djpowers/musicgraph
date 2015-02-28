@@ -74,6 +74,21 @@ module MusicGraph
           expect(albums.last.title).to eql("My Head Is an Animal")
         end
       end
+
+      it "accepts hash and returns decade search results" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          params = {
+            decade: "1960s"
+          }
+          albums = MusicGraph::Album.search(params)
+
+          expect(albums).to_not be_empty
+          expect(albums.length).to eql(20)
+          expect(albums.first).to be_a Album
+          expect(albums.first.title).to eql("Soul Shakedown")
+          expect(albums.last.title).to eql("At Carnegie Hall")
+        end
+      end
     end
   end
 end

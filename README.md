@@ -79,6 +79,9 @@ albums.first.title # => "Tidal"
 
 albums = MusicGraph::Album.search(country: "iceland")
 albums.first.title # => "My Head Is an Animal"
+
+albums = MusicGraph::Album.search(decade: "1960s")
+albums.first.title # => "Soul Shakedown"
 ```
 
 ## Testing
