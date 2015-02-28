@@ -71,19 +71,19 @@ artist.gender # => nil
 albums = MusicGraph::Album.search("either/or")
 albums.first.title # => "Either/Or"
 
-albums = MusicGraph::Album.search(artist_name: "led zeppelin")
+albums = MusicGraph::Album.search({artist_name: "led zeppelin"})
 albums.first.title # => "C'mon Everybody"
 
-albums = MusicGraph::Album.search(similar_to: "grace")
+albums = MusicGraph::Album.search({similar_to: "grace"})
 albums.first.title # => "Tidal"
 
-albums = MusicGraph::Album.search(country: "iceland")
+albums = MusicGraph::Album.search({country: "iceland"})
 albums.first.title # => "My Head Is an Animal"
 
-albums = MusicGraph::Album.search(decade: "1960s")
+albums = MusicGraph::Album.search({decade: "1960s"})
 albums.first.title # => "Soul Shakedown"
 
-albums = MusicGraph::Album.search(genre: "rock")
+albums = MusicGraph::Album.search({genre: "rock"})
 albums.first.title # => "You Are the Night"
 ```
 
