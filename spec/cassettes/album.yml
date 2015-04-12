@@ -1269,4 +1269,53 @@ http_interactions:
         "release_year": 2010}]}'
     http_version: 
   recorded_at: Sun, 12 Apr 2015 18:20:36 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Apr 2015 23:24:37 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '389'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "data":
+        {"release_year": 1980, "title": "Emotional Rescue", "entity_type": "album",
+        "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "number_of_tracks": "10", "album_ref_id": "32202849", "performer_name": "The
+        Rolling Stones", "main_genre": "rock", "product_form": "Album"}}'
+    http_version: 
+  recorded_at: Sun, 12 Apr 2015 23:24:32 GMT
 recorded_with: VCR 2.9.3

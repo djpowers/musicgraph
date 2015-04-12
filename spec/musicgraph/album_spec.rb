@@ -165,5 +165,26 @@ module MusicGraph
         end
       end
     end
+
+    describe "#find" do
+      it "returns a single album" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          album_id = "7cfb88ac-1d50-f210-42d6-57a718fa141c"
+          album = MusicGraph::Album.find(album_id)
+
+          expect(album).to be_an Album
+          expect(album.release_year).to eql(1980)
+          expect(album.title).to eql("Emotional Rescue")
+          expect(album.entity_type).to eql("album")
+          expect(album.album_artist_id).to eql("e88b6841-a6b5-11e0-b446-00251188dd67")
+          expect(album.id).to eql("7cfb88ac-1d50-f210-42d6-57a718fa141c")
+          expect(album.number_of_tracks).to eql("10")
+          expect(album.album_ref_id).to eql("32202849")
+          expect(album.performer_name).to eql("The Rolling Stones")
+          expect(album.main_genre).to eql("rock")
+          expect(album.product_form).to eql("Album")
+        end
+      end
+    end
   end
 end
