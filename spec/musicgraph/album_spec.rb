@@ -137,5 +137,19 @@ module MusicGraph
         end
       end
     end
+
+    describe "#suggest" do
+      it "returns a list of matches" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          query = "Emotion"
+          albums = MusicGraph::Album.suggest(query)
+
+          expect(albums.length).to eql(20)
+          expect(albums).to be_a Array
+          expect(albums.first).to be_a Album
+          expect(albums.first.title).to eql("Emotions")
+        end
+      end
+    end
   end
 end
