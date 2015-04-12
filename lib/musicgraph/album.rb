@@ -23,6 +23,9 @@ module MusicGraph
     def self.suggest(params)
       if params.is_a? String
         response = Faraday.get("#{API_URL}suggest?#{MusicGraph.key_param}&prefix=#{params}")
+      elsif params.is_a? Hash
+        encoded_params = URI.encode_www_form(params)
+        response = Faraday.get("#{API_URL}suggest?#{MusicGraph.key_param}&#{encoded_params}")
       end
       albums = JSON.parse(response.body)["data"]
       albums.map { |attributes| new(attributes) }

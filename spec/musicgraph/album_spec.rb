@@ -150,6 +150,20 @@ module MusicGraph
           expect(albums.first.title).to eql("Emotions")
         end
       end
+
+      it "accepts hash and returns suggestions" do
+        VCR.use_cassette("artist", record: :new_episodes) do
+          params = {
+            prefix: "Emotion"
+          }
+          albums = MusicGraph::Album.suggest(params)
+
+          expect(albums.length).to eql(20)
+          expect(albums).to be_a Array
+          expect(albums.first).to be_a Album
+          expect(albums.first.title).to eql("Emotions")
+        end
+      end
     end
   end
 end
