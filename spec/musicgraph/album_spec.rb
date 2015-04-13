@@ -198,5 +198,16 @@ module MusicGraph
         end
       end
     end
+
+    describe "#metadata" do
+      it "returns metadata for an album" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          album_id = "7cfb88ac-1d50-f210-42d6-57a718fa141c"
+          album = MusicGraph::Album.find(album_id)
+
+          expect(album.metadata).to be_a Hash
+        end
+      end
+    end
   end
 end

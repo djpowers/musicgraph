@@ -1410,4 +1410,93 @@ http_interactions:
         ["artists", "tracks"]}'
     http_version: 
   recorded_at: Mon, 13 Apr 2015 01:40:47 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/metadata?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 13 Apr 2015 02:04:36 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '61'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": -1, "message": "Not Found", "api": "v2"}}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 02:04:39 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 13 Apr 2015 02:05:08 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1b.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '389'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "data":
+        {"release_year": 1980, "entity_type": "album", "title": "Emotional Rescue",
+        "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "main_genre": "rock",
+        "number_of_tracks": "10", "album_ref_id": "32202849", "performer_name": "The
+        Rolling Stones", "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "product_form":
+        "Album"}}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 02:05:11 GMT
 recorded_with: VCR 2.9.3

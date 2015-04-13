@@ -51,5 +51,10 @@ module MusicGraph
       response = Faraday.get("#{API_URL}#{id}/edges?#{MusicGraph.key_param}")
       JSON.parse(response.body)["data"]
     end
+
+    def metadata
+      response = Faraday.get("#{API_URL}#{id}?#{MusicGraph.key_param}")
+      JSON.parse(response.body)["data"]
+    end
   end
 end
