@@ -186,5 +186,17 @@ module MusicGraph
         end
       end
     end
+
+    describe "#edges" do
+      it "returns edges for an album" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          album_id = "7cfb88ac-1d50-f210-42d6-57a718fa141c"
+          album = MusicGraph::Album.find(album_id)
+
+          expect(album.edges).to be_an Array
+          expect(album.edges).to eql(["artists", "tracks"])
+        end
+      end
+    end
   end
 end
