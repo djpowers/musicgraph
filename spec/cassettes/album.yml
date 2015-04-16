@@ -1750,4 +1750,369 @@ http_interactions:
         "name": "The Rolling Stones"}]}'
     http_version: 
   recorded_at: Thu, 16 Apr 2015 03:01:07 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/tracks?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:07:57 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '6319'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 10, "total": 10, "offset": 1}, "data": [{"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "primary_tempo": 69.837, "label_name": "Capitol", "track_index": "9", "duration":
+        254, "main_genre": "rock", "title": "She''s So Cold", "track_ref_id": "32202867",
+        "id": "6d1252b1-40d8-a029-5a67-773ef8ae92bb", "performer_name": "The Rolling
+        Stones", "original_release_year": 1980, "entity_type": "track", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909392", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.41, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"popularity": 0.3, "track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2009, "title": "Down in the Hole", "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "primary_tempo": 61.81, "artist_name": "The Rolling Stones", "entity_type":
+        "track", "album_title": "Emotional Rescue", "performer_name": "The Rolling
+        Stones", "track_index": "7", "duration": 238, "isrc": "GBCJN8000007", "original_release_year":
+        1980, "id": "fc13444d-2d36-a278-283a-4714c9dc4ff5"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "primary_tempo": 97.97, "label_name": "Capitol", "track_index": "5", "duration":
+        263, "main_genre": "rock", "title": "Indian Girl", "track_ref_id": "32202859",
+        "id": "3d562866-5bdf-3a36-0ec5-9acf53386ec2", "performer_name": "The Rolling
+        Stones", "original_release_year": 1980, "entity_type": "track", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909388", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.32, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        83.354, "label_name": "Capitol", "track_index": "2", "duration": 196, "main_genre":
+        "rock", "title": "Summer Romance", "track_ref_id": "32202853", "id": "744de873-7235-1969-cedf-c6801dfdada3",
+        "original_release_year": 1980, "entity_type": "track", "performer_name": "The
+        Rolling Stones", "artist_name": "The Rolling Stones", "isrc": "GBUM70909385",
+        "track_artist_ref_id": "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.31, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        80.124, "label_name": "Capitol", "track_index": "6", "duration": 209, "main_genre":
+        "rock", "title": "Where the Boys Go", "track_ref_id": "32202861", "id": "2362e93c-1476-db02-bd1b-647593a64efe",
+        "performer_name": "The Rolling Stones", "original_release_year": 1980, "entity_type":
+        "track", "artist_name": "The Rolling Stones", "isrc": "GBUM70909389", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.29, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        86.857, "label_name": "Capitol", "track_index": "10", "duration": 258, "main_genre":
+        "rock", "title": "All About You", "track_ref_id": "32202869", "id": "1da77c83-ab33-36fd-3af4-85f5ea71972c",
+        "original_release_year": 1980, "entity_type": "track", "performer_name": "The
+        Rolling Stones", "artist_name": "The Rolling Stones", "isrc": "GBUM70909393",
+        "track_artist_ref_id": "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.3, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        107.666, "label_name": "Capitol", "track_index": "1", "duration": 263, "main_genre":
+        "rock", "title": "Dance (Pt. 1)", "track_ref_id": "32202851", "id": "4b091198-0448-9494-cb1c-cc7dd1356455",
+        "original_release_year": 2009, "entity_type": "track", "performer_name": "The
+        Rolling Stones", "artist_name": "The Rolling Stones", "isrc": "GBUM70909384",
+        "track_artist_ref_id": "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.37, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        93.963, "label_name": "Capitol", "track_index": "3", "duration": 223, "main_genre":
+        "rock", "title": "Send It to Me", "track_ref_id": "32202855", "id": "99f024c5-a02f-3a06-a232-9cc1f14de80e",
+        "performer_name": "The Rolling Stones", "original_release_year": 1980, "entity_type":
+        "track", "artist_name": "The Rolling Stones", "isrc": "GBUM70909386", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.33, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        114.84, "label_name": "Capitol", "track_index": "8", "duration": 339, "main_genre":
+        "rock", "title": "Emotional Rescue", "track_ref_id": "32202865", "id": "6bafa653-0c6d-6df3-41db-8412f7c00a84",
+        "performer_name": "The Rolling Stones", "original_release_year": 1980, "entity_type":
+        "track", "artist_name": "The Rolling Stones", "isrc": "GBUM70909391", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.44, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        74.359, "label_name": "Capitol", "track_index": "4", "duration": 232, "main_genre":
+        "rock", "title": "Let Me Go", "track_ref_id": "32202857", "id": "02b2263b-3f44-876b-595b-658340e4e6a6",
+        "performer_name": "The Rolling Stones", "original_release_year": 2009, "entity_type":
+        "track", "track_musicbrainz_id": "2276d4a3-370b-46f4-84a2-98d886577c0f", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909387", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.31, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:07:54 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/tracks?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:07:49 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '6319'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 10, "total": 10, "offset": 1}, "data": [{"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "primary_tempo": 69.837, "label_name": "Capitol", "track_index": "9", "duration":
+        254, "id": "6d1252b1-40d8-a029-5a67-773ef8ae92bb", "title": "She''s So Cold",
+        "track_ref_id": "32202867", "main_genre": "rock", "original_release_year":
+        1980, "entity_type": "track", "performer_name": "The Rolling Stones", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909392", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.41, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "release_year":
+        2009, "primary_tempo": 61.81, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "id": "fc13444d-2d36-a278-283a-4714c9dc4ff5", "popularity": 0.3, "original_release_year":
+        1980, "artist_name": "The Rolling Stones", "isrc": "GBCJN8000007", "performer_name":
+        "The Rolling Stones", "album_title": "Emotional Rescue", "duration": 238,
+        "title": "Down in the Hole", "track_index": "7", "entity_type": "track"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        97.97, "label_name": "Capitol", "track_index": "5", "duration": 263, "id":
+        "3d562866-5bdf-3a36-0ec5-9acf53386ec2", "title": "Indian Girl", "track_ref_id":
+        "32202859", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909388", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.32, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        83.354, "label_name": "Capitol", "track_index": "2", "duration": 196, "id":
+        "744de873-7235-1969-cedf-c6801dfdada3", "title": "Summer Romance", "track_ref_id":
+        "32202853", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 1980, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909385", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.31, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        80.124, "label_name": "Capitol", "track_index": "6", "duration": 209, "id":
+        "2362e93c-1476-db02-bd1b-647593a64efe", "title": "Where the Boys Go", "track_ref_id":
+        "32202861", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909389", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.29, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        86.857, "label_name": "Capitol", "track_index": "10", "duration": 258, "id":
+        "1da77c83-ab33-36fd-3af4-85f5ea71972c", "title": "All About You", "track_ref_id":
+        "32202869", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 1980, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909393", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.3, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        107.666, "label_name": "Capitol", "track_index": "1", "duration": 263, "id":
+        "4b091198-0448-9494-cb1c-cc7dd1356455", "title": "Dance (Pt. 1)", "track_ref_id":
+        "32202851", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 2009, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909384", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.37, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        93.963, "label_name": "Capitol", "track_index": "3", "duration": 223, "id":
+        "99f024c5-a02f-3a06-a232-9cc1f14de80e", "title": "Send It to Me", "track_ref_id":
+        "32202855", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909386", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.33, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        114.84, "label_name": "Capitol", "track_index": "8", "duration": 339, "id":
+        "6bafa653-0c6d-6df3-41db-8412f7c00a84", "title": "Emotional Rescue", "track_ref_id":
+        "32202865", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909391", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.44, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        74.359, "label_name": "Capitol", "track_index": "4", "duration": 232, "id":
+        "02b2263b-3f44-876b-595b-658340e4e6a6", "title": "Let Me Go", "track_ref_id":
+        "32202857", "main_genre": "rock", "original_release_year": 2009, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "track_musicbrainz_id": "2276d4a3-370b-46f4-84a2-98d886577c0f",
+        "artist_name": "The Rolling Stones", "isrc": "GBUM70909387", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.31, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:07:54 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/tracks?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:08:09 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '6319'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 10, "total": 10, "offset": 1}, "data": [{"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "primary_tempo": 69.837, "label_name": "Capitol", "track_index": "9", "duration":
+        254, "id": "6d1252b1-40d8-a029-5a67-773ef8ae92bb", "title": "She''s So Cold",
+        "track_ref_id": "32202867", "main_genre": "rock", "original_release_year":
+        1980, "entity_type": "track", "performer_name": "The Rolling Stones", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909392", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.41, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "release_year":
+        2009, "primary_tempo": 61.81, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "id": "fc13444d-2d36-a278-283a-4714c9dc4ff5", "popularity": 0.3, "original_release_year":
+        1980, "artist_name": "The Rolling Stones", "isrc": "GBCJN8000007", "performer_name":
+        "The Rolling Stones", "album_title": "Emotional Rescue", "duration": 238,
+        "title": "Down in the Hole", "track_index": "7", "entity_type": "track"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        97.97, "label_name": "Capitol", "track_index": "5", "duration": 263, "id":
+        "3d562866-5bdf-3a36-0ec5-9acf53386ec2", "title": "Indian Girl", "track_ref_id":
+        "32202859", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909388", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.32, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        83.354, "label_name": "Capitol", "track_index": "2", "duration": 196, "id":
+        "744de873-7235-1969-cedf-c6801dfdada3", "title": "Summer Romance", "track_ref_id":
+        "32202853", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 1980, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909385", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.31, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        80.124, "label_name": "Capitol", "track_index": "6", "duration": 209, "id":
+        "2362e93c-1476-db02-bd1b-647593a64efe", "title": "Where the Boys Go", "track_ref_id":
+        "32202861", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909389", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.29, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        86.857, "label_name": "Capitol", "track_index": "10", "duration": 258, "id":
+        "1da77c83-ab33-36fd-3af4-85f5ea71972c", "title": "All About You", "track_ref_id":
+        "32202869", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 1980, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909393", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.3, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        107.666, "label_name": "Capitol", "track_index": "1", "duration": 263, "id":
+        "4b091198-0448-9494-cb1c-cc7dd1356455", "title": "Dance (Pt. 1)", "track_ref_id":
+        "32202851", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 2009, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909384", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.37, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        93.963, "label_name": "Capitol", "track_index": "3", "duration": 223, "id":
+        "99f024c5-a02f-3a06-a232-9cc1f14de80e", "title": "Send It to Me", "track_ref_id":
+        "32202855", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909386", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.33, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        114.84, "label_name": "Capitol", "track_index": "8", "duration": 339, "id":
+        "6bafa653-0c6d-6df3-41db-8412f7c00a84", "title": "Emotional Rescue", "track_ref_id":
+        "32202865", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909391", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.44, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        74.359, "label_name": "Capitol", "track_index": "4", "duration": 232, "id":
+        "02b2263b-3f44-876b-595b-658340e4e6a6", "title": "Let Me Go", "track_ref_id":
+        "32202857", "main_genre": "rock", "original_release_year": 2009, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "track_musicbrainz_id": "2276d4a3-370b-46f4-84a2-98d886577c0f",
+        "artist_name": "The Rolling Stones", "isrc": "GBUM70909387", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.31, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:08:14 GMT
 recorded_with: VCR 2.9.3

@@ -232,5 +232,17 @@ module MusicGraph
         end
       end
     end
+
+    describe "#tracks" do
+      it "returns tracks for an album" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          album_id = "7cfb88ac-1d50-f210-42d6-57a718fa141c"
+          album = MusicGraph::Album.find(album_id)
+
+          expect(album.tracks).to be_an Array
+          expect(album.tracks.first).to be_a Track
+        end
+      end
+    end
   end
 end
