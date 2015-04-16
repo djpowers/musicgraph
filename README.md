@@ -92,6 +92,11 @@ albums.length # => 5
 albums = MusicGraph::Album.suggest("emotion").
 albums.first.title # => "Emotions"
 
+album = MusicGraph::Album.find("7cfb88ac-1d50-f210-42d6-57a718fa141c")
+albums.first.performer_name # => "The Rolling Stones"
+
+album.edges # => ["artists", "tracks"]
+
 artist.metadata # => returns all available metadata
 ```
 
