@@ -220,5 +220,17 @@ module MusicGraph
         end
       end
     end
+
+    describe "#artists" do
+      it "returns artists for an album" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          album_id = "7cfb88ac-1d50-f210-42d6-57a718fa141c"
+          album = MusicGraph::Album.find(album_id)
+
+          expect(album.artists).to be_an Array
+          expect(album.artists.first).to be_an Artist
+        end
+      end
+    end
   end
 end

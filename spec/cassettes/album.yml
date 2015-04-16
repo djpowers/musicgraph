@@ -1546,4 +1546,208 @@ http_interactions:
         "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c"}}'
     http_version: 
   recorded_at: Thu, 16 Apr 2015 02:25:10 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/artists?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:00:42 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 1, "total": 1, "offset": 1}, "data": [{"main_genre": "rock", "country_of_origin":
+        "England", "spotify_id": "22bE4uQ6baNwSHPVcDxLCe", "entity_type": "artist",
+        "artist_ref_id": "33474", "sort_name": "Rolling Stones", "gender": "Male",
+        "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598", "id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s", "name": "The Rolling
+        Stones"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:00:47 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/artists?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:00:50 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "total": 1, "offset": 1}, "data": [{"country_of_origin": "England",
+        "spotify_id": "22bE4uQ6baNwSHPVcDxLCe", "entity_type": "artist", "artist_ref_id":
+        "33474", "id": "e88b6841-a6b5-11e0-b446-00251188dd67", "sort_name": "Rolling
+        Stones", "gender": "Male", "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+        "main_genre": "rock", "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s",
+        "name": "The Rolling Stones"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:00:47 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/artists?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:01:05 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "total": 1, "offset": 1}, "data": [{"country_of_origin": "England",
+        "spotify_id": "22bE4uQ6baNwSHPVcDxLCe", "entity_type": "artist", "artist_ref_id":
+        "33474", "id": "e88b6841-a6b5-11e0-b446-00251188dd67", "sort_name": "Rolling
+        Stones", "gender": "Male", "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+        "main_genre": "rock", "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s",
+        "name": "The Rolling Stones"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:01:02 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/artists?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:01:02 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1b.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "total": 1, "offset": 1}, "data": [{"country_of_origin": "England",
+        "spotify_id": "22bE4uQ6baNwSHPVcDxLCe", "entity_type": "artist", "artist_ref_id":
+        "33474", "id": "e88b6841-a6b5-11e0-b446-00251188dd67", "sort_name": "Rolling
+        Stones", "gender": "Male", "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+        "main_genre": "rock", "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s",
+        "name": "The Rolling Stones"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:01:07 GMT
 recorded_with: VCR 2.9.3

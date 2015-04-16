@@ -97,7 +97,9 @@ albums.first.performer_name # => "The Rolling Stones"
 
 album.edges # => ["artists", "tracks"]
 
-artist.metadata # => returns all available metadata
+album.metadata # => returns all available metadata
+
+album.artists.first.name # => "The Rolling Stones"
 ```
 
 ## Testing
