@@ -1499,4 +1499,51 @@ http_interactions:
         "Album"}}'
     http_version: 
   recorded_at: Mon, 13 Apr 2015 02:05:11 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c?api_key=<API_KEY>&fields=id,title
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 02:25:05 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '202'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "data":
+        {"title": "Emotional Rescue", "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c"}}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 02:25:10 GMT
 recorded_with: VCR 2.9.3

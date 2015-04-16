@@ -91,6 +91,8 @@ albums.length # => 5
 
 albums = MusicGraph::Album.suggest("emotion").
 albums.first.title # => "Emotions"
+
+artist.metadata # => returns all available metadata
 ```
 
 ## Testing

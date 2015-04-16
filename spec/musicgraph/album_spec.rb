@@ -208,6 +208,17 @@ module MusicGraph
           expect(album.metadata).to be_a Hash
         end
       end
+
+      it "filters by given fields" do
+        VCR.use_cassette("album", record: :new_episodes) do
+          filters = ["id", "title"]
+          album_id = "7cfb88ac-1d50-f210-42d6-57a718fa141c"
+          album = MusicGraph::Album.find(album_id, filters)
+
+          expect(album.title).to eql("Emotional Rescue")
+          expect(album.performer_name).to be(nil)
+        end
+      end
     end
   end
 end
