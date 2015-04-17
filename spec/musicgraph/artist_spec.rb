@@ -12,7 +12,7 @@ module MusicGraph
           artists = MusicGraph::Artist.search(artist_name)
 
           expect(artists).to_not be_empty
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("Wilco")
         end
       end
@@ -25,7 +25,7 @@ module MusicGraph
           artists = MusicGraph::Artist.search(params)
 
           expect(artists).to_not be_empty
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("Local Natives")
         end
       end
@@ -39,7 +39,7 @@ module MusicGraph
 
           expect(artists).to_not be_empty
           expect(artists.length).to eql(20)
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("David Gilmour")
           expect(artists.last.name).to eql("Eric Clapton")
         end
@@ -54,7 +54,7 @@ module MusicGraph
 
           expect(artists).to_not be_empty
           expect(artists.length).to eql(20)
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("Lil Wayne")
           expect(artists.last.name).to eql("Juicy J")
         end
@@ -69,7 +69,7 @@ module MusicGraph
 
           expect(artists).to_not be_empty
           expect(artists.length).to eql(20)
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("Chris Brown")
           expect(artists.last.name).to eql("Amy Winehouse")
         end
@@ -84,7 +84,7 @@ module MusicGraph
 
           expect(artists).to_not be_empty
           expect(artists.length).to eql(20)
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("Sasha")
           expect(artists.last.name).to eql("Shakira")
         end
@@ -99,7 +99,7 @@ module MusicGraph
 
           expect(artists).to_not be_empty
           expect(artists.length).to eql(20)
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("Lil Wayne")
           expect(artists.last.name).to eql("Juicy J")
         end
@@ -115,7 +115,7 @@ module MusicGraph
 
           expect(artists).to_not be_empty
           expect(artists.length).to eql(5)
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("David Gilmour")
           expect(artists.last.name).to_not eql("Eric Clapton")
         end
@@ -131,7 +131,7 @@ module MusicGraph
 
           expect(artists).to_not be_empty
           expect(artists.length).to eql(7)
-          expect(artists.first).to be_a Artist
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to_not eql("David Gilmour")
           expect(artists.last.name).to eql("Hess Is More")
         end
@@ -145,8 +145,8 @@ module MusicGraph
           artists = MusicGraph::Artist.suggest(query)
 
           expect(artists.length).to eql(20)
-          expect(artists).to be_a Array
-          expect(artists.first).to be_a Artist
+          expect(artists).to be_an Array
+          expect(artists.first).to be_an Artist
           expect(artists.first.name).to eql("Green Day")
         end
       end
@@ -160,8 +160,8 @@ module MusicGraph
         artists = MusicGraph::Artist.suggest(params)
 
         expect(artists.length).to eql(20)
-        expect(artists).to be_a Array
-        expect(artists.first).to be_a Artist
+        expect(artists).to be_an Array
+        expect(artists.first).to be_an Artist
         expect(artists.first.name).to eql("Green Day")
       end
     end
@@ -173,7 +173,7 @@ module MusicGraph
         artist_id = "e4de0d41-a6b5-11e0-b446-00251188dd67"
         artist = MusicGraph::Artist.find(artist_id)
 
-        expect(artist).to be_a Artist
+        expect(artist).to be_an Artist
         expect(artist.seven_digital_id).to eql("5843")
         expect(artist.main_genre).to eql("alternative/indie")
         expect(artist.country_of_origin).to eql("United States of America")
@@ -196,7 +196,7 @@ module MusicGraph
       VCR.use_cassette("artist", record: :new_episodes) do
         artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67")
 
-        expect(artist.edges).to be_a Array
+        expect(artist.edges).to be_an Array
         expect(artist.edges).to eql(["albums", "similar", "tracks"])
       end
     end
@@ -227,8 +227,8 @@ module MusicGraph
       VCR.use_cassette("artist", record: :new_episodes) do
         artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67")
 
-        expect(artist.similar).to be_a Array
-        expect(artist.similar.first).to be_a Artist
+        expect(artist.similar).to be_an Array
+        expect(artist.similar.first).to be_an Artist
         expect(artist.similar.first.name).to eql("Bob Forrest")
       end
     end
@@ -239,8 +239,8 @@ module MusicGraph
       VCR.use_cassette("artist", record: :new_episodes) do
         artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67")
 
-        expect(artist.albums).to be_a Array
-        expect(artist.albums.first).to be_a Album
+        expect(artist.albums).to be_an Array
+        expect(artist.albums.first).to be_an Album
       end
     end
   end
@@ -250,7 +250,7 @@ module MusicGraph
       VCR.use_cassette("artist", record: :new_episodes) do
         artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67")
 
-        expect(artist.tracks).to be_a Array
+        expect(artist.tracks).to be_an Array
         expect(artist.tracks.first).to be_a Track
       end
     end

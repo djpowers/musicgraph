@@ -12,7 +12,7 @@ module MusicGraph
           albums = MusicGraph::Album.search(album_name)
 
           expect(albums).to_not be_empty
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("Either/Or")
         end
       end
@@ -25,7 +25,7 @@ module MusicGraph
           albums = MusicGraph::Album.search(params)
 
           expect(albums).to_not be_empty
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("I and Love and You")
         end
       end
@@ -39,7 +39,7 @@ module MusicGraph
 
           expect(albums).to_not be_empty
           expect(albums.length).to eql(20)
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("C'mon Everybody")
           expect(albums.last.title).to eql("Led Zeppelin [Box Set]")
         end
@@ -54,7 +54,7 @@ module MusicGraph
 
           expect(albums).to_not be_empty
           expect(albums.length).to eql(7)
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("Tidal")
           expect(albums.last.title).to eql("Greater Than")
         end
@@ -69,7 +69,7 @@ module MusicGraph
 
           expect(albums).to_not be_empty
           expect(albums.length).to eql(20)
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("For Now I Am Winter")
           expect(albums.last.title).to eql("My Head Is an Animal")
         end
@@ -84,7 +84,7 @@ module MusicGraph
 
           expect(albums).to_not be_empty
           expect(albums.length).to eql(20)
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("Soul Shakedown")
           expect(albums.last.title).to eql("At Carnegie Hall")
         end
@@ -99,7 +99,7 @@ module MusicGraph
 
           expect(albums).to_not be_empty
           expect(albums.length).to eql(20)
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("You Are the Night")
           expect(albums.last.title).to eql("Safety")
         end
@@ -115,7 +115,7 @@ module MusicGraph
 
           expect(albums).to_not be_empty
           expect(albums.length).to eql(5)
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("Days of Future Passed")
           expect(albums.last.title).to eql("Their Satanic Majesties Request")
         end
@@ -131,7 +131,7 @@ module MusicGraph
 
           expect(albums).to_not be_empty
           expect(albums.length).to eql(8)
-          expect(albums.first).to be_a Album
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to_not eql("Days of Future Passed")
           expect(albums.last.title).to eql("Are You Experienced?")
         end
@@ -145,8 +145,8 @@ module MusicGraph
           albums = MusicGraph::Album.suggest(query)
 
           expect(albums.length).to eql(20)
-          expect(albums).to be_a Array
-          expect(albums.first).to be_a Album
+          expect(albums).to be_an Array
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("Emotions")
         end
       end
@@ -159,8 +159,8 @@ module MusicGraph
           albums = MusicGraph::Album.suggest(params)
 
           expect(albums.length).to eql(20)
-          expect(albums).to be_a Array
-          expect(albums.first).to be_a Album
+          expect(albums).to be_an Array
+          expect(albums.first).to be_an Album
           expect(albums.first.title).to eql("Emotions")
         end
       end
