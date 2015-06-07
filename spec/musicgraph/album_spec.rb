@@ -116,8 +116,8 @@ module MusicGraph
           expect(albums).to_not be_empty
           expect(albums.length).to eql(5)
           expect(albums.first).to be_an Album
-          expect(albums.first.title).to eql("Days of Future Passed")
-          expect(albums.last.title).to eql("Their Satanic Majesties Request")
+          expect(albums.first.title).to eql("Doors")
+          expect(albums.last.title).to eql("Days of Future Passed")
         end
       end
 
@@ -125,15 +125,15 @@ module MusicGraph
         VCR.use_cassette("album", record: :new_episodes) do
           params = {
             similar_to: "Sgt. Pepper's Lonely Hearts Club Band",
-            offset: 5
+            offset: 2
           }
           albums = MusicGraph::Album.search(params)
 
           expect(albums).to_not be_empty
-          expect(albums.length).to eql(8)
+          expect(albums.length).to eql(11)
           expect(albums.first).to be_an Album
-          expect(albums.first.title).to_not eql("Days of Future Passed")
-          expect(albums.last.title).to eql("Are You Experienced?")
+          expect(albums.first.title).to_not eql("Doors")
+          expect(albums.last.title).to eql("Odessa")
         end
       end
     end

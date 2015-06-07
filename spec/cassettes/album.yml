@@ -2115,4 +2115,624 @@ http_interactions:
         Rescue"}]}'
     http_version: 
   recorded_at: Thu, 16 Apr 2015 03:08:14 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&limit=5&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:42:22 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '1817'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 5, "offset": 1}, "data": [{"release_year": 1967, "title": "Doors",
+        "similarity": 0.8, "album_artist_id": "e462f24f-a6b5-11e0-b446-00251188dd67",
+        "id": "44354016-526d-7db7-982a-976e8337dd70", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "7679753", "performer_name": "The Doors", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Surrealistic
+        Pillow", "similarity": 0.8, "album_artist_id": "ae24a6a5-02d3-4c57-a8c3-2a6734143c5f",
+        "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "31006189", "performer_name": "Jefferson Airplane",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Their Satanic Majesties Request", "similarity": 0.8, "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "id": "7fa4a465-2be1-1531-7fee-376f22810732", "number_of_tracks": "10", "entity_type":
+        "album", "album_ref_id": "6459063", "performer_name": "The Rolling Stones",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Piper at the Gates of Dawn", "similarity": 0.8, "album_artist_id": "e2661344-a6b5-11e0-b446-00251188dd67",
+        "id": "0ce62699-8c96-ecc0-d080-9bb3f24cd783", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "4994353", "performer_name": "Pink Floyd", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Days of
+        Future Passed", "similarity": 0.8, "album_artist_id": "93e1cc57-93ab-2cd4-c281-942b5836082f",
+        "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50", "number_of_tracks": "7", "entity_type":
+        "album", "album_ref_id": "15223705", "performer_name": "The Moody Blues",
+        "main_genre": "rock", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:41:49 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=5&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:42:12 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 5}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:41:50 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:44:28 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '4198'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 12, "offset": 1}, "data": [{"release_year": 1967, "title": "Doors",
+        "similarity": 0.8, "album_artist_id": "e462f24f-a6b5-11e0-b446-00251188dd67",
+        "id": "44354016-526d-7db7-982a-976e8337dd70", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "7679753", "performer_name": "The Doors", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Surrealistic
+        Pillow", "similarity": 0.8, "album_artist_id": "ae24a6a5-02d3-4c57-a8c3-2a6734143c5f",
+        "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "31006189", "performer_name": "Jefferson Airplane",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Their Satanic Majesties Request", "similarity": 0.8, "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "id": "7fa4a465-2be1-1531-7fee-376f22810732", "number_of_tracks": "10", "entity_type":
+        "album", "album_ref_id": "6459063", "performer_name": "The Rolling Stones",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Piper at the Gates of Dawn", "similarity": 0.8, "album_artist_id": "e2661344-a6b5-11e0-b446-00251188dd67",
+        "id": "0ce62699-8c96-ecc0-d080-9bb3f24cd783", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "4994353", "performer_name": "Pink Floyd", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Days of
+        Future Passed", "similarity": 0.8, "album_artist_id": "93e1cc57-93ab-2cd4-c281-942b5836082f",
+        "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50", "number_of_tracks": "7", "entity_type":
+        "album", "album_ref_id": "15223705", "performer_name": "The Moody Blues",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "SMiLE [Not Released]", "similarity": 0.8, "album_artist_id": "a49320cc-c917-4b1b-bcef-ae21ce4dfe86",
+        "id": "6042f35b-010b-b945-ce5a-64bba6b9c488", "number_of_tracks": "14", "entity_type":
+        "album", "album_ref_id": "59665381", "performer_name": "The Beach Boys", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1967, "title": "Magic Garden",
+        "similarity": 0.7, "album_artist_id": "e7cee8bd-a6b5-11e0-b446-00251188dd67",
+        "id": "da181ad6-54de-2fa6-c954-b5aa9e149def", "number_of_tracks": "12", "entity_type":
+        "album", "album_ref_id": "11402595", "performer_name": "The 5th Dimension",
+        "main_genre": "pop", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Of Cabbages and Kings", "similarity": 0.7, "album_artist_id": "e808751e-a6b5-11e0-b446-00251188dd67",
+        "id": "563f0014-4706-c10a-a285-49ac92620315", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "38700231", "performer_name": "Chad & Jeremy", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1967, "title": "Are You
+        Experienced?", "similarity": 0.5, "album_artist_id": "333caa00-4211-ce3d-e60c-d07dd0d954c8",
+        "id": "3be84976-a930-1ebd-41bd-f318553f882e", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "35619375", "performer_name": "The Jimi Hendrix Experience",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1968, "title":
+        "S.F. Sorrow", "similarity": 0.5, "album_artist_id": "b7f94cee-f887-4768-fb8d-370492e38579",
+        "id": "ca991371-a131-71fb-4aa0-43c033e6aa2e", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "80159857", "performer_name": "The Pretty Things",
+        "main_genre": "pop", "product_form": "Album"}, {"release_year": 1968, "title":
+        "Village Green Preservation Society", "similarity": 0.5, "album_artist_id":
+        "e6f1b8c1-a6b5-11e0-b446-00251188dd67", "id": "736ec1d2-f201-10a4-ae3a-f1ef3559381e",
+        "number_of_tracks": "15", "entity_type": "album", "album_ref_id": "19683453",
+        "performer_name": "The Kinks", "main_genre": "rock", "product_form": "Album"},
+        {"release_year": 1969, "title": "Odessa", "similarity": 0.5, "album_artist_id":
+        "28614844-cbf7-fb1a-fd5e-fb36223df5a3", "id": "8f0eca9a-6b10-15fd-7b2e-32e57acb70de",
+        "number_of_tracks": "17", "entity_type": "album", "album_ref_id": "12534915",
+        "performer_name": "Bee Gees", "main_genre": "pop", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:45:10 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=5&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:46:35 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 0, "offset": 5}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:46:02 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=5&similar_to=Sgt%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:55:38 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 5}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:55:15 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=1&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:57:47 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '4198'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 12, "offset": 1}, "data": [{"release_year": 1967, "similarity":
+        0.8, "title": "Doors", "album_artist_id": "e462f24f-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "number_of_tracks": "11", "entity_type": "album", "album_ref_id":
+        "7679753", "performer_name": "The Doors", "id": "44354016-526d-7db7-982a-976e8337dd70",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "Surrealistic Pillow", "album_artist_id": "ae24a6a5-02d3-4c57-a8c3-2a6734143c5f",
+        "main_genre": "rock", "number_of_tracks": "11", "entity_type": "album", "album_ref_id":
+        "31006189", "performer_name": "Jefferson Airplane", "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "Their Satanic Majesties Request", "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "number_of_tracks": "10", "entity_type": "album", "album_ref_id":
+        "6459063", "performer_name": "The Rolling Stones", "id": "7fa4a465-2be1-1531-7fee-376f22810732",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "Piper at the Gates of Dawn", "album_artist_id": "e2661344-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "number_of_tracks": "11", "entity_type": "album", "album_ref_id":
+        "4994353", "performer_name": "Pink Floyd", "id": "0ce62699-8c96-ecc0-d080-9bb3f24cd783",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "Days of Future Passed", "album_artist_id": "93e1cc57-93ab-2cd4-c281-942b5836082f",
+        "main_genre": "rock", "number_of_tracks": "7", "entity_type": "album", "album_ref_id":
+        "15223705", "performer_name": "The Moody Blues", "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "SMiLE [Not Released]", "album_artist_id": "a49320cc-c917-4b1b-bcef-ae21ce4dfe86",
+        "main_genre": "pop", "number_of_tracks": "14", "entity_type": "album", "album_ref_id":
+        "59665381", "performer_name": "The Beach Boys", "id": "6042f35b-010b-b945-ce5a-64bba6b9c488",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.7, "title":
+        "Magic Garden", "album_artist_id": "e7cee8bd-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "pop", "number_of_tracks": "12", "entity_type": "album", "album_ref_id":
+        "11402595", "performer_name": "The 5th Dimension", "id": "da181ad6-54de-2fa6-c954-b5aa9e149def",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.7, "title":
+        "Of Cabbages and Kings", "album_artist_id": "e808751e-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "pop", "number_of_tracks": "17", "entity_type": "album", "album_ref_id":
+        "38700231", "performer_name": "Chad & Jeremy", "id": "563f0014-4706-c10a-a285-49ac92620315",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.5, "title":
+        "Are You Experienced?", "album_artist_id": "333caa00-4211-ce3d-e60c-d07dd0d954c8",
+        "main_genre": "rock", "number_of_tracks": "17", "entity_type": "album", "album_ref_id":
+        "35619375", "performer_name": "The Jimi Hendrix Experience", "id": "3be84976-a930-1ebd-41bd-f318553f882e",
+        "product_form": "Album"}, {"release_year": 1968, "similarity": 0.5, "title":
+        "S.F. Sorrow", "album_artist_id": "b7f94cee-f887-4768-fb8d-370492e38579",
+        "main_genre": "pop", "number_of_tracks": "17", "entity_type": "album", "album_ref_id":
+        "80159857", "performer_name": "The Pretty Things", "id": "ca991371-a131-71fb-4aa0-43c033e6aa2e",
+        "product_form": "Album"}, {"release_year": 1968, "similarity": 0.5, "title":
+        "Village Green Preservation Society", "album_artist_id": "e6f1b8c1-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "number_of_tracks": "15", "entity_type": "album", "album_ref_id":
+        "19683453", "performer_name": "The Kinks", "id": "736ec1d2-f201-10a4-ae3a-f1ef3559381e",
+        "product_form": "Album"}, {"release_year": 1969, "similarity": 0.5, "title":
+        "Odessa", "album_artist_id": "28614844-cbf7-fb1a-fd5e-fb36223df5a3", "main_genre":
+        "pop", "number_of_tracks": "17", "entity_type": "album", "album_ref_id": "12534915",
+        "performer_name": "Bee Gees", "id": "8f0eca9a-6b10-15fd-7b2e-32e57acb70de",
+        "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:57:14 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=4&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:58:28 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 4}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:58:06 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=3&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:58:35 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 3}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:58:12 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=6&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:58:41 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 6}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:58:18 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=2&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:57:42 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '3877'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 11, "offset": 2}, "data": [{"release_year": 1967, "title": "Surrealistic
+        Pillow", "similarity": 0.8, "album_artist_id": "ae24a6a5-02d3-4c57-a8c3-2a6734143c5f",
+        "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "31006189", "performer_name": "Jefferson Airplane",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Their Satanic Majesties Request", "similarity": 0.8, "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "id": "7fa4a465-2be1-1531-7fee-376f22810732", "number_of_tracks": "10", "entity_type":
+        "album", "album_ref_id": "6459063", "performer_name": "The Rolling Stones",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Piper at the Gates of Dawn", "similarity": 0.8, "album_artist_id": "e2661344-a6b5-11e0-b446-00251188dd67",
+        "id": "0ce62699-8c96-ecc0-d080-9bb3f24cd783", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "4994353", "performer_name": "Pink Floyd", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Days of
+        Future Passed", "similarity": 0.8, "album_artist_id": "93e1cc57-93ab-2cd4-c281-942b5836082f",
+        "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50", "number_of_tracks": "7", "entity_type":
+        "album", "album_ref_id": "15223705", "performer_name": "The Moody Blues",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "SMiLE [Not Released]", "similarity": 0.8, "album_artist_id": "a49320cc-c917-4b1b-bcef-ae21ce4dfe86",
+        "id": "6042f35b-010b-b945-ce5a-64bba6b9c488", "number_of_tracks": "14", "entity_type":
+        "album", "album_ref_id": "59665381", "performer_name": "The Beach Boys", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1967, "title": "Magic Garden",
+        "similarity": 0.7, "album_artist_id": "e7cee8bd-a6b5-11e0-b446-00251188dd67",
+        "id": "da181ad6-54de-2fa6-c954-b5aa9e149def", "number_of_tracks": "12", "entity_type":
+        "album", "album_ref_id": "11402595", "performer_name": "The 5th Dimension",
+        "main_genre": "pop", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Of Cabbages and Kings", "similarity": 0.7, "album_artist_id": "e808751e-a6b5-11e0-b446-00251188dd67",
+        "id": "563f0014-4706-c10a-a285-49ac92620315", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "38700231", "performer_name": "Chad & Jeremy", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1967, "title": "Are You
+        Experienced?", "similarity": 0.5, "album_artist_id": "333caa00-4211-ce3d-e60c-d07dd0d954c8",
+        "id": "3be84976-a930-1ebd-41bd-f318553f882e", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "35619375", "performer_name": "The Jimi Hendrix Experience",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1968, "title":
+        "S.F. Sorrow", "similarity": 0.5, "album_artist_id": "b7f94cee-f887-4768-fb8d-370492e38579",
+        "id": "ca991371-a131-71fb-4aa0-43c033e6aa2e", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "80159857", "performer_name": "The Pretty Things",
+        "main_genre": "pop", "product_form": "Album"}, {"release_year": 1968, "title":
+        "Village Green Preservation Society", "similarity": 0.5, "album_artist_id":
+        "e6f1b8c1-a6b5-11e0-b446-00251188dd67", "id": "736ec1d2-f201-10a4-ae3a-f1ef3559381e",
+        "number_of_tracks": "15", "entity_type": "album", "album_ref_id": "19683453",
+        "performer_name": "The Kinks", "main_genre": "rock", "product_form": "Album"},
+        {"release_year": 1969, "title": "Odessa", "similarity": 0.5, "album_artist_id":
+        "28614844-cbf7-fb1a-fd5e-fb36223df5a3", "id": "8f0eca9a-6b10-15fd-7b2e-32e57acb70de",
+        "number_of_tracks": "17", "entity_type": "album", "album_ref_id": "12534915",
+        "performer_name": "Bee Gees", "main_genre": "pop", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:58:24 GMT
 recorded_with: VCR 2.9.3
