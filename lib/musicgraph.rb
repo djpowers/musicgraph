@@ -1,3 +1,7 @@
+require "faraday"
+require "json"
+require "uri"
+
 require "musicgraph/version"
 require "musicgraph/artist"
 require "musicgraph/album"

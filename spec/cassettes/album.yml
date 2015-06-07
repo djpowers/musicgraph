@@ -1,0 +1,2738 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&title=either/or
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 26 Feb 2015 04:58:34 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '594'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 2, "offset": 1}, "data": [{"release_year": 1997, "entity_type":
+        "album", "title": "Either/Or", "main_genre": "rock", "number_of_tracks": "12",
+        "album_ref_id": "3693047", "performer_name": "Elliott Smith", "id": "17f425bf-36cd-95b7-deef-5f7b45eb6cc5",
+        "product_form": "Album"}, {"entity_type": "album", "title": "Either/Or", "main_genre":
+        "rock", "number_of_tracks": "13", "album_ref_id": "65258409", "performer_name":
+        "Everyone Involved", "id": "f897831a-6c4d-7602-cc6f-4b38ff14227d", "product_form":
+        "Album"}]}'
+    http_version: 
+  recorded_at: Thu, 26 Feb 2015 04:58:31 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&title=%7B:title=%3E%22the%20carpenter%22%7D
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:47:41 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 1}, "data": []}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:47:14 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&title=the%20carpenter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:56:40 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 1}, "data": []}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:54:11 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=the%20avett%20brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:57:35 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "352390", "main_genre":
+        "rock", "country_of_origin": "United States of America", "entity_type": "artist",
+        "artist_ref_id": "188989", "vevo_id": "0dd9fb87-10a4-48f4-bb85-c3e5769adf90",
+        "sort_name": "Avett Brothers", "gender": "Male", "rhapsody_id": "7309378",
+        "id": "f064adc4-a6b5-11e0-b446-00251188dd67", "decade": "2000s / 2010s", "name":
+        "The Avett Brothers"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:32 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=the%20avett%20brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:57:38 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "352390", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "188989",
+        "vevo_id": "0dd9fb87-10a4-48f4-bb85-c3e5769adf90", "id": "f064adc4-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Avett Brothers", "gender": "Male", "rhapsody_id": "7309378",
+        "main_genre": "rock", "decade": "2000s / 2010s", "name": "The Avett Brothers"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:35 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=the%20avett%20brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:57:43 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "352390", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "188989",
+        "vevo_id": "0dd9fb87-10a4-48f4-bb85-c3e5769adf90", "id": "f064adc4-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Avett Brothers", "gender": "Male", "rhapsody_id": "7309378",
+        "main_genre": "rock", "decade": "2000s / 2010s", "name": "The Avett Brothers"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:40 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/search?api_key=<API_KEY>&name=the%20avett%20brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 04:00:12 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '488'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"7digital_id": "352390", "country_of_origin":
+        "United States of America", "entity_type": "artist", "artist_ref_id": "188989",
+        "vevo_id": "0dd9fb87-10a4-48f4-bb85-c3e5769adf90", "id": "f064adc4-a6b5-11e0-b446-00251188dd67",
+        "sort_name": "Avett Brothers", "gender": "Male", "rhapsody_id": "7309378",
+        "main_genre": "rock", "decade": "2000s / 2010s", "name": "The Avett Brothers"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:43 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/artist/f064adc4-a6b5-11e0-b446-00251188dd67/albums?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:58:11 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5064'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "total": 20, "offset": 1}, "data": [{"release_year": 2013, "title":
+        "Magpie and the Dandelion", "entity_type": "album", "id": "6f915c8e-9ffb-43a2-8fcc-807d290da4de",
+        "number_of_tracks": "11", "album_ref_id": "90486047", "main_genre": "rock"},
+        {"release_year": 2012, "title": "Carpenter", "entity_type": "album", "id":
+        "74983766-f9d4-35bf-d647-6ce1a08ccac3", "number_of_tracks": "12", "album_ref_id":
+        "70194615", "performer_name": "The Avett Brothers", "main_genre": "rock",
+        "product_form": "Album"}, {"release_year": 2010, "title": "Live, Vol. 3",
+        "entity_type": "album", "id": "f173f517-2ea3-ad0c-6853-a072441944e9", "number_of_tracks":
+        "16", "album_ref_id": "10535201", "performer_name": "The Avett Brothers",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        2010, "title": "Live, Vol. 3", "entity_type": "album", "id": "114bc1c3-e6a9-5a8f-dfe3-47f46baedf6b",
+        "number_of_tracks": "0", "album_ref_id": "10535201", "performer_name": "The
+        Avett Brothers", "main_genre": "alternative/indie", "product_form": "Album"},
+        {"release_year": 2009, "title": "I and Love and You", "entity_type": "album",
+        "id": "9e39e8b2-aa26-3908-ed47-9c6e17e8a02e", "number_of_tracks": "13", "label_name":
+        "AMERICAN", "album_ref_id": "33118867", "performer_name": "The Avett Brothers",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 2008, "title":
+        "Gleam II", "entity_type": "album", "id": "0f84addd-98b0-25e2-be1a-4942c575cdca",
+        "number_of_tracks": "6", "album_ref_id": "37361561", "performer_name": "The
+        Avett Brothers", "main_genre": "rock", "product_form": "EP"}, {"release_year":
+        2007, "title": "Emotionalism", "entity_type": "album", "id": "4866b11f-6328-4d9d-55e4-641e3573ff52",
+        "number_of_tracks": "14", "album_ref_id": "10416045", "performer_name": "The
+        Avett Brothers", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        2006, "title": "Gleam", "entity_type": "album", "id": "4222ccce-d37b-73a1-9624-01fc6d65ba9d",
+        "number_of_tracks": "6", "album_ref_id": "10542685", "performer_name": "The
+        Avett Brothers", "main_genre": "alternative/indie", "product_form": "EP"},
+        {"release_year": 2006, "title": "Four Thieves Gone: The Robbinsville Sessions",
+        "entity_type": "album", "id": "b70e0ced-c7aa-3915-9f0b-04cf9ccd5f39", "number_of_tracks":
+        "17", "album_ref_id": "6610477", "performer_name": "The Avett Brothers", "main_genre":
+        "country", "product_form": "Album"}, {"release_year": 2005, "title": "Live,
+        Vol. 2", "entity_type": "album", "id": "0371e6f3-d95d-5271-f565-58c5a9bf2fec",
+        "number_of_tracks": "17", "album_ref_id": "26589165", "performer_name": "The
+        Avett Brothers", "main_genre": "folk", "product_form": "Album"}, {"release_year":
+        2004, "title": "Mignonette", "entity_type": "album", "id": "473b392a-085c-32c7-0d92-2a05f137aba2",
+        "number_of_tracks": "20", "album_ref_id": "26589281", "performer_name": "The
+        Avett Brothers", "main_genre": "folk", "product_form": "Album"}, {"release_year":
+        2004, "title": "Swept Away", "entity_type": "album", "id": "de83ef72-c917-8d14-d15c-87e0ef04fff8",
+        "number_of_tracks": "3", "album_ref_id": "34227515", "performer_name": "The
+        Avett Brothers", "main_genre": "country", "product_form": "Single"}, {"release_year":
+        2003, "title": "Carolina Jubilee", "entity_type": "album", "id": "989249a8-c085-b28e-89f9-59063f0500dc",
+        "number_of_tracks": "15", "album_ref_id": "37571025", "performer_name": "The
+        Avett Brothers", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        2002, "title": "Live at the Double Door Inn", "entity_type": "album", "id":
+        "16b02642-9e99-75a6-2562-aaceaed2d65f", "number_of_tracks": "15", "album_ref_id":
+        "35730343", "performer_name": "The Avett Brothers", "main_genre": "rock",
+        "product_form": "Album"}, {"release_year": 2002, "title": "Country Was", "entity_type":
+        "album", "id": "da0c033b-953f-7a3f-39ab-6a32342ffe5c", "number_of_tracks":
+        "8", "album_ref_id": "26328843", "performer_name": "The Avett Brothers", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2000, "title": "Avett Brothers",
+        "entity_type": "album", "number_of_tracks": "6", "performer_name": "The Avett
+        Brothers", "id": "c77ec054-2a78-2a1e-e883-a3734ae43030", "product_form": "EP"},
+        {"title": "I and Love and You/Live, Vol. 3", "entity_type": "album", "id":
+        "d277ba4c-f948-f876-d695-aa770182ea48", "number_of_tracks": "29", "album_ref_id":
+        "37864775", "performer_name": "The Avett Brothers", "main_genre": "rock",
+        "product_form": "Album"}, {"number_of_tracks": "0", "entity_type": "album",
+        "id": "4287047b-8ec1-4b30-b301-385cd2df391c", "title": "Carp "}, {"title":
+        "Live and Die", "entity_type": "album", "id": "907e0e83-dc41-df28-8b02-f009af700f35",
+        "number_of_tracks": "1", "album_ref_id": "70194615", "performer_name": "The
+        Avett Brothers", "main_genre": "rock", "product_form": "Single"}, {"entity_type":
+        "album", "title": "Another is Waiting", "id": "ec710fcd-cd49-40cb-b3ac-a5e9804343c6",
+        "number_of_tracks": "1", "album_ref_id": "87903883", "main_genre": "rock"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:57:43 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&title=i%20and%20love%20and%20you
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 03:59:10 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '401'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"release_year": 2009, "entity_type":
+        "album", "title": "I and Love and You", "main_genre": "rock", "number_of_tracks":
+        "13", "label_name": "AMERICAN", "album_ref_id": "33118867", "performer_name":
+        "The Avett Brothers", "id": "9e39e8b2-aa26-3908-ed47-9c6e17e8a02e", "product_form":
+        "Album"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 03:58:42 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&artist_name=led%20zeppelin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 04:06:58 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5416'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"release_year": 1998, "title": "C''mon
+        Everybody", "entity_type": "album", "id": "53a01775-6774-0bc0-642c-a03ae0bbf244",
+        "number_of_tracks": "16", "album_ref_id": "11842631", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1993, "title": "Complete Studio Recordings", "entity_type": "album", "id":
+        "97f940b9-8fe7-8386-b681-3277de880764", "number_of_tracks": "85", "album_ref_id":
+        "35101251", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 2003, "title": "Led Zeppelin [DVD Box Set]", "entity_type":
+        "album", "id": "24615519-67f9-278f-a031-5ffbbac2489f", "number_of_tracks":
+        "30", "album_ref_id": "35101251", "performer_name": "Led Zeppelin", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1998, "title": "Whole Lotta
+        Love", "entity_type": "album", "id": "a88afd5a-a960-bd7a-8a7d-4a54d0134584",
+        "number_of_tracks": "3", "album_ref_id": "11842631", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Single"}, {"release_year":
+        1971, "title": "Led Zeppelin IV", "entity_type": "album", "id": "5cdd393f-9f99-08db-8768-7cb37292abff",
+        "number_of_tracks": "8", "label_name": "Atlantic Records", "album_ref_id":
+        "11842753", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 2008, "title": "Definitive Collection Mini LP",
+        "entity_type": "album", "id": "4f7f054a-eec2-d2a9-3b1f-ea22b84a2326", "number_of_tracks":
+        "100", "album_ref_id": "35101251", "performer_name": "Led Zeppelin", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1993, "title": "Led Zeppelin
+        [Box Set 2]", "entity_type": "album", "id": "c6282757-9116-7561-72ec-0512c97d5227",
+        "number_of_tracks": "32", "album_ref_id": "35101251", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1975, "title": "Physical Graffiti", "entity_type": "album", "id": "f32c31b4-836b-6588-4ed8-57bb2e902d4a",
+        "number_of_tracks": "15", "label_name": "Atlantic Records", "album_ref_id":
+        "11842721", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 1994, "title": "Pleeease!", "entity_type": "album",
+        "id": "398e8463-72ed-f5ea-c63a-0ba4577c72fd", "number_of_tracks": "14", "album_ref_id":
+        "11842849", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 2002, "title": "Early Days & Latter Days: Vol.
+        1 & 2", "entity_type": "album", "id": "b6500ee4-59b1-dbdd-eaf1-25cccee4d969",
+        "number_of_tracks": "23", "album_ref_id": "11842849", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1991, "title": "Kingdom of Zep", "entity_type": "album", "id": "00b9d24b-3a28-3684-919c-f8e598f3c4a3",
+        "number_of_tracks": "18", "album_ref_id": "35101251", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1977, "title": "Destroyer", "entity_type": "album", "id": "be299d48-9c8c-aad3-a0c6-c992047b7544",
+        "number_of_tracks": "16", "album_ref_id": "11842849", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1992, "title": "Led Zeppelin Remasters", "entity_type": "album", "id": "9613220d-d794-36f5-2ec8-51226ef84da4",
+        "number_of_tracks": "26", "album_ref_id": "35101251", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"title": "Music
+        That Rocked Us", "entity_type": "album", "id": "8299f822-9c11-9ac0-52cc-4bc34932f1d6",
+        "number_of_tracks": "104", "album_ref_id": "84224067", "performer_name": "Led
+        Zeppelin", "main_genre": "pop", "product_form": "Album"}, {"release_year":
+        1976, "title": "Song Remains the Same", "entity_type": "album", "id": "22011f6c-549d-5190-34f1-e0018855a83b",
+        "number_of_tracks": "9", "album_ref_id": "11901971", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"title": "Blueberry
+        Hill [RoundPin]", "entity_type": "album", "id": "8537df58-eb41-8fac-e038-956e5a0fdac3",
+        "number_of_tracks": "14", "album_ref_id": "11842631", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1973, "title": "Madison Square Garden, 1973", "entity_type": "album", "id":
+        "9670fa41-e504-edbd-3748-edcf4512ed03", "number_of_tracks": "10", "album_ref_id":
+        "11901971", "performer_name": "Led Zeppelin", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 2009, "title": "Complete Rock Case Studies", "entity_type":
+        "album", "id": "ef8e526e-b0a1-4b34-e5bb-df371eb946e6", "number_of_tracks":
+        "9", "album_ref_id": "11842849", "performer_name": "Led Zeppelin", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1969, "title": "Led Zeppelin",
+        "entity_type": "album", "id": "f12ba578-6299-92a7-e06d-003a4aed892b", "number_of_tracks":
+        "9", "label_name": "Atlantic Records", "album_ref_id": "11842813", "performer_name":
+        "Led Zeppelin", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1990, "title": "Led Zeppelin [Box Set]", "entity_type": "album", "id": "971d772f-d9d3-d3ca-d512-2b4163a4c102",
+        "number_of_tracks": "54", "album_ref_id": "35101251", "performer_name": "Led
+        Zeppelin", "main_genre": "rock", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 04:04:28 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&similar_to=grace
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 04:09:51 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '1992'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 7, "offset": 1}, "data": [{"release_year": 1996, "title": "Tidal",
+        "entity_type": "album", "id": "4f2412ac-c60f-0017-996a-1aaa382c5134", "number_of_tracks":
+        "10", "label_name": "Work", "album_ref_id": "30423903", "performer_name":
+        "Fiona Apple", "main_genre": "alternative/indie", "product_form": "Album"},
+        {"release_year": 2005, "title": "Back to Bedlam", "entity_type": "album",
+        "id": "134e50d5-1385-5149-fe30-e665352a07fe", "number_of_tracks": "10", "album_ref_id":
+        "5349699", "performer_name": "James Blunt", "main_genre": "alternative/indie",
+        "product_form": "Album"}, {"release_year": 1998, "title": "Rufus Wainwright",
+        "entity_type": "album", "id": "d5cd6891-9e46-1fe0-2764-972221046799", "number_of_tracks":
+        "12", "album_ref_id": "1530715", "performer_name": "Rufus Wainwright", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1994, "title": "Under the
+        Pink", "entity_type": "album", "id": "be7e9aa4-7211-8bcc-c61c-88f6263d43ef",
+        "number_of_tracks": "12", "label_name": "Atlantic Records", "album_ref_id":
+        "20993", "performer_name": "Tori Amos", "main_genre": "alternative/indie",
+        "product_form": "Album"}, {"release_year": 2006, "title": "Beautiful Lie",
+        "entity_type": "album", "id": "f0cd1aad-1d84-2fe8-7d6e-62427bf80e23", "number_of_tracks":
+        "14", "album_ref_id": "7335785", "performer_name": "Ed Harcourt", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2006, "title": "Real Life",
+        "entity_type": "album", "id": "61b85423-6370-540a-1d99-5aa886531a6e", "number_of_tracks":
+        "10", "album_ref_id": "11352933", "performer_name": "Joan as Police Woman",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 2013, "title":
+        "Greater Than", "entity_type": "album", "id": "d3ea8dd8-eb76-ec8b-1b62-93aa538dad2b",
+        "number_of_tracks": "12", "album_ref_id": "87274829", "performer_name": "Tye
+        Tribbett", "main_genre": "christian/gospel", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 04:09:48 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&country=iceland
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Fri, 27 Feb 2015 04:23:55 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5603'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"release_year": 2013, "title": "For
+        Now I Am Winter", "entity_type": "album", "id": "4558ffec-00a3-6052-956a-aa31362985eb",
+        "number_of_tracks": "12", "album_ref_id": "82130205", "performer_name": "\u00d3lafur
+        Arnalds", "main_genre": "classical/opera", "product_form": "Album"}, {"release_year":
+        2008, "title": "Declare Independence ", "entity_type": "album", "id": "768cb3ff-b4d9-aecb-ee44-eb31ec19f8b5",
+        "number_of_tracks": "5", "album_ref_id": "54768135", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Single"}, {"release_year":
+        1998, "title": "Singles Box Set", "entity_type": "album", "id": "291e742d-64e1-9dc5-c17a-2a92918a3cbc",
+        "number_of_tracks": "0", "album_ref_id": "11304951", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        2012, "title": "Bastards", "entity_type": "album", "id": "ab9f1137-2c6d-3626-f832-304bc878bc7c",
+        "number_of_tracks": "13", "album_ref_id": "76118403", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        1994, "title": "Best Mixes from the Album Debut (For All the People Who Don''t
+        Buy White Labels)", "entity_type": "album", "id": "06fe4802-02f3-e4d2-b056-5660834d6f8f",
+        "number_of_tracks": "6", "album_ref_id": "19091003", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        1999, "title": "All Is Full of Love", "entity_type": "album", "id": "789088d3-56b0-8481-37d2-5953ca9bf154",
+        "number_of_tracks": "3", "album_ref_id": "30021127", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Single"}, {"release_year":
+        1999, "title": "Hunter", "entity_type": "album", "id": "84e77b82-6833-f1ff-e503-2c05b983c132",
+        "number_of_tracks": "3", "album_ref_id": "19091017", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        2009, "title": "Voltaic", "entity_type": "album", "id": "98fd65b6-0b75-63aa-91d5-5a3badf26c11",
+        "number_of_tracks": "11", "album_ref_id": "30829263", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        2007, "title": "Earth Intruders", "entity_type": "album", "id": "3a48510a-76e0-dbae-1660-9353f8c36d05",
+        "number_of_tracks": "1", "album_ref_id": "10267687", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Single"}, {"release_year":
+        1999, "title": "Alarm Call", "entity_type": "album", "id": "45d2787f-62a0-710d-f04c-87d5455dee23",
+        "number_of_tracks": "3", "album_ref_id": "29946057", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Single"}, {"release_year":
+        1998, "title": "J\u00f3ga", "entity_type": "album", "id": "3988bf7b-1433-5ced-bdf9-a62e9f12a178",
+        "number_of_tracks": "11", "album_ref_id": "19062447", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Single"}, {"release_year":
+        2008, "title": "Dull Flame of Desire", "entity_type": "album", "id": "f69b800f-0186-5a0b-b48f-03c0c95bc6f0",
+        "number_of_tracks": "11", "album_ref_id": "19151945", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Single"}, {"release_year":
+        2002, "title": "Family Tree", "entity_type": "album", "id": "332c1ade-c7ed-215d-7fed-9524ca281092",
+        "number_of_tracks": "35", "album_ref_id": "11304951", "performer_name": "Bj\u00f6rk",
+        "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        2003, "title": "Live Box: 1993-2002", "entity_type": "album", "id": "0d845e4a-2c76-0534-f544-d9f0bb6f1fa2",
+        "number_of_tracks": "55", "album_ref_id": "11929459", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        2011, "title": "Biophilia", "entity_type": "album", "id": "fd231f55-91cf-b75f-0f14-d49e62200c48",
+        "number_of_tracks": "13", "label_name": "Nonesuch", "album_ref_id": "59072523",
+        "performer_name": "Bj\u00f6rk", "main_genre": "alternative/indie", "product_form":
+        "Album"}, {"release_year": 2002, "title": "Bj\u00f6rk''s Greatest Hits", "entity_type":
+        "album", "id": "a493205f-2bed-c679-e761-1479c5a822ae", "number_of_tracks":
+        "15", "album_ref_id": "26734611", "performer_name": "Bj\u00f6rk", "main_genre":
+        "alternative/indie", "product_form": "Album"}, {"release_year": 2007, "title":
+        "Volta", "entity_type": "album", "id": "725288f9-7545-7d5c-4ede-0b3a01b4fea6",
+        "number_of_tracks": "10", "album_ref_id": "10433635", "performer_name": "Bj\u00f6rk",
+        "main_genre": "alternative/indie", "product_form": "Album"}, {"release_year":
+        2012, "title": "Little Talks", "entity_type": "album", "id": "561a3270-0ca4-e0b6-fc39-55c8f91b580d",
+        "number_of_tracks": "1", "album_ref_id": "72199553", "performer_name": "Of
+        Monsters and Men", "main_genre": "alternative/indie", "product_form": "Single"},
+        {"release_year": 2011, "title": "Into the Woods", "entity_type": "album",
+        "id": "063e6dd3-fe2e-dd66-9785-b414c7d748b2", "number_of_tracks": "4", "album_ref_id":
+        "62190819", "performer_name": "Of Monsters and Men", "main_genre": "alternative/indie",
+        "product_form": "EP"}, {"release_year": 2012, "title": "My Head Is an Animal",
+        "entity_type": "album", "id": "433529da-c01c-e583-4962-f7818740d81a", "number_of_tracks":
+        "12", "label_name": "Republic Records", "album_ref_id": "65659279", "performer_name":
+        "Of Monsters and Men", "main_genre": "alternative/indie", "product_form":
+        "Album"}]}'
+    http_version: 
+  recorded_at: Fri, 27 Feb 2015 04:23:52 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&decade=1960s
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 28 Feb 2015 04:41:11 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5284'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"release_year": 1969, "title": "Soul
+        Shakedown", "entity_type": "album", "id": "8d1f2f13-c345-1c22-ce76-515af52fbe48",
+        "number_of_tracks": "20", "album_ref_id": "39934207", "performer_name": "Bob
+        Marley & The Wailers", "main_genre": "reggae/ska", "product_form": "Album"},
+        {"release_year": 1963, "title": "Nina''s Choice", "entity_type": "album",
+        "id": "10732a8e-ae6e-a6a1-00cd-d2f4abaca5b4", "number_of_tracks": "9", "album_ref_id":
+        "64144127", "performer_name": "Nina Simone", "main_genre": "jazz", "product_form":
+        "Album"}, {"release_year": 1968, "title": "''Nuff Said!", "entity_type": "album",
+        "id": "73ccd8c9-28a9-321d-d709-924d6351629f", "number_of_tracks": "11", "album_ref_id":
+        "13698013", "performer_name": "Nina Simone", "main_genre": "jazz", "product_form":
+        "Album"}, {"release_year": 1960, "title": "Nina Simone at Newport", "entity_type":
+        "album", "id": "1b09b262-e06e-7b96-aa84-0a9ff9a0d396", "number_of_tracks":
+        "7", "album_ref_id": "64725041", "performer_name": "Nina Simone", "main_genre":
+        "jazz", "product_form": "Album"}, {"release_year": 1964, "title": "Nina Simone
+        in Concert", "entity_type": "album", "id": "302171d7-614a-0fb4-d036-90e5e245b61f",
+        "number_of_tracks": "7", "album_ref_id": "26580005", "performer_name": "Nina
+        Simone", "main_genre": "electronica/dance", "product_form": "Album"}, {"release_year":
+        1966, "title": "Let It All Out", "entity_type": "album", "id": "c9648d77-62df-5c69-6350-f0bf362dba82",
+        "number_of_tracks": "11", "album_ref_id": "6687551", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1969, "title": "Very Rare Evening", "entity_type": "album", "id": "29b84b98-b796-f06d-9587-e8e2434d159f",
+        "number_of_tracks": "8", "album_ref_id": "13541089", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1967, "title": "Nina Simone Sings the Blues", "entity_type": "album", "id":
+        "b225dc8e-c513-71c5-ee9a-cc7a89906dc1", "number_of_tracks": "13", "album_ref_id":
+        "28175449", "performer_name": "Nina Simone", "main_genre": "vocals", "product_form":
+        "Album"}, {"release_year": 1961, "title": "Forbidden Fruit", "entity_type":
+        "album", "id": "b7718279-a6a1-b20e-ed86-a484ccf17cc2", "number_of_tracks":
+        "21", "album_ref_id": "80555067", "performer_name": "Nina Simone", "main_genre":
+        "jazz", "product_form": "Album"}, {"release_year": 1969, "title": "To Love
+        Somebody", "entity_type": "album", "id": "3cfbaac2-f53b-fca2-22e8-45e62ad581a8",
+        "number_of_tracks": "8", "album_ref_id": "30802591", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1967, "title": "Sings the Blues/Nuff Said", "entity_type": "album", "id":
+        "59c24eeb-ff31-fc4c-e4b9-53b628ff529a", "number_of_tracks": "22", "album_ref_id":
+        "13698013", "performer_name": "Nina Simone", "main_genre": "jazz", "product_form":
+        "Album"}, {"release_year": 1969, "title": "Gifted & Black", "entity_type":
+        "album", "number_of_tracks": "10", "album_ref_id": "26607723", "performer_name":
+        "Nina Simone", "id": "206ff583-2e7b-01be-e590-890a5df0ba6f", "product_form":
+        "Album"}, {"release_year": 1967, "title": "Silk & Soul", "entity_type": "album",
+        "id": "a170aa15-f82a-7e27-10af-173b31e71272", "number_of_tracks": "10", "album_ref_id":
+        "6468731", "performer_name": "Nina Simone", "main_genre": "vocals", "product_form":
+        "Album"}, {"release_year": 1969, "title": "Best of Nina Simone [PolyGram]",
+        "entity_type": "album", "id": "127f9cfc-c745-c3a8-a2e8-b44100c0b795", "number_of_tracks":
+        "12", "album_ref_id": "766135", "performer_name": "Nina Simone", "main_genre":
+        "jazz", "product_form": "Album"}, {"release_year": 1962, "title": "At the
+        Village Gate", "entity_type": "album", "id": "300e6c96-f0e5-132b-23bd-9d1a28f6b8d0",
+        "number_of_tracks": "8", "album_ref_id": "52582861", "performer_name": "Nina
+        Simone", "main_genre": "soul/r&b", "product_form": "Album"}, {"release_year":
+        1964, "title": "Folksy Nina", "entity_type": "album", "id": "37200eb0-5563-7e49-9d42-b2e6e3ab8da7",
+        "number_of_tracks": "0", "album_ref_id": "64143737", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1964, "title": "Broadway-Blues-Ballads", "entity_type": "album", "id": "59d0a311-95ea-dc5b-6df9-e6d1934d2c1b",
+        "number_of_tracks": "13", "album_ref_id": "6687507", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1965, "title": "I Put a Spell on You", "entity_type": "album", "id": "46ee1fa9-658a-af23-37f5-cc729375ade0",
+        "number_of_tracks": "12", "album_ref_id": "6687481", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1965, "title": "Pastel Blues", "entity_type": "album", "id": "83a218c6-d068-0be0-7599-7219cc038bcb",
+        "number_of_tracks": "10", "album_ref_id": "6693331", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}, {"release_year":
+        1963, "title": "At Carnegie Hall", "entity_type": "album", "id": "e09da5bf-6ad9-7760-00f7-551aa87170eb",
+        "number_of_tracks": "7", "album_ref_id": "64144069", "performer_name": "Nina
+        Simone", "main_genre": "jazz", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Feb 2015 04:42:10 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&genre=rock
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 28 Feb 2015 04:59:35 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '5259'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"title": "You Are the Night", "entity_type":
+        "album", "id": "1299c862-9bce-53e8-6c5f-0ae5c7d5b5e3", "number_of_tracks":
+        "10", "album_ref_id": "40158785", "performer_name": "Grande", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2006, "title": "These and
+        Other Things", "entity_type": "album", "id": "aff81bc0-920e-b5aa-3c02-e6fcb85787bb",
+        "number_of_tracks": "11", "label_name": "drake", "album_ref_id": "62098209",
+        "performer_name": "Drake", "main_genre": "rock", "product_form": "Album"},
+        {"release_year": 1989, "title": "Mind Bomb", "entity_type": "album", "id":
+        "a1db31ba-7bed-8f35-681e-138b0c1b6d32", "number_of_tracks": "8", "album_ref_id":
+        "8590237", "performer_name": "The The", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 1993, "title": "Dusk", "entity_type": "album",
+        "id": "c6e5e43a-79a5-a723-1448-cf0a6e68c34a", "number_of_tracks": "10", "album_ref_id":
+        "6754457", "performer_name": "The The", "main_genre": "rock:80''s rock", "product_form":
+        "Album"}, {"release_year": 1995, "title": "Jamaican Singles, Vol. 1", "entity_type":
+        "album", "id": "cfeaa3c2-2edc-1245-39a6-6e81e4f8e193", "number_of_tracks":
+        "18", "album_ref_id": "56393411", "performer_name": "Bob Marley & The Wailers",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1998, "title":
+        "Mr. Chatterbox", "entity_type": "album", "id": "2c94883d-2584-4dbb-f94c-9939c53cbea2",
+        "number_of_tracks": "20", "album_ref_id": "56393411", "performer_name": "Bob
+        Marley & The Wailers", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        2007, "title": "It Won''t Be Soon Before Long", "entity_type": "album", "id":
+        "9df634ec-ee7f-2421-1853-08dbf6de47dd", "number_of_tracks": "12", "album_ref_id":
+        "10512043", "performer_name": "Maroon 5", "main_genre": "rock", "product_form":
+        "Album"}, {"title": "Songs About Jane/It Won''t Be Soon Before Long", "entity_type":
+        "album", "id": "b483a707-185e-3b65-b9ff-c8b8f97aca0a", "number_of_tracks":
+        "31", "album_ref_id": "15129589", "performer_name": "Maroon 5", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2004, "title": "Colour
+        the Small One", "entity_type": "album", "id": "188053e0-fffb-77f9-9705-5b7fb04939b0",
+        "number_of_tracks": "11", "album_ref_id": "6332999", "performer_name": "Sia",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 2007, "title":
+        "Won''t Go Home Without You", "entity_type": "album", "id": "79a531f0-52d4-c805-9ffe-fa51145249aa",
+        "number_of_tracks": "3", "label_name": "A&M / Octone Records", "album_ref_id":
+        "12861063", "performer_name": "Maroon 5", "main_genre": "rock", "product_form":
+        "Single"}, {"release_year": 2002, "title": "Songs About Jane", "entity_type":
+        "album", "id": "069aefe2-b3b2-3ba8-6ff1-6b3796da5116", "number_of_tracks":
+        "12", "label_name": "UMC (Universal Music Catalogue)", "album_ref_id": "1631021",
+        "performer_name": "Maroon 5", "main_genre": "rock", "product_form": "Album"},
+        {"title": "Never Gonna Leave This Bed (France Version)", "entity_type": "album",
+        "id": "dd5d8795-a071-4237-e98d-dccf60ca65b3", "number_of_tracks": "2", "album_ref_id":
+        "69412577", "performer_name": "Maroon 5", "main_genre": "rock", "product_form":
+        "Single"}, {"title": "Numb Remixes 1", "entity_type": "album", "id": "b8f1e37f-2cbe-0947-91fe-4c3a7e732773",
+        "number_of_tracks": "2", "album_ref_id": "14972941", "performer_name": "Sia",
+        "main_genre": "rock", "product_form": "Single"}, {"release_year": 2004, "title":
+        "Don''t Bring Me Down [UK CD]", "entity_type": "album", "id": "794f094e-6a19-c6ac-402f-0b111b15f853",
+        "number_of_tracks": "4", "album_ref_id": "14972925", "performer_name": "Sia",
+        "main_genre": "rock", "product_form": "Single"}, {"title": "Remixes 2", "entity_type":
+        "album", "id": "81fa8de0-c17b-477d-cb10-0c357ada54be", "number_of_tracks":
+        "4", "album_ref_id": "14972925", "performer_name": "Sia", "main_genre": "rock",
+        "product_form": "EP"}, {"release_year": 2005, "title": "Numb Remixes 2", "entity_type":
+        "album", "id": "9c4ea005-897d-71f7-2262-b4f19b33e690", "number_of_tracks":
+        "0", "album_ref_id": "14972941", "performer_name": "Sia", "main_genre": "rock",
+        "product_form": "Single"}, {"release_year": 2007, "title": "Makes Me Wonder",
+        "entity_type": "album", "id": "d6b00f20-5f62-fedf-8225-c59652629738", "number_of_tracks":
+        "16", "album_ref_id": "11881567", "performer_name": "Maroon 5", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 2008, "title": "Some People
+        Have Real Problems", "entity_type": "album", "id": "e9ea3215-d8d7-5d78-b46a-edf3101001ac",
+        "number_of_tracks": "14", "album_ref_id": "12404219", "performer_name": "Sia",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 2007, "title":
+        "7 Inch Collection", "entity_type": "album", "id": "df6c110a-c82d-4208-402d-2ee2e131690e",
+        "number_of_tracks": "33", "album_ref_id": "13518929", "performer_name": "Coldplay",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1998, "title":
+        "Safety", "entity_type": "album", "id": "4c82ede3-90a6-c995-27a2-9d88f83f3ee9",
+        "number_of_tracks": "3", "album_ref_id": "974141", "performer_name": "Coldplay",
+        "main_genre": "rock", "product_form": "EP"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Feb 2015 04:59:32 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&limit=5&similar_to=Sgt.%20Pepper's%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 28 Feb 2015 05:41:09 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '1425'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 5, "offset": 1}, "data": [{"release_year": 1967, "title": "Days
+        of Future Passed", "entity_type": "album", "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50",
+        "number_of_tracks": "7", "album_ref_id": "15223705", "performer_name": "The
+        Moody Blues", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1967, "title": "Surrealistic Pillow", "entity_type": "album", "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1",
+        "number_of_tracks": "11", "album_ref_id": "31006189", "performer_name": "Jefferson
+        Airplane", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1967, "title": "Doors", "entity_type": "album", "id": "44354016-526d-7db7-982a-976e8337dd70",
+        "number_of_tracks": "11", "album_ref_id": "7679753", "performer_name": "The
+        Doors", "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967,
+        "title": "SMiLE [Not Released]", "entity_type": "album", "id": "6042f35b-010b-b945-ce5a-64bba6b9c488",
+        "number_of_tracks": "14", "album_ref_id": "59665381", "performer_name": "The
+        Beach Boys", "main_genre": "pop", "product_form": "Album"}, {"release_year":
+        1967, "title": "Their Satanic Majesties Request", "entity_type": "album",
+        "id": "7fa4a465-2be1-1531-7fee-376f22810732", "number_of_tracks": "10", "album_ref_id":
+        "6459063", "performer_name": "The Rolling Stones", "main_genre": "rock", "product_form":
+        "Album"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Feb 2015 05:41:07 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=5&similar_to=Sgt.%20Pepper's%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 28 Feb 2015 06:14:31 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '2223'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 8, "offset": 5}, "data": [{"release_year": 1967, "title": "Their
+        Satanic Majesties Request", "entity_type": "album", "id": "7fa4a465-2be1-1531-7fee-376f22810732",
+        "number_of_tracks": "10", "album_ref_id": "6459063", "performer_name": "The
+        Rolling Stones", "main_genre": "rock", "product_form": "Album"}, {"release_year":
+        1967, "title": "Piper at the Gates of Dawn", "entity_type": "album", "id":
+        "0ce62699-8c96-ecc0-d080-9bb3f24cd783", "number_of_tracks": "11", "album_ref_id":
+        "4994353", "performer_name": "Pink Floyd", "main_genre": "rock", "product_form":
+        "Album"}, {"release_year": 1967, "title": "Magic Garden", "entity_type": "album",
+        "id": "da181ad6-54de-2fa6-c954-b5aa9e149def", "number_of_tracks": "12", "album_ref_id":
+        "11402595", "performer_name": "The 5th Dimension", "main_genre": "pop", "product_form":
+        "Album"}, {"release_year": 1967, "title": "Of Cabbages and Kings", "entity_type":
+        "album", "id": "563f0014-4706-c10a-a285-49ac92620315", "number_of_tracks":
+        "17", "album_ref_id": "38700231", "performer_name": "Chad & Jeremy", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1968, "title": "Village
+        Green Preservation Society", "entity_type": "album", "id": "736ec1d2-f201-10a4-ae3a-f1ef3559381e",
+        "number_of_tracks": "15", "album_ref_id": "19683453", "performer_name": "The
+        Kinks", "main_genre": "rock", "product_form": "Album"}, {"release_year": 1969,
+        "title": "Odessa", "entity_type": "album", "id": "8f0eca9a-6b10-15fd-7b2e-32e57acb70de",
+        "number_of_tracks": "17", "album_ref_id": "12534915", "performer_name": "Bee
+        Gees", "main_genre": "pop", "product_form": "Album"}, {"release_year": 1968,
+        "title": "S.F. Sorrow", "entity_type": "album", "id": "ca991371-a131-71fb-4aa0-43c033e6aa2e",
+        "number_of_tracks": "17", "album_ref_id": "80159857", "performer_name": "The
+        Pretty Things", "main_genre": "pop", "product_form": "Album"}, {"release_year":
+        1967, "title": "Are You Experienced?", "entity_type": "album", "id": "3be84976-a930-1ebd-41bd-f318553f882e",
+        "number_of_tracks": "17", "album_ref_id": "35619375", "performer_name": "The
+        Jimi Hendrix Experience", "main_genre": "rock", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sat, 28 Feb 2015 06:14:28 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/suggest?api_key=<API_KEY>&prefix=Emotionalism
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Apr 2015 18:17:16 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '462'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 1, "offset": 1}, "data": [{"slug": "emotionalism", "name": "Emotionalism",
+        "album_ref_id": "10416045", "entity_type": "album", "album_artist_id": "f064adc4-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "artist_name": "The Avett Brothers", "performer_name":
+        "The Avett Brothers", "id": "4866b11f-6328-4d9d-55e4-641e3573ff52", "product_form":
+        "Album", "release_year": 2007}]}'
+    http_version: 
+  recorded_at: Sun, 12 Apr 2015 18:17:11 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/suggest?api_key=<API_KEY>&prefix=4866b11f-6328-4d9d-55e4-641e3573ff52
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Apr 2015 18:19:27 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1b.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 1}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 12 Apr 2015 18:19:30 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/suggest?api_key=<API_KEY>&prefix=Emotion
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Apr 2015 18:20:38 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '7015'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"slug": "emotions", "name": "Emotions",
+        "album_ref_id": "1449939", "entity_type": "album", "album_artist_id": "b9fae655-9741-b873-9cd0-834c2a9c3e34",
+        "main_genre": "pop", "artist_name": "Mariah Carey", "performer_name": "Mariah
+        Carey", "id": "7869a003-ec31-37f6-7369-4e500de1f577", "product_form": "Single",
+        "release_year": 2002}, {"slug": "emotions", "name": "Emotions", "album_ref_id":
+        "14842599", "entity_type": "album", "album_artist_id": "b9fae655-9741-b873-9cd0-834c2a9c3e34",
+        "main_genre": "pop", "artist_name": "Mariah Carey", "performer_name": "Mariah
+        Carey", "id": "22a84035-7c3c-5268-e762-68ead77136b3", "product_form": "Album",
+        "release_year": 1991}, {"slug": "mixed emotions", "name": "Mixed Emotions",
+        "album_ref_id": "15890455", "entity_type": "album", "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "artist_name": "The Rolling Stones", "performer_name":
+        "The Rolling Stones", "id": "78fe2b64-8497-1060-bcc0-de924734bff9", "product_form":
+        "Single", "release_year": 1990}, {"slug": "emotional rescue", "name": "Emotional
+        Rescue", "album_ref_id": "32202849", "entity_type": "album", "album_artist_id":
+        "e88b6841-a6b5-11e0-b446-00251188dd67", "main_genre": "rock", "artist_name":
+        "The Rolling Stones", "performer_name": "The Rolling Stones", "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "product_form": "Album", "release_year": 1980}, {"slug": "emotion cycles",
+        "name": "Emotion Cycles", "album_ref_id": "2280143", "entity_type": "album",
+        "album_artist_id": "2d8fb76a-f893-51ec-19c9-572bd3c33c7a", "main_genre": "electronica/dance",
+        "artist_name": "Dahlia", "performer_name": "Dahlia", "id": "d3dd87c4-b87a-e0ab-eb9a-4e598a65a71b",
+        "product_form": "Album", "release_year": 2001}, {"slug": "so emotional", "name":
+        "So Emotional", "album_ref_id": "69577767", "entity_type": "album", "album_artist_id":
+        "e398f5d4-a6b5-11e0-b446-00251188dd67", "main_genre": "pop", "artist_name":
+        "Whitney Houston", "performer_name": "Whitney Houston", "id": "16a652e2-d62b-e7d4-2645-b5b68b8c71fb",
+        "product_form": "Single", "release_year": 1988}, {"slug": "mixed emotions",
+        "name": "Mixed Emotions", "album_ref_id": "40552099", "entity_type": "album",
+        "album_artist_id": "e3577cbb-a6b5-11e0-b446-00251188dd67", "main_genre": "jazz",
+        "artist_name": "Dinah Washington", "performer_name": "Dinah Washington", "id":
+        "36b97c82-cd64-c754-41be-5b41812395df", "product_form": "Album", "release_year":
+        2002}, {"slug": "emotional traffic", "name": "Emotional Traffic", "album_ref_id":
+        "63234357", "entity_type": "album", "album_artist_id": "8aff6b3e-a023-cead-c16e-5c39d0dedfba",
+        "main_genre": "country", "artist_name": "Tim McGraw", "performer_name": "Tim
+        McGraw", "id": "0dae7300-90cb-8c86-db64-1be3a17a2401", "product_form": "Album",
+        "release_year": 2012}, {"slug": "emotion us 12", "name": "Emotion [US 12\"]",
+        "album_ref_id": "30914135", "entity_type": "album", "album_artist_id": "ab03f3c2-dc65-d333-406b-0e4dddda1407",
+        "main_genre": "pop", "artist_name": "Destiny''s Child", "performer_name":
+        "Destiny''s Child", "id": "f2708bb9-2a65-696b-7f96-3715064096c5", "product_form":
+        "Single", "release_year": 2001}, {"slug": "motions emotions", "name": "Motions
+        & Emotions", "album_ref_id": "5303273", "entity_type": "album", "album_artist_id":
+        "e2cf1db0-a6b5-11e0-b446-00251188dd67", "main_genre": "jazz", "artist_name":
+        "Oscar Peterson", "performer_name": "Oscar Peterson", "id": "e698b9f2-0107-5d26-d1d9-9e0a3feced2d",
+        "product_form": "Album", "release_year": 1969}, {"slug": "emotions", "name":
+        "Emotions", "album_ref_id": "64721737", "entity_type": "album", "album_artist_id":
+        "31fef68f-ebaf-b1a9-6e67-e1ceeb5e8dec", "main_genre": "jazz", "artist_name":
+        "Brenda Lee", "performer_name": "Brenda Lee", "id": "10a17706-d760-6784-1c3c-48b1697b679c",
+        "product_form": "Album", "release_year": 1961}, {"slug": "emotion", "name":
+        "Emotion", "album_ref_id": "527847", "entity_type": "album", "album_artist_id":
+        "e32c6c9d-a6b5-11e0-b446-00251188dd67", "main_genre": "vocals", "artist_name":
+        "Barbra Streisand", "performer_name": "Barbra Streisand", "id": "2207ded9-a5e5-3b8d-1d36-8e969d26564a",
+        "product_form": "Album", "release_year": 1984}, {"slug": "emotions", "name":
+        "Emotions", "entity_type": "album", "album_artist_id": "ee25f6da-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "pop", "artist_name": "Sila", "performer_name": "Sila", "id":
+        "237292d9-12fc-3933-f717-4524ca827daf", "product_form": "Single", "album_ref_id":
+        "41154039"}, {"slug": "mixed emotions", "name": "Mixed Emotions", "album_ref_id":
+        "55612349", "entity_type": "album", "album_artist_id": "e3c55782-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "pop", "artist_name": "Rosemary Clooney", "performer_name":
+        "Rosemary Clooney", "id": "d3008d94-17a9-0c86-4ce8-4723f969368b", "product_form":
+        "Album", "release_year": 1986}, {"slug": "emotionally yours", "name": "Emotionally
+        Yours", "album_ref_id": "57553", "entity_type": "album", "album_artist_id":
+        "e68df63a-a6b5-11e0-b446-00251188dd67", "main_genre": "soul/r&b", "artist_name":
+        "The O''Jays", "performer_name": "The O''Jays", "id": "677bab38-114d-0b4c-049c-70730fe48685",
+        "product_form": "Album", "release_year": 1991}, {"slug": "emotionalism", "name":
+        "Emotionalism", "album_ref_id": "10416045", "entity_type": "album", "album_artist_id":
+        "f064adc4-a6b5-11e0-b446-00251188dd67", "main_genre": "rock", "artist_name":
+        "The Avett Brothers", "performer_name": "The Avett Brothers", "id": "4866b11f-6328-4d9d-55e4-641e3573ff52",
+        "product_form": "Album", "release_year": 2007}, {"slug": "mixed emotions",
+        "name": "Mixed Emotions", "album_ref_id": "86560409", "entity_type": "album",
+        "album_artist_id": "f03535e4-a6b5-11e0-b446-00251188dd67", "main_genre": "blues",
+        "artist_name": "TJR", "performer_name": "TJR", "id": "0bb03327-7d28-9784-1197-4a4bf1ab1e7f",
+        "product_form": "Album", "release_year": 2003}, {"slug": "emotional technology",
+        "name": "Emotional Technology", "album_ref_id": "46155395", "entity_type":
+        "album", "album_artist_id": "e2969b62-a6b5-11e0-b446-00251188dd67", "main_genre":
+        "electronica/dance", "artist_name": "BT", "performer_name": "BT", "id": "3ee8d4d4-03eb-2128-b3ee-dec9cda7c4d0",
+        "product_form": "Album", "release_year": 2003}, {"slug": "into the lighthigh
+        on emotion", "name": "Into the Light/High on Emotion", "album_ref_id": "4078507",
+        "entity_type": "album", "album_artist_id": "3edb3f6a-3cda-2ad5-af2d-ff763c197f52",
+        "main_genre": "rock", "artist_name": "Chris de Burgh", "performer_name": "Chris
+        De Burgh", "id": "b5626855-2766-17e6-31ba-42398b93c314", "product_form": "Album",
+        "release_year": 2000}, {"slug": "emotion commotion", "name": "Emotion & Commotion",
+        "album_ref_id": "38767673", "entity_type": "album", "album_artist_id": "e6c88da8-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "artist_name": "Jeff Beck", "performer_name": "Jeff
+        Beck", "id": "7f1f7fb1-1906-ae57-de35-446b4566287b", "product_form": "Album",
+        "release_year": 2010}]}'
+    http_version: 
+  recorded_at: Sun, 12 Apr 2015 18:20:36 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Apr 2015 23:24:37 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '389'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "data":
+        {"release_year": 1980, "title": "Emotional Rescue", "entity_type": "album",
+        "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "number_of_tracks": "10", "album_ref_id": "32202849", "performer_name": "The
+        Rolling Stones", "main_genre": "rock", "product_form": "Album"}}'
+    http_version: 
+  recorded_at: Sun, 12 Apr 2015 23:24:32 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/edges?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 13 Apr 2015 01:40:09 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1b.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '89'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "data":
+        ["artists", "tracks"]}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 01:40:12 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/edges?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 13 Apr 2015 01:40:48 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '89'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "data":
+        ["artists", "tracks"]}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 01:40:47 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/metadata?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 13 Apr 2015 02:04:36 GMT
+      Server:
+      - nginx/1.5.11
+      Content-Length:
+      - '61'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": -1, "message": "Not Found", "api": "v2"}}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 02:04:39 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Mon, 13 Apr 2015 02:05:08 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1b.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '389'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "data":
+        {"release_year": 1980, "entity_type": "album", "title": "Emotional Rescue",
+        "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "main_genre": "rock",
+        "number_of_tracks": "10", "album_ref_id": "32202849", "performer_name": "The
+        Rolling Stones", "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "product_form":
+        "Album"}}'
+    http_version: 
+  recorded_at: Mon, 13 Apr 2015 02:05:11 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c?api_key=<API_KEY>&fields=id,title
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 02:25:05 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '202'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "data":
+        {"title": "Emotional Rescue", "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c"}}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 02:25:10 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/artists?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:00:42 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 1, "total": 1, "offset": 1}, "data": [{"main_genre": "rock", "country_of_origin":
+        "England", "spotify_id": "22bE4uQ6baNwSHPVcDxLCe", "entity_type": "artist",
+        "artist_ref_id": "33474", "sort_name": "Rolling Stones", "gender": "Male",
+        "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598", "id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s", "name": "The Rolling
+        Stones"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:00:47 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/artists?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:00:50 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "total": 1, "offset": 1}, "data": [{"country_of_origin": "England",
+        "spotify_id": "22bE4uQ6baNwSHPVcDxLCe", "entity_type": "artist", "artist_ref_id":
+        "33474", "id": "e88b6841-a6b5-11e0-b446-00251188dd67", "sort_name": "Rolling
+        Stones", "gender": "Male", "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+        "main_genre": "rock", "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s",
+        "name": "The Rolling Stones"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:00:47 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/artists?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:01:05 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "total": 1, "offset": 1}, "data": [{"country_of_origin": "England",
+        "spotify_id": "22bE4uQ6baNwSHPVcDxLCe", "entity_type": "artist", "artist_ref_id":
+        "33474", "id": "e88b6841-a6b5-11e0-b446-00251188dd67", "sort_name": "Rolling
+        Stones", "gender": "Male", "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+        "main_genre": "rock", "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s",
+        "name": "The Rolling Stones"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:01:02 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/artists?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:01:02 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1b.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '510'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 1, "total": 1, "offset": 1}, "data": [{"country_of_origin": "England",
+        "spotify_id": "22bE4uQ6baNwSHPVcDxLCe", "entity_type": "artist", "artist_ref_id":
+        "33474", "id": "e88b6841-a6b5-11e0-b446-00251188dd67", "sort_name": "Rolling
+        Stones", "gender": "Male", "musicbrainz_id": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+        "main_genre": "rock", "decade": "1960s / 1970s / 1980s / 1990s / 2000s / 2010s",
+        "name": "The Rolling Stones"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:01:07 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/tracks?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:07:57 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '6319'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 10, "total": 10, "offset": 1}, "data": [{"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "primary_tempo": 69.837, "label_name": "Capitol", "track_index": "9", "duration":
+        254, "main_genre": "rock", "title": "She''s So Cold", "track_ref_id": "32202867",
+        "id": "6d1252b1-40d8-a029-5a67-773ef8ae92bb", "performer_name": "The Rolling
+        Stones", "original_release_year": 1980, "entity_type": "track", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909392", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.41, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"popularity": 0.3, "track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "release_year": 2009, "title": "Down in the Hole", "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "primary_tempo": 61.81, "artist_name": "The Rolling Stones", "entity_type":
+        "track", "album_title": "Emotional Rescue", "performer_name": "The Rolling
+        Stones", "track_index": "7", "duration": 238, "isrc": "GBCJN8000007", "original_release_year":
+        1980, "id": "fc13444d-2d36-a278-283a-4714c9dc4ff5"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "primary_tempo": 97.97, "label_name": "Capitol", "track_index": "5", "duration":
+        263, "main_genre": "rock", "title": "Indian Girl", "track_ref_id": "32202859",
+        "id": "3d562866-5bdf-3a36-0ec5-9acf53386ec2", "performer_name": "The Rolling
+        Stones", "original_release_year": 1980, "entity_type": "track", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909388", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.32, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        83.354, "label_name": "Capitol", "track_index": "2", "duration": 196, "main_genre":
+        "rock", "title": "Summer Romance", "track_ref_id": "32202853", "id": "744de873-7235-1969-cedf-c6801dfdada3",
+        "original_release_year": 1980, "entity_type": "track", "performer_name": "The
+        Rolling Stones", "artist_name": "The Rolling Stones", "isrc": "GBUM70909385",
+        "track_artist_ref_id": "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.31, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        80.124, "label_name": "Capitol", "track_index": "6", "duration": 209, "main_genre":
+        "rock", "title": "Where the Boys Go", "track_ref_id": "32202861", "id": "2362e93c-1476-db02-bd1b-647593a64efe",
+        "performer_name": "The Rolling Stones", "original_release_year": 1980, "entity_type":
+        "track", "artist_name": "The Rolling Stones", "isrc": "GBUM70909389", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.29, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        86.857, "label_name": "Capitol", "track_index": "10", "duration": 258, "main_genre":
+        "rock", "title": "All About You", "track_ref_id": "32202869", "id": "1da77c83-ab33-36fd-3af4-85f5ea71972c",
+        "original_release_year": 1980, "entity_type": "track", "performer_name": "The
+        Rolling Stones", "artist_name": "The Rolling Stones", "isrc": "GBUM70909393",
+        "track_artist_ref_id": "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.3, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        107.666, "label_name": "Capitol", "track_index": "1", "duration": 263, "main_genre":
+        "rock", "title": "Dance (Pt. 1)", "track_ref_id": "32202851", "id": "4b091198-0448-9494-cb1c-cc7dd1356455",
+        "original_release_year": 2009, "entity_type": "track", "performer_name": "The
+        Rolling Stones", "artist_name": "The Rolling Stones", "isrc": "GBUM70909384",
+        "track_artist_ref_id": "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.37, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        93.963, "label_name": "Capitol", "track_index": "3", "duration": 223, "main_genre":
+        "rock", "title": "Send It to Me", "track_ref_id": "32202855", "id": "99f024c5-a02f-3a06-a232-9cc1f14de80e",
+        "performer_name": "The Rolling Stones", "original_release_year": 1980, "entity_type":
+        "track", "artist_name": "The Rolling Stones", "isrc": "GBUM70909386", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.33, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        114.84, "label_name": "Capitol", "track_index": "8", "duration": 339, "main_genre":
+        "rock", "title": "Emotional Rescue", "track_ref_id": "32202865", "id": "6bafa653-0c6d-6df3-41db-8412f7c00a84",
+        "performer_name": "The Rolling Stones", "original_release_year": 1980, "entity_type":
+        "track", "artist_name": "The Rolling Stones", "isrc": "GBUM70909391", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.44, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        74.359, "label_name": "Capitol", "track_index": "4", "duration": 232, "main_genre":
+        "rock", "title": "Let Me Go", "track_ref_id": "32202857", "id": "02b2263b-3f44-876b-595b-658340e4e6a6",
+        "performer_name": "The Rolling Stones", "original_release_year": 2009, "entity_type":
+        "track", "track_musicbrainz_id": "2276d4a3-370b-46f4-84a2-98d886577c0f", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909387", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.31, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:07:54 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/tracks?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:07:49 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '6319'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 10, "total": 10, "offset": 1}, "data": [{"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "primary_tempo": 69.837, "label_name": "Capitol", "track_index": "9", "duration":
+        254, "id": "6d1252b1-40d8-a029-5a67-773ef8ae92bb", "title": "She''s So Cold",
+        "track_ref_id": "32202867", "main_genre": "rock", "original_release_year":
+        1980, "entity_type": "track", "performer_name": "The Rolling Stones", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909392", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.41, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "release_year":
+        2009, "primary_tempo": 61.81, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "id": "fc13444d-2d36-a278-283a-4714c9dc4ff5", "popularity": 0.3, "original_release_year":
+        1980, "artist_name": "The Rolling Stones", "isrc": "GBCJN8000007", "performer_name":
+        "The Rolling Stones", "album_title": "Emotional Rescue", "duration": 238,
+        "title": "Down in the Hole", "track_index": "7", "entity_type": "track"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        97.97, "label_name": "Capitol", "track_index": "5", "duration": 263, "id":
+        "3d562866-5bdf-3a36-0ec5-9acf53386ec2", "title": "Indian Girl", "track_ref_id":
+        "32202859", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909388", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.32, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        83.354, "label_name": "Capitol", "track_index": "2", "duration": 196, "id":
+        "744de873-7235-1969-cedf-c6801dfdada3", "title": "Summer Romance", "track_ref_id":
+        "32202853", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 1980, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909385", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.31, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        80.124, "label_name": "Capitol", "track_index": "6", "duration": 209, "id":
+        "2362e93c-1476-db02-bd1b-647593a64efe", "title": "Where the Boys Go", "track_ref_id":
+        "32202861", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909389", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.29, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        86.857, "label_name": "Capitol", "track_index": "10", "duration": 258, "id":
+        "1da77c83-ab33-36fd-3af4-85f5ea71972c", "title": "All About You", "track_ref_id":
+        "32202869", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 1980, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909393", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.3, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        107.666, "label_name": "Capitol", "track_index": "1", "duration": 263, "id":
+        "4b091198-0448-9494-cb1c-cc7dd1356455", "title": "Dance (Pt. 1)", "track_ref_id":
+        "32202851", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 2009, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909384", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.37, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        93.963, "label_name": "Capitol", "track_index": "3", "duration": 223, "id":
+        "99f024c5-a02f-3a06-a232-9cc1f14de80e", "title": "Send It to Me", "track_ref_id":
+        "32202855", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909386", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.33, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        114.84, "label_name": "Capitol", "track_index": "8", "duration": 339, "id":
+        "6bafa653-0c6d-6df3-41db-8412f7c00a84", "title": "Emotional Rescue", "track_ref_id":
+        "32202865", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909391", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.44, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        74.359, "label_name": "Capitol", "track_index": "4", "duration": 232, "id":
+        "02b2263b-3f44-876b-595b-658340e4e6a6", "title": "Let Me Go", "track_ref_id":
+        "32202857", "main_genre": "rock", "original_release_year": 2009, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "track_musicbrainz_id": "2276d4a3-370b-46f4-84a2-98d886577c0f",
+        "artist_name": "The Rolling Stones", "isrc": "GBUM70909387", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.31, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:07:54 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/7cfb88ac-1d50-f210-42d6-57a718fa141c/tracks?api_key=<API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Apr 2015 03:08:09 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '6319'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 10, "total": 10, "offset": 1}, "data": [{"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "primary_tempo": 69.837, "label_name": "Capitol", "track_index": "9", "duration":
+        254, "id": "6d1252b1-40d8-a029-5a67-773ef8ae92bb", "title": "She''s So Cold",
+        "track_ref_id": "32202867", "main_genre": "rock", "original_release_year":
+        1980, "entity_type": "track", "performer_name": "The Rolling Stones", "artist_name":
+        "The Rolling Stones", "isrc": "GBUM70909392", "track_artist_ref_id": "33474",
+        "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.41, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}, {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "release_year":
+        2009, "primary_tempo": 61.81, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "id": "fc13444d-2d36-a278-283a-4714c9dc4ff5", "popularity": 0.3, "original_release_year":
+        1980, "artist_name": "The Rolling Stones", "isrc": "GBCJN8000007", "performer_name":
+        "The Rolling Stones", "album_title": "Emotional Rescue", "duration": 238,
+        "title": "Down in the Hole", "track_index": "7", "entity_type": "track"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        97.97, "label_name": "Capitol", "track_index": "5", "duration": 263, "id":
+        "3d562866-5bdf-3a36-0ec5-9acf53386ec2", "title": "Indian Girl", "track_ref_id":
+        "32202859", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909388", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.32, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        83.354, "label_name": "Capitol", "track_index": "2", "duration": 196, "id":
+        "744de873-7235-1969-cedf-c6801dfdada3", "title": "Summer Romance", "track_ref_id":
+        "32202853", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 1980, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909385", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.31, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        80.124, "label_name": "Capitol", "track_index": "6", "duration": 209, "id":
+        "2362e93c-1476-db02-bd1b-647593a64efe", "title": "Where the Boys Go", "track_ref_id":
+        "32202861", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909389", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.29, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        86.857, "label_name": "Capitol", "track_index": "10", "duration": 258, "id":
+        "1da77c83-ab33-36fd-3af4-85f5ea71972c", "title": "All About You", "track_ref_id":
+        "32202869", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 1980, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909393", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.3, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        107.666, "label_name": "Capitol", "track_index": "1", "duration": 263, "id":
+        "4b091198-0448-9494-cb1c-cc7dd1356455", "title": "Dance (Pt. 1)", "track_ref_id":
+        "32202851", "main_genre": "rock", "performer_name": "The Rolling Stones",
+        "original_release_year": 2009, "entity_type": "track", "artist_name": "The
+        Rolling Stones", "isrc": "GBUM70909384", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.37, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        93.963, "label_name": "Capitol", "track_index": "3", "duration": 223, "id":
+        "99f024c5-a02f-3a06-a232-9cc1f14de80e", "title": "Send It to Me", "track_ref_id":
+        "32202855", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909386", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.33, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        114.84, "label_name": "Capitol", "track_index": "8", "duration": 339, "id":
+        "6bafa653-0c6d-6df3-41db-8412f7c00a84", "title": "Emotional Rescue", "track_ref_id":
+        "32202865", "main_genre": "rock", "original_release_year": 1980, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "artist_name": "The Rolling
+        Stones", "isrc": "GBUM70909391", "track_artist_ref_id": "33474", "release_year":
+        2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "popularity":
+        0.44, "track_album_ref_id": "32202849", "album_title": "Emotional Rescue"},
+        {"track_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "primary_tempo":
+        74.359, "label_name": "Capitol", "track_index": "4", "duration": 232, "id":
+        "02b2263b-3f44-876b-595b-658340e4e6a6", "title": "Let Me Go", "track_ref_id":
+        "32202857", "main_genre": "rock", "original_release_year": 2009, "entity_type":
+        "track", "performer_name": "The Rolling Stones", "track_musicbrainz_id": "2276d4a3-370b-46f4-84a2-98d886577c0f",
+        "artist_name": "The Rolling Stones", "isrc": "GBUM70909387", "track_artist_ref_id":
+        "33474", "release_year": 2009, "track_album_id": "7cfb88ac-1d50-f210-42d6-57a718fa141c",
+        "popularity": 0.31, "track_album_ref_id": "32202849", "album_title": "Emotional
+        Rescue"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Apr 2015 03:08:14 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&limit=5&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:42:22 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '1817'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 5, "offset": 1}, "data": [{"release_year": 1967, "title": "Doors",
+        "similarity": 0.8, "album_artist_id": "e462f24f-a6b5-11e0-b446-00251188dd67",
+        "id": "44354016-526d-7db7-982a-976e8337dd70", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "7679753", "performer_name": "The Doors", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Surrealistic
+        Pillow", "similarity": 0.8, "album_artist_id": "ae24a6a5-02d3-4c57-a8c3-2a6734143c5f",
+        "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "31006189", "performer_name": "Jefferson Airplane",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Their Satanic Majesties Request", "similarity": 0.8, "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "id": "7fa4a465-2be1-1531-7fee-376f22810732", "number_of_tracks": "10", "entity_type":
+        "album", "album_ref_id": "6459063", "performer_name": "The Rolling Stones",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Piper at the Gates of Dawn", "similarity": 0.8, "album_artist_id": "e2661344-a6b5-11e0-b446-00251188dd67",
+        "id": "0ce62699-8c96-ecc0-d080-9bb3f24cd783", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "4994353", "performer_name": "Pink Floyd", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Days of
+        Future Passed", "similarity": 0.8, "album_artist_id": "93e1cc57-93ab-2cd4-c281-942b5836082f",
+        "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50", "number_of_tracks": "7", "entity_type":
+        "album", "album_ref_id": "15223705", "performer_name": "The Moody Blues",
+        "main_genre": "rock", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:41:49 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=5&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:42:12 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 5}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:41:50 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:44:28 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '4198'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 12, "offset": 1}, "data": [{"release_year": 1967, "title": "Doors",
+        "similarity": 0.8, "album_artist_id": "e462f24f-a6b5-11e0-b446-00251188dd67",
+        "id": "44354016-526d-7db7-982a-976e8337dd70", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "7679753", "performer_name": "The Doors", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Surrealistic
+        Pillow", "similarity": 0.8, "album_artist_id": "ae24a6a5-02d3-4c57-a8c3-2a6734143c5f",
+        "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "31006189", "performer_name": "Jefferson Airplane",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Their Satanic Majesties Request", "similarity": 0.8, "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "id": "7fa4a465-2be1-1531-7fee-376f22810732", "number_of_tracks": "10", "entity_type":
+        "album", "album_ref_id": "6459063", "performer_name": "The Rolling Stones",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Piper at the Gates of Dawn", "similarity": 0.8, "album_artist_id": "e2661344-a6b5-11e0-b446-00251188dd67",
+        "id": "0ce62699-8c96-ecc0-d080-9bb3f24cd783", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "4994353", "performer_name": "Pink Floyd", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Days of
+        Future Passed", "similarity": 0.8, "album_artist_id": "93e1cc57-93ab-2cd4-c281-942b5836082f",
+        "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50", "number_of_tracks": "7", "entity_type":
+        "album", "album_ref_id": "15223705", "performer_name": "The Moody Blues",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "SMiLE [Not Released]", "similarity": 0.8, "album_artist_id": "a49320cc-c917-4b1b-bcef-ae21ce4dfe86",
+        "id": "6042f35b-010b-b945-ce5a-64bba6b9c488", "number_of_tracks": "14", "entity_type":
+        "album", "album_ref_id": "59665381", "performer_name": "The Beach Boys", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1967, "title": "Magic Garden",
+        "similarity": 0.7, "album_artist_id": "e7cee8bd-a6b5-11e0-b446-00251188dd67",
+        "id": "da181ad6-54de-2fa6-c954-b5aa9e149def", "number_of_tracks": "12", "entity_type":
+        "album", "album_ref_id": "11402595", "performer_name": "The 5th Dimension",
+        "main_genre": "pop", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Of Cabbages and Kings", "similarity": 0.7, "album_artist_id": "e808751e-a6b5-11e0-b446-00251188dd67",
+        "id": "563f0014-4706-c10a-a285-49ac92620315", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "38700231", "performer_name": "Chad & Jeremy", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1967, "title": "Are You
+        Experienced?", "similarity": 0.5, "album_artist_id": "333caa00-4211-ce3d-e60c-d07dd0d954c8",
+        "id": "3be84976-a930-1ebd-41bd-f318553f882e", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "35619375", "performer_name": "The Jimi Hendrix Experience",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1968, "title":
+        "S.F. Sorrow", "similarity": 0.5, "album_artist_id": "b7f94cee-f887-4768-fb8d-370492e38579",
+        "id": "ca991371-a131-71fb-4aa0-43c033e6aa2e", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "80159857", "performer_name": "The Pretty Things",
+        "main_genre": "pop", "product_form": "Album"}, {"release_year": 1968, "title":
+        "Village Green Preservation Society", "similarity": 0.5, "album_artist_id":
+        "e6f1b8c1-a6b5-11e0-b446-00251188dd67", "id": "736ec1d2-f201-10a4-ae3a-f1ef3559381e",
+        "number_of_tracks": "15", "entity_type": "album", "album_ref_id": "19683453",
+        "performer_name": "The Kinks", "main_genre": "rock", "product_form": "Album"},
+        {"release_year": 1969, "title": "Odessa", "similarity": 0.5, "album_artist_id":
+        "28614844-cbf7-fb1a-fd5e-fb36223df5a3", "id": "8f0eca9a-6b10-15fd-7b2e-32e57acb70de",
+        "number_of_tracks": "17", "entity_type": "album", "album_ref_id": "12534915",
+        "performer_name": "Bee Gees", "main_genre": "pop", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:45:10 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=5&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:46:35 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 0, "offset": 5}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:46:02 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=5&similar_to=Sgt%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:55:38 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 5}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:55:15 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=1&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:57:47 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '4198'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 12, "offset": 1}, "data": [{"release_year": 1967, "similarity":
+        0.8, "title": "Doors", "album_artist_id": "e462f24f-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "number_of_tracks": "11", "entity_type": "album", "album_ref_id":
+        "7679753", "performer_name": "The Doors", "id": "44354016-526d-7db7-982a-976e8337dd70",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "Surrealistic Pillow", "album_artist_id": "ae24a6a5-02d3-4c57-a8c3-2a6734143c5f",
+        "main_genre": "rock", "number_of_tracks": "11", "entity_type": "album", "album_ref_id":
+        "31006189", "performer_name": "Jefferson Airplane", "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "Their Satanic Majesties Request", "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "number_of_tracks": "10", "entity_type": "album", "album_ref_id":
+        "6459063", "performer_name": "The Rolling Stones", "id": "7fa4a465-2be1-1531-7fee-376f22810732",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "Piper at the Gates of Dawn", "album_artist_id": "e2661344-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "number_of_tracks": "11", "entity_type": "album", "album_ref_id":
+        "4994353", "performer_name": "Pink Floyd", "id": "0ce62699-8c96-ecc0-d080-9bb3f24cd783",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "Days of Future Passed", "album_artist_id": "93e1cc57-93ab-2cd4-c281-942b5836082f",
+        "main_genre": "rock", "number_of_tracks": "7", "entity_type": "album", "album_ref_id":
+        "15223705", "performer_name": "The Moody Blues", "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.8, "title":
+        "SMiLE [Not Released]", "album_artist_id": "a49320cc-c917-4b1b-bcef-ae21ce4dfe86",
+        "main_genre": "pop", "number_of_tracks": "14", "entity_type": "album", "album_ref_id":
+        "59665381", "performer_name": "The Beach Boys", "id": "6042f35b-010b-b945-ce5a-64bba6b9c488",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.7, "title":
+        "Magic Garden", "album_artist_id": "e7cee8bd-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "pop", "number_of_tracks": "12", "entity_type": "album", "album_ref_id":
+        "11402595", "performer_name": "The 5th Dimension", "id": "da181ad6-54de-2fa6-c954-b5aa9e149def",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.7, "title":
+        "Of Cabbages and Kings", "album_artist_id": "e808751e-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "pop", "number_of_tracks": "17", "entity_type": "album", "album_ref_id":
+        "38700231", "performer_name": "Chad & Jeremy", "id": "563f0014-4706-c10a-a285-49ac92620315",
+        "product_form": "Album"}, {"release_year": 1967, "similarity": 0.5, "title":
+        "Are You Experienced?", "album_artist_id": "333caa00-4211-ce3d-e60c-d07dd0d954c8",
+        "main_genre": "rock", "number_of_tracks": "17", "entity_type": "album", "album_ref_id":
+        "35619375", "performer_name": "The Jimi Hendrix Experience", "id": "3be84976-a930-1ebd-41bd-f318553f882e",
+        "product_form": "Album"}, {"release_year": 1968, "similarity": 0.5, "title":
+        "S.F. Sorrow", "album_artist_id": "b7f94cee-f887-4768-fb8d-370492e38579",
+        "main_genre": "pop", "number_of_tracks": "17", "entity_type": "album", "album_ref_id":
+        "80159857", "performer_name": "The Pretty Things", "id": "ca991371-a131-71fb-4aa0-43c033e6aa2e",
+        "product_form": "Album"}, {"release_year": 1968, "similarity": 0.5, "title":
+        "Village Green Preservation Society", "album_artist_id": "e6f1b8c1-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "rock", "number_of_tracks": "15", "entity_type": "album", "album_ref_id":
+        "19683453", "performer_name": "The Kinks", "id": "736ec1d2-f201-10a4-ae3a-f1ef3559381e",
+        "product_form": "Album"}, {"release_year": 1969, "similarity": 0.5, "title":
+        "Odessa", "album_artist_id": "28614844-cbf7-fb1a-fd5e-fb36223df5a3", "main_genre":
+        "pop", "number_of_tracks": "17", "entity_type": "album", "album_ref_id": "12534915",
+        "performer_name": "Bee Gees", "id": "8f0eca9a-6b10-15fd-7b2e-32e57acb70de",
+        "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:57:14 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=4&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:58:28 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 4}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:58:06 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=3&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:58:35 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 3}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:58:12 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=6&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:58:41 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1c.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '111'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 0, "offset": 6}, "data": []}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:58:18 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/search?api_key=<API_KEY>&offset=2&similar_to=Sgt.%20Pepper%27s%20Lonely%20Hearts%20Club%20Band
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 07 Jun 2015 20:57:42 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1a.api.musicgraph.com
+      X-Branch:
+      - 21158ac83e0251e2849e5bb01ae582af0d6839d9
+      X-Environment:
+      - prod
+      Content-Length:
+      - '3877'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"code": 0, "message": "Success", "api": "v2"}, "pagination":
+        {"count": 11, "offset": 2}, "data": [{"release_year": 1967, "title": "Surrealistic
+        Pillow", "similarity": 0.8, "album_artist_id": "ae24a6a5-02d3-4c57-a8c3-2a6734143c5f",
+        "id": "3b49d77c-4885-ab51-e54a-5da7fb467bb1", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "31006189", "performer_name": "Jefferson Airplane",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Their Satanic Majesties Request", "similarity": 0.8, "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67",
+        "id": "7fa4a465-2be1-1531-7fee-376f22810732", "number_of_tracks": "10", "entity_type":
+        "album", "album_ref_id": "6459063", "performer_name": "The Rolling Stones",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Piper at the Gates of Dawn", "similarity": 0.8, "album_artist_id": "e2661344-a6b5-11e0-b446-00251188dd67",
+        "id": "0ce62699-8c96-ecc0-d080-9bb3f24cd783", "number_of_tracks": "11", "entity_type":
+        "album", "album_ref_id": "4994353", "performer_name": "Pink Floyd", "main_genre":
+        "rock", "product_form": "Album"}, {"release_year": 1967, "title": "Days of
+        Future Passed", "similarity": 0.8, "album_artist_id": "93e1cc57-93ab-2cd4-c281-942b5836082f",
+        "id": "0d96e3aa-1882-177d-8119-b38c0c55fc50", "number_of_tracks": "7", "entity_type":
+        "album", "album_ref_id": "15223705", "performer_name": "The Moody Blues",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1967, "title":
+        "SMiLE [Not Released]", "similarity": 0.8, "album_artist_id": "a49320cc-c917-4b1b-bcef-ae21ce4dfe86",
+        "id": "6042f35b-010b-b945-ce5a-64bba6b9c488", "number_of_tracks": "14", "entity_type":
+        "album", "album_ref_id": "59665381", "performer_name": "The Beach Boys", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1967, "title": "Magic Garden",
+        "similarity": 0.7, "album_artist_id": "e7cee8bd-a6b5-11e0-b446-00251188dd67",
+        "id": "da181ad6-54de-2fa6-c954-b5aa9e149def", "number_of_tracks": "12", "entity_type":
+        "album", "album_ref_id": "11402595", "performer_name": "The 5th Dimension",
+        "main_genre": "pop", "product_form": "Album"}, {"release_year": 1967, "title":
+        "Of Cabbages and Kings", "similarity": 0.7, "album_artist_id": "e808751e-a6b5-11e0-b446-00251188dd67",
+        "id": "563f0014-4706-c10a-a285-49ac92620315", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "38700231", "performer_name": "Chad & Jeremy", "main_genre":
+        "pop", "product_form": "Album"}, {"release_year": 1967, "title": "Are You
+        Experienced?", "similarity": 0.5, "album_artist_id": "333caa00-4211-ce3d-e60c-d07dd0d954c8",
+        "id": "3be84976-a930-1ebd-41bd-f318553f882e", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "35619375", "performer_name": "The Jimi Hendrix Experience",
+        "main_genre": "rock", "product_form": "Album"}, {"release_year": 1968, "title":
+        "S.F. Sorrow", "similarity": 0.5, "album_artist_id": "b7f94cee-f887-4768-fb8d-370492e38579",
+        "id": "ca991371-a131-71fb-4aa0-43c033e6aa2e", "number_of_tracks": "17", "entity_type":
+        "album", "album_ref_id": "80159857", "performer_name": "The Pretty Things",
+        "main_genre": "pop", "product_form": "Album"}, {"release_year": 1968, "title":
+        "Village Green Preservation Society", "similarity": 0.5, "album_artist_id":
+        "e6f1b8c1-a6b5-11e0-b446-00251188dd67", "id": "736ec1d2-f201-10a4-ae3a-f1ef3559381e",
+        "number_of_tracks": "15", "entity_type": "album", "album_ref_id": "19683453",
+        "performer_name": "The Kinks", "main_genre": "rock", "product_form": "Album"},
+        {"release_year": 1969, "title": "Odessa", "similarity": 0.5, "album_artist_id":
+        "28614844-cbf7-fb1a-fd5e-fb36223df5a3", "id": "8f0eca9a-6b10-15fd-7b2e-32e57acb70de",
+        "number_of_tracks": "17", "entity_type": "album", "album_ref_id": "12534915",
+        "performer_name": "Bee Gees", "main_genre": "pop", "product_form": "Album"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 20:58:24 GMT
+recorded_with: VCR 2.9.3

@@ -67,6 +67,39 @@ artist.tracks # => returns array of tracks belonging to artist
 artist = MusicGraph::Artist.find("e4de0d41-a6b5-11e0-b446-00251188dd67", ["id", "name"])
 artist.name # => "Beck"
 artist.gender # => nil
+
+albums = MusicGraph::Album.search("either/or")
+albums.first.title # => "Either/Or"
+
+albums = MusicGraph::Album.search({artist_name: "led zeppelin"})
+albums.first.title # => "C'mon Everybody"
+
+albums = MusicGraph::Album.search({similar_to: "grace"})
+albums.first.title # => "Tidal"
+
+albums = MusicGraph::Album.search({country: "iceland"})
+albums.first.title # => "My Head Is an Animal"
+
+albums = MusicGraph::Album.search({decade: "1960s"})
+albums.first.title # => "Soul Shakedown"
+
+albums = MusicGraph::Album.search({genre: "rock"})
+albums.first.title # => "You Are the Night"
+
+albums = MusicGraph::Album.search({limit: 5}).last
+albums.length # => 5
+
+albums = MusicGraph::Album.suggest("emotion").
+albums.first.title # => "Emotions"
+
+album = MusicGraph::Album.find("7cfb88ac-1d50-f210-42d6-57a718fa141c")
+albums.first.performer_name # => "The Rolling Stones"
+
+album.edges # => ["artists", "tracks"]
+
+album.metadata # => returns all available metadata
+
+album.artists.first.name # => "The Rolling Stones"
 ```
 
 ## Testing

@@ -2859,4 +2859,133 @@ http_interactions:
         {"id": "e4de0d41-a6b5-11e0-b446-00251188dd67", "name": "Beck"}}'
     http_version: 
   recorded_at: Sun, 22 Feb 2015 21:12:33 GMT
+- request:
+    method: get
+    uri: http://api.musicgraph.com/api/v2/album/suggest?api_key=<API_KEY>&prefix=Emotion
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - accept, origin, content-type, x-requested-with, x-requested-by
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 12 Apr 2015 22:06:59 GMT
+      Server:
+      - nginx/1.5.11
+      X-App-Box:
+      - prod.v3.1d.api.musicgraph.com
+      X-Branch:
+      - 0bb18cbb3d226d8f0d560fb2ca551a5fe504e506
+      X-Environment:
+      - prod
+      Content-Length:
+      - '7015'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"status": {"api": "v2", "message": "Success", "code": 0}, "pagination":
+        {"count": 20, "offset": 1}, "data": [{"artist_name": "Mariah Carey", "name":
+        "Emotions", "entity_type": "album", "album_artist_id": "b9fae655-9741-b873-9cd0-834c2a9c3e34",
+        "main_genre": "pop", "album_ref_id": "1449939", "performer_name": "Mariah
+        Carey", "id": "7869a003-ec31-37f6-7369-4e500de1f577", "slug": "emotions",
+        "product_form": "Single", "release_year": 2002}, {"artist_name": "Mariah Carey",
+        "name": "Emotions", "entity_type": "album", "album_artist_id": "b9fae655-9741-b873-9cd0-834c2a9c3e34",
+        "main_genre": "pop", "album_ref_id": "14842599", "performer_name": "Mariah
+        Carey", "id": "22a84035-7c3c-5268-e762-68ead77136b3", "slug": "emotions",
+        "product_form": "Album", "release_year": 1991}, {"artist_name": "The Rolling
+        Stones", "name": "Mixed Emotions", "entity_type": "album", "album_artist_id":
+        "e88b6841-a6b5-11e0-b446-00251188dd67", "main_genre": "rock", "album_ref_id":
+        "15890455", "performer_name": "The Rolling Stones", "id": "78fe2b64-8497-1060-bcc0-de924734bff9",
+        "slug": "mixed emotions", "product_form": "Single", "release_year": 1990},
+        {"artist_name": "The Rolling Stones", "name": "Emotional Rescue", "entity_type":
+        "album", "album_artist_id": "e88b6841-a6b5-11e0-b446-00251188dd67", "main_genre":
+        "rock", "album_ref_id": "32202849", "performer_name": "The Rolling Stones",
+        "id": "7cfb88ac-1d50-f210-42d6-57a718fa141c", "slug": "emotional rescue",
+        "product_form": "Album", "release_year": 1980}, {"artist_name": "Dahlia",
+        "name": "Emotion Cycles", "entity_type": "album", "album_artist_id": "2d8fb76a-f893-51ec-19c9-572bd3c33c7a",
+        "main_genre": "electronica/dance", "album_ref_id": "2280143", "performer_name":
+        "Dahlia", "id": "d3dd87c4-b87a-e0ab-eb9a-4e598a65a71b", "slug": "emotion cycles",
+        "product_form": "Album", "release_year": 2001}, {"artist_name": "Whitney Houston",
+        "name": "So Emotional", "entity_type": "album", "album_artist_id": "e398f5d4-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "pop", "album_ref_id": "69577767", "performer_name": "Whitney
+        Houston", "id": "16a652e2-d62b-e7d4-2645-b5b68b8c71fb", "slug": "so emotional",
+        "product_form": "Single", "release_year": 1988}, {"artist_name": "Dinah Washington",
+        "name": "Mixed Emotions", "entity_type": "album", "album_artist_id": "e3577cbb-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "jazz", "album_ref_id": "40552099", "performer_name": "Dinah
+        Washington", "id": "36b97c82-cd64-c754-41be-5b41812395df", "slug": "mixed
+        emotions", "product_form": "Album", "release_year": 2002}, {"artist_name":
+        "Tim McGraw", "name": "Emotional Traffic", "entity_type": "album", "album_artist_id":
+        "8aff6b3e-a023-cead-c16e-5c39d0dedfba", "main_genre": "country", "album_ref_id":
+        "63234357", "performer_name": "Tim McGraw", "id": "0dae7300-90cb-8c86-db64-1be3a17a2401",
+        "slug": "emotional traffic", "product_form": "Album", "release_year": 2012},
+        {"artist_name": "Destiny''s Child", "name": "Emotion [US 12\"]", "entity_type":
+        "album", "album_artist_id": "ab03f3c2-dc65-d333-406b-0e4dddda1407", "main_genre":
+        "pop", "album_ref_id": "30914135", "performer_name": "Destiny''s Child", "id":
+        "f2708bb9-2a65-696b-7f96-3715064096c5", "slug": "emotion us 12", "product_form":
+        "Single", "release_year": 2001}, {"artist_name": "Oscar Peterson", "name":
+        "Motions & Emotions", "entity_type": "album", "album_artist_id": "e2cf1db0-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "jazz", "album_ref_id": "5303273", "performer_name": "Oscar
+        Peterson", "id": "e698b9f2-0107-5d26-d1d9-9e0a3feced2d", "slug": "motions
+        emotions", "product_form": "Album", "release_year": 1969}, {"artist_name":
+        "Brenda Lee", "name": "Emotions", "entity_type": "album", "album_artist_id":
+        "31fef68f-ebaf-b1a9-6e67-e1ceeb5e8dec", "main_genre": "jazz", "album_ref_id":
+        "64721737", "performer_name": "Brenda Lee", "id": "10a17706-d760-6784-1c3c-48b1697b679c",
+        "slug": "emotions", "product_form": "Album", "release_year": 1961}, {"artist_name":
+        "Barbra Streisand", "name": "Emotion", "entity_type": "album", "album_artist_id":
+        "e32c6c9d-a6b5-11e0-b446-00251188dd67", "main_genre": "vocals", "album_ref_id":
+        "527847", "performer_name": "Barbra Streisand", "id": "2207ded9-a5e5-3b8d-1d36-8e969d26564a",
+        "slug": "emotion", "product_form": "Album", "release_year": 1984}, {"name":
+        "Emotions", "entity_type": "album", "album_artist_id": "ee25f6da-a6b5-11e0-b446-00251188dd67",
+        "slug": "emotions", "artist_name": "Sila", "performer_name": "Sila", "id":
+        "237292d9-12fc-3933-f717-4524ca827daf", "main_genre": "pop", "product_form":
+        "Single", "album_ref_id": "41154039"}, {"artist_name": "Rosemary Clooney",
+        "name": "Mixed Emotions", "entity_type": "album", "album_artist_id": "e3c55782-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "pop", "album_ref_id": "55612349", "performer_name": "Rosemary
+        Clooney", "id": "d3008d94-17a9-0c86-4ce8-4723f969368b", "slug": "mixed emotions",
+        "product_form": "Album", "release_year": 1986}, {"artist_name": "The O''Jays",
+        "name": "Emotionally Yours", "entity_type": "album", "album_artist_id": "e68df63a-a6b5-11e0-b446-00251188dd67",
+        "main_genre": "soul/r&b", "album_ref_id": "57553", "performer_name": "The
+        O''Jays", "id": "677bab38-114d-0b4c-049c-70730fe48685", "slug": "emotionally
+        yours", "product_form": "Album", "release_year": 1991}, {"artist_name": "The
+        Avett Brothers", "name": "Emotionalism", "entity_type": "album", "album_artist_id":
+        "f064adc4-a6b5-11e0-b446-00251188dd67", "main_genre": "rock", "album_ref_id":
+        "10416045", "performer_name": "The Avett Brothers", "id": "4866b11f-6328-4d9d-55e4-641e3573ff52",
+        "slug": "emotionalism", "product_form": "Album", "release_year": 2007}, {"artist_name":
+        "TJR", "name": "Mixed Emotions", "entity_type": "album", "album_artist_id":
+        "f03535e4-a6b5-11e0-b446-00251188dd67", "main_genre": "blues", "album_ref_id":
+        "86560409", "performer_name": "TJR", "id": "0bb03327-7d28-9784-1197-4a4bf1ab1e7f",
+        "slug": "mixed emotions", "product_form": "Album", "release_year": 2003},
+        {"artist_name": "BT", "name": "Emotional Technology", "entity_type": "album",
+        "album_artist_id": "e2969b62-a6b5-11e0-b446-00251188dd67", "main_genre": "electronica/dance",
+        "album_ref_id": "46155395", "performer_name": "BT", "id": "3ee8d4d4-03eb-2128-b3ee-dec9cda7c4d0",
+        "slug": "emotional technology", "product_form": "Album", "release_year": 2003},
+        {"artist_name": "Chris de Burgh", "name": "Into the Light/High on Emotion",
+        "entity_type": "album", "album_artist_id": "3edb3f6a-3cda-2ad5-af2d-ff763c197f52",
+        "main_genre": "rock", "album_ref_id": "4078507", "performer_name": "Chris
+        De Burgh", "id": "b5626855-2766-17e6-31ba-42398b93c314", "slug": "into the
+        lighthigh on emotion", "product_form": "Album", "release_year": 2000}, {"artist_name":
+        "Jeff Beck", "name": "Emotion & Commotion", "entity_type": "album", "album_artist_id":
+        "e6c88da8-a6b5-11e0-b446-00251188dd67", "main_genre": "rock", "album_ref_id":
+        "38767673", "performer_name": "Jeff Beck", "id": "7f1f7fb1-1906-ae57-de35-446b4566287b",
+        "slug": "emotion commotion", "product_form": "Album", "release_year": 2010}]}'
+    http_version: 
+  recorded_at: Sun, 12 Apr 2015 22:06:54 GMT
 recorded_with: VCR 2.9.3
